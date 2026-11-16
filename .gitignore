@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+# never commit a car's data
+*.pclr
+*.pcap
+*.pcapng
+*.live.json
+*.trace.jsonl
+*journal*.json
+backups/
+logs/
+profile.json
+writable*.json

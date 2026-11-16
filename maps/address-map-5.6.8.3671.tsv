@@ -1,0 +1,2657 @@
+listaddr	dataid	name	type	pclink_addr	bit	bits	size	phys	region	units	multi	offset	rows	cols
+041a8	3066	Accel Load Axis	3	0000	0	2	0	0f0000	tune					
+041aa	2540	AN #12 On State	3	0000	2	1	0	0f0000	tune					
+041ac	1573	Dual MAP Limit G4	3	0000	3	1	0	0f0000	tune					
+041ae	1572	Axis Setup	3	0000	4	1	0	0f0000	tune					
+041b0	2495	Idle Override	3	0000	5	1	0	0f0000	tune					
+041b2	2648	Retard Mode Launch	3	0000	6	2	0	0f0000	tune					
+041b4	1511	Fuel Equation	3	0001	0	3	0	0f0001	tune					
+041b6	1505	Num Drives	3	0001	3	2	0	0f0001	tune					
+041b8	2379	Stepper Motor Type	3	0001	5	1	0	0f0001	tune					
+041ba	2377	Custom TDC Points	3	0001	6	1	0	0f0001	tune					
+041bc	1483	KeyON Ramp tacho	3	0001	7	1	0	0f0001	tune					
+041be	1913	Knock System G4	3	0002	0	2	0	0f0002	tune					
+041c0	2394	Lambda Mode	3	0002	2	2	0	0f0002	tune					
+041c2	2512	OLD G4 Traction Mode	3	0002	4	2	0	0f0002	tune					
+041c4	3083	3D Crank Enrich	3	0002	6	1	0	0f0002	tune					
+041c6	3084	3D Pre-Crank Prime	3	0002	7	1	0	0f0002	tune					
+041c8	1818	Multiple Boost Maps	3	0003	0	3	0	0f0003	tune					
+041ca	1484	KeyON Ramp Speedo	3	0003	3	1	0	0f0003	tune					
+041cc	1817	Boost Mode	3	0003	4	2	0	0f0003	tune					
+041ce	1821	Ign Cut Table	3	0003	6	1	0	0f0003	tune					
+041d0	2112	Stolen Flag	3	0003	7	1	0	0f0003	tune					
+041d2	2000	Sensor Type T1	3	0004	0	8	0	0f0004	tune					
+041d4	2001	Sensor Type T2	3	0005	0	8	0	0f0005	tune					
+041d6	1345	Stepper Reset	3	0006	0	1	0	0f0006	tune					
+041d8	1277	CAM Angle Test	3	0006	1	3	0	0f0006	tune					
+041da	1276	Test pulse Count	3	0006	4	3	0	0f0006	tune					
+041dc	1843	WG %DC Mode	3	0006	7	1	0	0f0006	tune					
+041de	2088	Map Sensor Type Load 1	3	0007	0	8	0	0f0007	tune					
+041e0	1524	G4 IAT Mode	3	0008	0	1	0	0f0008	tune					
+041e2	2893	5D Fuel Mode	3	0008	1	1	0	0f0008	tune					
+041e4	3474	Stepper Cal Rotary Oil Pump	3	0008	2	2	0	0f0008	tune					
+041e6	3055	Fuel Overlay Mode	3	0008	4	2	0	0f0008	tune					
+041e8	3059	Cyl Trim Mode	3	0008	6	2	0	0f0008	tune					
+041ea	3057	Injection Mode	3	0009	0	3	0	0f0009	tune					
+041ec	2894	Phasing Mode	3	0009	3	1	0	0f0009	tune					
+041ee	2864	Aux Injection Mode	3	0009	4	1	0	0f0009	tune					
+041f0	3076	Inj Timing Position	3	0009	5	2	0	0f0009	tune					
+041f2	2846	Inj Deadtiem setup	3	0009	7	1	0	0f0009	tune					
+041f4	1410	Baud Rate	3	000a	0	8	0	0f000a	tune					
+041f6	3530	Trigger 1 Filtering	3	000b	0	2	0	0f000b	tune					
+041f8	3531	Trig1 Type	3	000b	2	1	0	0f000b	tune					
+041fa	3532	Trig1 Pullup	3	000b	3	1	0	0f000b	tune					
+041fc	3533	Trigger 2 Filtering	3	000b	4	2	0	0f000b	tune					
+041fe	3534	Trigger 2 Type	3	000b	6	1	0	0f000b	tune					
+04200	3535	Trigger 2 Pullup	3	000b	7	1	0	0f000b	tune					
+04202	3528	Test ECCS Sync	3	000c	0	1	0	0f000c	tune					
+04204	3519	Trig 1 Edge	3	000c	1	1	0	0f000c	tune					
+04206	3520	Trig 2 Edge	3	000c	2	1	0	0f000c	tune					
+04208	3521	Trig Priority	3	000c	3	1	0	0f000c	tune					
+0420a	2	EmptyBit	3	000c	4	1	0	0f000c	tune					
+0420c	2433	Trgi2 Cam Tyoe	3	000c	5	3	0	0f000c	tune					
+0420e	2499	Launch Control	3	000d	0	3	0	0f000d	tune					
+04210	1585	Dual RPM Limit	3	000d	3	1	0	0f000d	tune					
+04212	2	EmptyBit	3	000d	4	1	0	0f000d	tune					
+04214	2514	Anti-Lag Mode	3	000d	5	2	0	0f000d	tune					
+04216	3889	Injector Timing Split	3	000d	7	1	0	0f000d	tune					
+04218	3503	RPM Filtering	3	000e	0	3	0	0f000e	tune					
+0421a	2412	Stepper Motor Direction	3	000e	3	1	0	0f000e	tune					
+0421c	1625	Datastream Mode	3	000e	4	3	0	0f000e	tune					
+0421e	1584	Barometric Sensor Type G4	3	000e	7	1	0	0f000e	tune					
+04220	3537	Lock to Ref	3	000f	0	1	0	0f000f	tune					
+04222	3549	Low Res Mode	3	000f	1	1	0	0f000f	tune					
+04224	2649	Confirm Ratio	3	000f	2	1	0	0f000f	tune					
+04226	3541	Lock to Crank Timing	3	000f	3	1	0	0f000f	tune					
+04228	3544	Logging Mode	3	000f	4	1	0	0f000f	tune					
+0422a	2647	Gear Detection	3	000f	5	2	0	0f000f	tune					
+0422c	1261	PID Setup	3	000f	7	1	0	0f000f	tune					
+0422e	1527	Water Spray Mode	3	0010	0	1	0	0f0010	tune					
+04230	1528	Switching Function	3	0010	1	4	0	0f0010	tune					
+04232	2650	Gear to Calibrate	3	0010	5	3	0	0f0010	tune					
+04234	3542	Trig1 Location	3	0011	0	1	0	0f0011	tune					
+04236	3551	Sync Pulse NEw comboned	3	0011	1	3	0	0f0011	tune					
+04238	2	EmptyBit	3	0011	4	1	0	0f0011	tune					
+0423a	3547	Missing Teeth	3	0011	5	2	0	0f0011	tune					
+0423c	2	EmptyBit	3	0011	7	1	0	0f0011	tune					
+0423e	3242	AirCon Mode	3	0012	0	3	0	0f0012	tune					
+04240	2588	Normalise Ratio Table	3	0012	3	3	0	0f0012	tune					
+04242	2428	Engine Type	3	0012	6	2	0	0f0012	tune					
+04244	1284	Cam Control System	3	0013	0	8	0	0f0013	tune					
+04246	1282	Control algorithm  LH IN	3	0014	0	4	0	0f0014	tune					
+04248	1283	Control algorithm RH IN	3	0014	4	4	0	0f0014	tune					
+0424a	1280	Control algorithm  LH EX	3	0015	0	4	0	0f0015	tune					
+0424c	1281	Control algorithm  RH EX	3	0015	4	4	0	0f0015	tune					
+0424e	2414	Gain Control	0	0016			1	0f0016	tune		1	0		
+04250	2386	Adj Limit -/+	0	0017			1	0f0017	tune	%	1	0		
+04252	2411	MAP Lockout	0	0018			1	0f0018	tune	kPa	2	0		
+04254	2388	RPM Lockout Low	0	0019			1	0f0019	tune	RPM	100	0		
+04256	2389	RPM Lockout High	0	001a			1	0f001a	tune	RPM	100	0		
+04258	3065	Accel Mode	3	001b	0	2	0	0f001b	tune					
+0425a	3064	Fuel Cut 	3	001b	2	2	0	0f001b	tune					
+0425c	2971	Prime Activation	3	001b	4	2	0	0f001b	tune					
+0425e	2940	Type Wakeup	3	001b	6	2	0	0f001b	tune					
+04260	2946	Staging Table Load Axis	3	001c	0	2	0	0f001c	tune					
+04262	2964	Injection Rate	3	001c	2	1	0	0f001c	tune					
+04264	3112	Lambda Target In Fuel Eq	3	001c	3	1	0	0f001c	tune					
+04266	2855	Injector Control	3	001c	4	1	0	0f001c	tune					
+04268	2999	Charge Temp Correction Enable	3	001c	5	1	0	0f001c	tune					
+0426a	1441	Dwell Mode	3	001c	6	2	0	0f001c	tune					
+0426c	3739	Cruise Switch type	3	001d	0	1	0	0f001d	tune					
+0426e	2823	Traction Disable Switch 	3	001d	1	1	0	0f001d	tune					
+04270	1332	Step Direction	3	001d	2	1	0	0f001d	tune					
+04272	1674	EThrottle Quiet	3	001d	3	1	0	0f001d	tune					
+04274	1673	FP from CAN	3	001d	4	1	0	0f001d	tune					
+04276	2943	Staging Mode	3	001d	5	1	0	0f001d	tune					
+04278	2845	ECT Ign trim	3	001d	6	1	0	0f001d	tune					
+0427a	2844	IAT IGn trim	3	001d	7	1	0	0f001d	tune					
+0427c	3501	Trigger Mode	3	001e	0	8	0	0f001e	tune					
+0427e	1900	Temp 1 Pullup	3	001f	0	4	0	0f001f	tune					
+04280	1901	Temp 2 Pullup	3	001f	4	4	0	0f001f	tune					
+04282	1920	Analog Channel #1	3	0020	0	8	0	0f0020	tune					
+04284	1921	Analog Channel #2	3	0021	0	8	0	0f0021	tune					
+04286	1922	Analog Channel #3	3	0022	0	8	0	0f0022	tune					
+04288	1923	Analog Channel #4	3	0023	0	8	0	0f0023	tune					
+0428a	1924	Analog Channel #5	3	0024	0	8	0	0f0024	tune					
+0428c	1925	Analog Channel #6	3	0025	0	8	0	0f0025	tune					
+0428e	1353	Key-On Fuel Lockout	0	0026			1	0f0026	tune	secs	1	0		
+04290	2390	Dither Voltage	0	0027			1	0f0027	tune	V	0.01	0		
+04292	2391	Timer Lockout	0	0028			2	0f0028	tune	 s	0.1	0		
+04294	1931	Temp Channel #1	3	002a	0	8	0	0f002a	tune					
+04296	1932	Temp Channel #2	3	002b	0	8	0	0f002b	tune					
+04298	1933	Temp Channel #3	3	002c	0	8	0	0f002c	tune					
+0429a	1934	Temp Channel #4	3	002d	0	8	0	0f002d	tune					
+0429c	2957	Accel Fuel	0	002e			1	0f002e	tune	%	1	0		
+0429e	2958	Accel 	0	002f			1	0f002f	tune		1	0		
+042a0	2959	Sec PW Lockout	0	0030			2	0f0030	tune	ms	0.01	0		
+042a2	3500	Sync Posn	3	0032	0	8	0	0f0032	tune					
+042a4	3018	Accel Sens.	0	0033			1	0f0033	tune		1	0		
+042a6	1601	Limit Range	0	0034			1	0f0034	tune	RPM	10	0		
+042a8	1603	Map Limit (Soft)	0	0035			1	0f0035	tune	kPa	1	0		
+042aa	3216	Fuel Pump Prime Time	0	0036			1	0f0036	tune	s	0.1	0		
+042ac	2657	PClink Confrim by	0	0037			1	0f0037	tune		1	0		
+042ae	1346	RPM Lockout	0	0038			2	0f0038	tune	RPM	1	0		
+042b0	3394	FP Low -&gt; Med	0	003a			1	0f003a	tune	%FF	1	0		
+042b2	3395	FP Med -&gt; High	0	003b			1	0f003b	tune	%FF	1	0		
+042b4	3243	FP Speed XOver	0	003c			2	0f003c	tune	%FF	0.1	0		
+042b6	3241	AirC OFF Sw Point	0	003e			2	0f003e	tune		1	0		
+042b8	3028	Master	0	0040			2	0f0040	tune	ms	1	0		
+042ba	1352	Idle Deadband	0	0042			2	0f0042	tune	RPM	1	0		
+042bc	1670	TP Test	3	0044	0	1	0	0f0044	tune					
+042be	2824	Traction Mode	3	0044	1	3	0	0f0044	tune					
+042c0	1692	E-Throttle Mode	3	0044	4	2	0	0f0044	tune					
+042c2	1690	Calibrate FPS Closed	3	0044	6	1	0	0f0044	tune					
+042c4	1691	Calibrate FPS Open 	3	0044	7	1	0	0f0044	tune					
+042c6	2947	Injector Control	3	0045	0	1	0	0f0045	tune					
+042c8	2948	Injector Control	3	0045	1	1	0	0f0045	tune					
+042ca	2949	Injector Control	3	0045	2	1	0	0f0045	tune					
+042cc	2950	Injector Control	3	0045	3	1	0	0f0045	tune					
+042ce	2951	Injector Control	3	0045	4	1	0	0f0045	tune					
+042d0	2952	Injector Control	3	0045	5	1	0	0f0045	tune					
+042d2	2953	Injector Control	3	0045	6	1	0	0f0045	tune					
+042d4	2954	Injector Control	3	0045	7	1	0	0f0045	tune					
+042d6	2942	Wake-Up Threshold	0	0046			1	0f0046	tune	%TP	0.1	0		
+042d8	1467	Ignition #1	3	0047	0	1	0	0f0047	tune					
+042da	1468	Ignition #2	3	0047	1	1	0	0f0047	tune					
+042dc	1469	Ignition #3	3	0047	2	1	0	0f0047	tune					
+042de	1470	Ignition #4	3	0047	3	1	0	0f0047	tune					
+042e0	1471	Ignition #5	3	0047	4	1	0	0f0047	tune					
+042e2	1472	Ignition #6	3	0047	5	1	0	0f0047	tune					
+042e4	1473	Ignition #7	3	0047	6	1	0	0f0047	tune					
+042e6	1474	Ignition #8	3	0047	7	1	0	0f0047	tune					
+042e8	1604	Maximum Advance	0	0048			2	0f0048	tune	BTDC	0.1	0		
+042ea	1605	Vehicle Speed Limit	0	004a			2	0f004a	tune	kph	0.1	0		
+042ec	1487	Injector Test	3	004c	0	4	0	0f004c	tune					
+042ee	2996	Traction Table Mode	3	004c	4	1	0	0f004c	tune					
+042f0	3085	3D Post Start Prime	3	004c	5	1	0	0f004c	tune					
+042f2	1138	CE Light At Key On No Faults	3	004c	6	1	0	0f004c	tune					
+042f4	1139	CE Light Engine Running	3	004c	7	1	0	0f004c	tune					
+042f6	3218	Spray Duty Cycle	0	004d			1	0f004d	tune	%	1	0		
+042f8	3217	Spray Period (s)	0	004e			1	0f004e	tune	s	0.1	0		
+042fa	3219	Tacho Duty Cycle	0	004f			1	0f004f	tune	%	1	0		
+042fc	2883	Individual Fuel Trim G4	1	0050			8	0f0050	tune	%	0.5	-50	1	8
+042fe	1589	Hard Limit Addition AN	0	0058			1	0f0058	tune	RPM	10	0		
+04300	1590	Startup Lockout	0	0059			1	0f0059	tune	s	0.5	0		
+04302	2563	AN #1 On State	3	005a	0	1	0	0f005a	tune					
+04304	2564	AN #2 On State	3	005a	1	1	0	0f005a	tune					
+04306	2565	AN  #3 On State	3	005a	2	1	0	0f005a	tune					
+04308	2566	AN #4 On State	3	005a	3	1	0	0f005a	tune					
+0430a	2567	AN  #5 On State	3	005a	4	1	0	0f005a	tune					
+0430c	2568	AN  #6 On State	3	005a	5	1	0	0f005a	tune					
+0430e	2569	AN #7 On State	3	005a	6	1	0	0f005a	tune					
+04310	2570	AN #8 On State	3	005a	7	1	0	0f005a	tune					
+04312	2571	AN #9 On State	3	005b	0	1	0	0f005b	tune					
+04314	2572	AN #10 On State	3	005b	1	1	0	0f005b	tune					
+04316	2573	AN #11 On State	3	005b	2	1	0	0f005b	tune					
+04318	1137	CE Light Mode	3	005b	3	1	0	0f005b	tune					
+0431a	3113	AFR Overlay	3	005b	4	1	0	0f005b	tune					
+0431c	2410	CLL Dual Channel Mode	3	005b	5	1	0	0f005b	tune					
+0431e	1367	Inlet CenterLine Control	3	005b	6	1	0	0f005b	tune					
+04320	1368	Exh CenterLine Control	3	005b	7	1	0	0f005b	tune					
+04322	1279	Cam ETemp Lockout	0	005c			1	0f005c	tune	C	1	-50		
+04324	1460	Key-ON Ramp RPM	0	005d			1	0f005d	tune	RPM	100	0		
+04326	1465	Key-ON Ramp Time	0	005e			1	0f005e	tune	s	0.1	0		
+04328	3012	1st Inj Increase	0	005f			1	0f005f	tune	%	1	0		
+0432a	1419	Individual Ign Trim new 4.5.0	1	0060			8	0f0060	tune		0.5	-60	1	8
+0432c	2402	Cyl 1 Allocation Ign	3	0068	0	4	0	0f0068	tune					
+0432e	2403	Cyl 2 Allocation ign	3	0068	4	4	0	0f0068	tune					
+04330	2404	Cyl 3 Allocation ign	3	0069	0	4	0	0f0069	tune					
+04332	2405	Cyl 4 Allocation ign	3	0069	4	4	0	0f0069	tune					
+04334	2406	Cyl 5 Allocation ign 	3	006a	0	4	0	0f006a	tune					
+04336	2407	Cyl 6 Allocation	3	006a	4	4	0	0f006a	tune					
+04338	2408	Cyl 7 Allocation	3	006b	0	4	0	0f006b	tune					
+0433a	2409	Cyl 8 Allocation	3	006b	4	4	0	0f006b	tune					
+0433c	3398	Eng Fan High SPeed	0	006c			1	0f006c	tune		1	0		
+0433e	3399	Eng Fan High SPeed Hyt	0	006d			1	0f006d	tune		1	0		
+04340	3400	Eng Fan RPM 0 timeout	0	006e			1	0f006e	tune	s	1	0		
+04342	1610	Shut Down Voltage	0	006f			1	0f006f	tune	V	0.1	0		
+04344	2419	Number of Cylinders L3	3	0070	0	8	0	0f0070	tune					
+04346	2401	FiringOrder Table	1	0071			12	0f0071	tune		1	0	1	12
+04348	1393	Hold Time	0	007d			1	0f007d	tune	Eng Cycles	1	0		
+0434a	3117	Drive Trim	0	007e			2	0f007e	tune	ms	0.01	-10		
+0434c	3222	Eng Fan hysteresis (C)	0	0080			1	0f0080	tune		1	0		
+0434e	3221	Engine Fan (C)	0	0081			1	0f0081	tune		1	0		
+04350	1333	Speed Lockout	3	0082	0	4	0	0f0082	tune					
+04352	1883	Torque Management Mode	3	0082	4	4	0	0f0082	tune					
+04354	1343	TPS Lockout	0	0083			1	0f0083	tune	% TP	0.1	0		
+04356	1703	TPS LOW	0	0084			2	0f0084	tune	V	0.004887585533	0		
+04358	1704	TPS HIGH	0	0086			2	0f0086	tune	V	0.004887585533	0		
+0435a	3133	Dual Fuel Table G4	3	0088	0	2	0	0f0088	tune					
+0435c	1171	CE Clear	3	0088	2	1	0	0f0088	tune					
+0435e	2966	Control Method	3	0088	3	3	0	0f0088	tune					
+04360	2497	Retard Mode Anti_lag	3	0088	6	2	0	0f0088	tune					
+04362	3540	Crank Timing (1 tooth per TDC)	0	0089			1	0f0089	tune	 	1	-128		
+04364	3072	AirCon Correction	0	008a			2	0f008a	tune	ms	0.01	-10		
+04366	1614	Standby Mode	3	008c	0	4	0	0f008c	tune					
+04368	1341	ISC Mode G3	3	008c	4	3	0	0f008c	tune					
+0436a	1130	Activation	3	008c	7	1	0	0f008c	tune					
+0436c	1447	Spark Duration	0	008d			1	0f008d	tune	ms	0.1	0		
+0436e	3538	Ref. Timing	0	008e			2	0f008e	tune	 	0.1	-100		
+04370	1303	Engine Fan Step	0	0090			1	0f0090	tune	%	0.1	0		
+04372	1588	Activation Delay	0	0091			1	0f0091	tune	s	0.1	0		
+04374	1304	Power Steer Step	0	0092			1	0f0092	tune	%	1	0		
+04376	3189	Airc Fan Hsy	0	0093			1	0f0093	tune		1	0		
+04378	3188	Airc Fan On	0	0094			1	0f0094	tune		1	0		
+0437a	3037	Accel Decay Rate	0	0095			1	0f0095	tune	%	1	0		
+0437c	1390	Decay Rate	0	0096			1	0f0096	tune	Degree/Cycle	0.1	0		
+0437e	2963	Wake-Up Width	0	0097			1	0f0097	tune	 ms	0.1	0		
+04380	2962	Wake-Up Pulses	0	0098			1	0f0098	tune		1	0		
+04382	2645	Ign Trim Activation TP	0	0099			1	0f0099	tune	%TP	1	0		
+04384	1905	Ign Retard Limit	0	009a			1	0f009a	tune		0.5	0		
+04386	3220	AirC Delay (secs)	0	009b			1	0f009b	tune	s	0.1	0		
+04388	2981	Eng Fan Trim	0	009c			2	0f009c	tune	ms	0.01	-10		
+0438a	2644	Launch Ign Trim	0	009e			2	0f009e	tune		0.1	-100		
+0438c	2002	Sensor Type T3	3	00a0	0	8	0	0f00a0	tune					
+0438e	2003	Sensor Type T4	3	00a1	0	8	0	0f00a1	tune					
+04390	3274	Frequency Aux 1	0	00a2			2	0f00a2	tune	Hz	1	0		
+04392	3275	Frequency Aux 2	0	00a4			2	0f00a4	tune	Hz	1	0		
+04394	3276	Frequency Aux 3	0	00a6			2	0f00a6	tune	Hz	1	0		
+04396	3277	Frequency Aux 4	0	00a8			2	0f00a8	tune	Hz	1	0		
+04398	3278	Frequency Aux 5	0	00aa			2	0f00aa	tune	Hz	1	0		
+0439a	3279	Frequency Aux 5	0	00ac			2	0f00ac	tune	Hz	1	0		
+0439c	3280	Frequency Aux 7	0	00ae			2	0f00ae	tune	Hz	1	0		
+0439e	3281	Frequency Aux 8	0	00b0			2	0f00b0	tune	Hz	1	0		
+043a0	3200	Function	3	00b2	0	8	0	0f00b2	tune					
+043a2	3201	Function	3	00b3	0	8	0	0f00b3	tune					
+043a4	3202	Function	3	00b4	0	8	0	0f00b4	tune					
+043a6	3203	Function	3	00b5	0	8	0	0f00b5	tune					
+043a8	3204	Function	3	00b6	0	8	0	0f00b6	tune					
+043aa	3205	Function	3	00b7	0	8	0	0f00b7	tune					
+043ac	3206	Function	3	00b8	0	8	0	0f00b8	tune					
+043ae	3207	Function	3	00b9	0	8	0	0f00b9	tune					
+043b0	3208	Function	3	00ba	0	8	0	0f00ba	tune					
+043b2	3209	Function	3	00bb	0	8	0	0f00bb	tune					
+043b4	2553	DI #1 Sw Type	3	00bc	0	1	0	0f00bc	tune					
+043b6	2554	DI #2 Sw Type	3	00bc	1	1	0	0f00bc	tune					
+043b8	2555	DI #3 Sw Type	3	00bc	2	1	0	0f00bc	tune					
+043ba	2556	DI #4 Sw Type	3	00bc	3	1	0	0f00bc	tune					
+043bc	2557	DI #5 Sw Type	3	00bc	4	1	0	0f00bc	tune					
+043be	2558	DI #6 Sw Type	3	00bc	5	1	0	0f00bc	tune					
+043c0	2559	DI #7 Sw Type	3	00bc	6	1	0	0f00bc	tune					
+043c2	2560	DI #8 Sw Type	3	00bc	7	1	0	0f00bc	tune					
+043c4	2561	DI #9 Sw Type	3	00bd	0	1	0	0f00bd	tune					
+043c6	2562	DI #10 Sw Type	3	00bd	1	1	0	0f00bd	tune					
+043c8	2	EmptyBit	3	00bd	2	1	0	0f00bd	tune					
+043ca	2	EmptyBit	3	00bd	3	1	0	0f00bd	tune					
+043cc	2	EmptyBit	3	00bd	4	1	0	0f00bd	tune					
+043ce	2	EmptyBit	3	00bd	5	1	0	0f00bd	tune					
+043d0	2	EmptyBit	3	00bd	6	1	0	0f00bd	tune					
+043d2	2	EmptyBit	3	00bd	7	1	0	0f00bd	tune					
+043d4	2961	Ratio	0	00be			2	0f00be	tune		0.001	0		
+043d6	2960	RPM XOver	0	00c0			2	0f00c0	tune	RPM	1	0		
+043d8	3258	Aux 1	3	00c2	0	1	0	0f00c2	tune					
+043da	3259	Aux 2	3	00c2	1	1	0	0f00c2	tune					
+043dc	3260	Aux 3	3	00c2	2	1	0	0f00c2	tune					
+043de	3261	Aux 4	3	00c2	3	1	0	0f00c2	tune					
+043e0	3262	Aux 5	3	00c2	4	1	0	0f00c2	tune					
+043e2	3263	Aux 6	3	00c2	5	1	0	0f00c2	tune					
+043e4	3264	Aux 7	3	00c2	6	1	0	0f00c2	tune					
+043e6	3265	Aux 8	3	00c2	7	1	0	0f00c2	tune					
+043e8	3266	Aux 9	3	00c3	0	1	0	0f00c3	tune					
+043ea	3267	Aux 10	3	00c3	1	1	0	0f00c3	tune					
+043ec	3268	Aux 11	3	00c3	2	1	0	0f00c3	tune					
+043ee	3269	Aux 12	3	00c3	3	1	0	0f00c3	tune					
+043f0	3270	Aux 13	3	00c3	4	1	0	0f00c3	tune					
+043f2	3271	Aux 14	3	00c3	5	1	0	0f00c3	tune					
+043f4	3272	Aux 15	3	00c3	6	1	0	0f00c3	tune					
+043f6	3273	Aux 16	3	00c3	7	1	0	0f00c3	tune					
+043f8	3079	Injector Angle	0	00c4			2	0f00c4	tune	 °BTDC	1	0		
+043fa	3080	TPS FCut Lockout	0	00c6			1	0f00c6	tune	%	0.1	0		
+043fc	2646	Arming Time	0	00c7			1	0f00c7	tune	s	0.1	0		
+043fe	2369	Cyl 1 Table	3	00c8	0	4	0	0f00c8	tune					
+04400	2370	Cyl 2 Allocation	3	00c8	4	4	0	0f00c8	tune					
+04402	2371	Cyl 3 Allocation	3	00c9	0	4	0	0f00c9	tune					
+04404	2372	Cyl 4 Allocation	3	00c9	4	4	0	0f00c9	tune					
+04406	2373	Cyl 5 Allocation	3	00ca	0	4	0	0f00ca	tune					
+04408	2374	Cyl 6 Allocation	3	00ca	4	4	0	0f00ca	tune					
+0440a	2375	Cyl 7 Allocation	3	00cb	0	4	0	0f00cb	tune					
+0440c	2376	Cyl 8 Allocation	3	00cb	4	4	0	0f00cb	tune					
+0440e	1507	X-Axis Fuel	3	00cc	0	8	0	0f00cc	tune					
+04410	1508	Y-Axis- Fuel	3	00cd	0	8	0	0f00cd	tune					
+04412	1509	X-Axis - Ign	3	00ce	0	8	0	0f00ce	tune					
+04414	1510	Y-Axis - Ign	3	00cf	0	8	0	0f00cf	tune					
+04416	2753	Limit Mode	3	00d0	0	4	0	0f00d0	tune					
+04418	2758	Limit Mode V Speed	3	00d0	4	4	0	0f00d0	tune					
+0441a	2816	Advanced Mode RPM	3	00d1	0	1	0	0f00d1	tune					
+0441c	2817	Advanced Mode MAP	3	00d1	1	1	0	0f00d1	tune					
+0441e	2818	Advanced Mode GP 1	3	00d1	2	1	0	0f00d1	tune					
+04420	2819	Advanced Mode GP 2	3	00d1	3	1	0	0f00d1	tune					
+04422	2820	Advanced Mode Spd	3	00d1	4	1	0	0f00d1	tune					
+04424	2821	Advanced Mode Lch	3	00d1	5	1	0	0f00d1	tune					
+04426	2822	Advanced Mode Cyclic	3	00d1	6	1	0	0f00d1	tune					
+04428	1301	Idle Ignition Control	3	00d1	7	1	0	0f00d1	tune					
+0442a	1819	RPM lockout - boost	0	00d2			1	0f00d2	tune	RPM	100	0		
+0442c	1820	MAP Lockout boost G4	0	00d3			1	0f00d3	tune	kPa	1	0		
+0442e	2364	Sw Condition 4D Fuel	3	00d4	0	8	0	0f00d4	tune					
+04430	2363	Sw Condition 5D Fuel	3	00d5	0	8	0	0f00d5	tune					
+04432	2362	Sw Condition Dual Fuel	3	00d6	0	8	0	0f00d6	tune					
+04434	2361	Sw Condition 4D Ign	3	00d7	0	8	0	0f00d7	tune					
+04436	2360	Sw Condition 5D Ign	3	00d8	0	8	0	0f00d8	tune					
+04438	2359	Sw Condition Dual Ign	3	00d9	0	8	0	0f00d9	tune					
+0443a	1496	X-Axis Fuel T2	3	00da	0	8	0	0f00da	tune					
+0443c	1497	Y-Axis- Fuel T2	3	00db	0	8	0	0f00db	tune					
+0443e	1498	X-Axis - Ign T2	3	00dc	0	8	0	0f00dc	tune					
+04440	1499	Y-Axis - Ign t2	3	00dd	0	8	0	0f00dd	tune					
+04442	1648	Pedal Closed (sub)	0	00de			2	0f00de	tune	V	0.004887585533	0		
+04444	1649	Pedal open (sub)	0	00e0			2	0f00e0	tune	V	0.004887585533	0		
+04446	2637	Launch RPM	1	00e2			13	0f00e2	tune	RPM	100	0	1	13
+04448	2639	Disarming Speed 	0	00ef			1	0f00ef	tune	kph	1	0		
+0444a	2659	Limit Range G4 new	0	00f0			1	0f00f0	tune	RPM	10	0		
+0444c	2660	Launch Limit	0	00f1			1	0f00f1	tune	RPM	100	0		
+0444e	2756	Limit Mode GP 1	3	00f2	0	4	0	0f00f2	tune					
+04450	2757	Limit Mode GP 2	3	00f2	4	4	0	0f00f2	tune					
+04452	1611	Limit Range V Speed	0	00f3			1	0f00f3	tune		0.1	0		
+04454	3120	Fuel Cut Igniton Retard Time	0	00f4			1	0f00f4	tune	s	0.02	0		
+04460	3396	OFF Value	0	00fa			2	0f00fa	tune		1	0		
+04462	3451	Max Speedo Freq	0	00fc			2	0f00fc	tune	Hz	1	0		
+04464	891	Accelerometer Angular Correction	0	00fe			2	0f00fe	tune		0.1	0		
+04466	1445	Lockout LessThan -RPM	0	0100			2	0f0100	tune	 RPM	1	0		
+04468	1308	Min Clamp	0	0102			2	0f0102	tune	%	0.1	0		
+0446a	2393	ECT Lockout	0	0104			1	0f0104	tune	C	1	-50		
+0446c	3454	Driver Type aux5	3	0105	0	2	0	0f0105	tune					
+0446e	3455	Driver Type aux6	3	0105	2	2	0	0f0105	tune					
+04470	3456	Driver Type aux7	3	0105	4	2	0	0f0105	tune					
+04472	3457	Driver Type aux8	3	0105	6	2	0	0f0105	tune					
+04474	1309	Max Clamp	0	0106			2	0f0106	tune	%	0.1	0		
+04476	3121	Fuel Cut Delay	0	0108			1	0f0108	tune	s	0.1	0		
+04478	3122	Fuel Cut Retard	0	0109			1	0f0109	tune		-0.1	0		
+0447a	2865	RPM Lockout	0	010a			1	0f010a	tune	RPM	100	0		
+0447c	2653	Ign Trim Activation Rpm	0	010b			1	0f010b	tune	RPM	100	0		
+0447e	1394	Multiplier	0	010c			2	0f010c	tune		0.01	0		
+04480	2358	Table Activation Boost Map2	3	010e	0	8	0	0f010e	tune					
+04482	2357	Table Activation Boost Map3	3	010f	0	8	0	0f010f	tune					
+04484	1320	Idle Decel Timeout	0	0110			1	0f0110	tune	s	0.1	0		
+04486	1446	Lockout LessThan - TPS	0	0111			1	0f0111	tune	% TP	1	0		
+04488	2591	Number Gears	0	0112			1	0f0112	tune		1	0		
+0448a	2866	MAF Type	3	0113	0	8	0	0f0113	tune					
+0448c	1656	Speed Source	3	0114	0	4	0	0f0114	tune					
+0448e	2	EmptyBit	3	0114	4	1	0	0f0114	tune					
+04490	2	EmptyBit	3	0114	5	1	0	0f0114	tune					
+04492	2	EmptyBit	3	0114	6	1	0	0f0114	tune					
+04494	2	EmptyBit	3	0114	7	1	0	0f0114	tune					
+04496	1615	Activation Control G4	3	0115	0	8	0	0f0115	tune					
+04498	1233	CAN Anti Theft	3	0116	0	1	0	0f0116	tune					
+0449a	1229	Antitheft Defualt State	3	0116	1	1	0	0f0116	tune					
+0449c	2091	End Blip Prediction	3	0116	2	1	0	0f0116	tune					
+0449e	2	EmptyBit	3	0116	3	1	0	0f0116	tune					
+044a0	2492	Ign Retard Table	3	0116	4	1	0	0f0116	tune					
+044a2	2269	Clear I-Trim Tables	3	0116	5	1	0	0f0116	tune					
+044a4	2854	Deadtimes	3	0116	6	2	0	0f0116	tune					
+044a6	3448	Source DI	3	0117	0	3	0	0f0117	tune					
+044a8	2493	Fuel Trim Table	3	0117	3	1	0	0f0117	tune					
+044aa	3453	CLL AN Souce 	3	0117	4	4	0	0f0117	tune					
+044ac	1485	Ramp Speed Speedo	0	0118			1	0f0118	tune	Hz	2	0		
+044ae	1486	Ramp Time Speedo	0	0119			1	0f0119	tune	s	0.1	0		
+044b0	2867	Fuel Density	0	011a			2	0f011a	tune	g/cc	0.0001	0		
+044b2	2868	Injector Size	0	011c			2	0f011c	tune	cc/min	1	0		
+044b4	2974	Table Increments	0	011e			2	0f011e	tune		1	0		
+044b6	2975	Table Start	0	0120			2	0f0120	tune		1	0		
+044b8	3170	Aux 1 Timer	0	0122			1	0f0122	tune	s	0.02	0		
+044ba	3171	Aux 2 Timer	0	0123			1	0f0123	tune	s	0.02	0		
+044bc	3172	Aux 3 Timer	0	0124			1	0f0124	tune	s	0.02	0		
+044be	3173	Aux 4 Timer	0	0125			1	0f0125	tune	s	0.02	0		
+044c0	3174	Aux 5 Timer	0	0126			1	0f0126	tune	s	0.02	0		
+044c2	3175	Aux 6 Timer	0	0127			1	0f0127	tune	s	0.02	0		
+044c4	3176	Aux 7 Timer	0	0128			1	0f0128	tune	s	0.02	0		
+044c6	3177	Aux 8 Timer	0	0129			1	0f0129	tune	s	0.02	0		
+044c8	3178	Aux 9 Timer	0	012a			1	0f012a	tune	s	0.02	0		
+044ca	3179	Aux 10 Timer	0	012b			1	0f012b	tune	s	0.02	0		
+044cc	1734	G4S CAN 1 Bit Rate	3	012c	0	3	0	0f012c	tune					
+044ce	1735	G4S CAN 2 Bit Rate	3	012c	3	3	0	0f012c	tune					
+044d0	1129	Reset User CAN Streams	3	012c	6	1	0	0f012c	tune					
+044d2	2	EmptyBit	3	012c	7	1	0	0f012c	tune					
+044d4	1926	Analog Channel #7	3	012d	0	8	0	0f012d	tune					
+044d6	1927	Analog Channel #8	3	012e	0	8	0	0f012e	tune					
+044d8	1928	Analog Channel #9	3	012f	0	8	0	0f012f	tune					
+044da	1929	Analog Channel #10	3	0130	0	8	0	0f0130	tune					
+044dc	1930	Analog Channel #11	3	0131	0	8	0	0f0131	tune					
+044de	2438	Trig 2 Used for VVti	0	0132			2	0f0132	tune	ATDC	0.1	0		
+044e0	1644	Throttle Plate Closed	0	0134			2	0f0134	tune	V	0.004887585533	0		
+044e2	1645	Throttle Plate Open	0	0136			2	0f0136	tune	V	0.004887585533	0		
+044e4	1915	Start Point	0	0138			1	0f0138	tune	 	1	0		
+044e6	1916	Window Length	0	0139			1	0f0139	tune		1	0		
+044e8	1580	Hard Limit Addition AN L2	0	013a			1	0f013a	tune	RPM	10	0		
+044ea	1581	Startup Lockout ANL2	0	013b			1	0f013b	tune	s	0.5	0		
+044ec	1579	Activation Delay L2	0	013c			1	0f013c	tune	s	0.1	0		
+044ee	2853	PW Lockout Aux Inj	0	013d			1	0f013d	tune	ms	0.1	0		
+044f0	2928	Aux Ign 1	3	013e	0	1	0	0f013e	tune					
+044f2	2929	Aux Ign 2	3	013e	1	1	0	0f013e	tune					
+044f4	2930	Aux Ign 3	3	013e	2	1	0	0f013e	tune					
+044f6	2931	Aux Ign 4	3	013e	3	1	0	0f013e	tune					
+044f8	2932	Aux Ign 5	3	013e	4	1	0	0f013e	tune					
+044fa	2933	Aux Ign 6	3	013e	5	1	0	0f013e	tune					
+044fc	2934	Aux Ign 7	3	013e	6	1	0	0f013e	tune					
+044fe	2935	Aux Ign 8	3	013e	7	1	0	0f013e	tune					
+04500	2920	Aux Inj 1	3	013f	0	1	0	0f013f	tune					
+04502	2921	Aux Inj 2	3	013f	1	1	0	0f013f	tune					
+04504	2922	Aux Inj 3	3	013f	2	1	0	0f013f	tune					
+04506	2923	Aux Inj 4	3	013f	3	1	0	0f013f	tune					
+04508	2924	Aux Inj 5	3	013f	4	1	0	0f013f	tune					
+0450a	2925	Aux Inj 6	3	013f	5	1	0	0f013f	tune					
+0450c	2926	Aux Inj 7	3	013f	6	1	0	0f013f	tune					
+0450e	2927	Aux Inj 8	3	013f	7	1	0	0f013f	tune					
+04510	3449	Speedo Out Multi	0	0140			2	0f0140	tune		0.01	0		
+04512	3460	GP Table 1	3	0142	0	8	0	0f0142	tune					
+04514	3461	GP Table 2	3	0143	0	8	0	0f0143	tune					
+04516	3462	GP Table 3	3	0144	0	8	0	0f0144	tune					
+04518	3463	GP Table 4	3	0145	0	8	0	0f0145	tune					
+0451a	3464	GP Table 5	3	0146	0	8	0	0f0146	tune					
+0451c	3465	GP Table 6	3	0147	0	8	0	0f0147	tune					
+0451e	3466	GP Table 7	3	0148	0	8	0	0f0148	tune					
+04520	3467	GP Table 8	3	0149	0	8	0	0f0149	tune					
+04522	3468	GP Table 9	3	014a	0	8	0	0f014a	tune					
+04524	3469	GP Table 10	3	014b	0	8	0	0f014b	tune					
+04526	3470	GP Table 11	3	014c	0	8	0	0f014c	tune					
+04528	3471	GP Table 12	3	014d	0	8	0	0f014d	tune					
+0452a	3475	GP Table 13	3	014e	0	8	0	0f014e	tune					
+0452c	3476	GP Table 14	3	014f	0	8	0	0f014f	tune					
+0452e	3477	GP Table 15	3	0150	0	8	0	0f0150	tune					
+04530	3478	GP Table 16	3	0151	0	8	0	0f0151	tune					
+04532	3479	GP Table 17	3	0152	0	8	0	0f0152	tune					
+04534	3480	GP Table 18	3	0153	0	8	0	0f0153	tune					
+04536	3481	GP Table 19	3	0154	0	8	0	0f0154	tune					
+04538	3482	GP Table 20	3	0155	0	8	0	0f0155	tune					
+0453a	3483	GP Table 21	3	0156	0	8	0	0f0156	tune					
+0453c	3484	GP Table 22	3	0157	0	8	0	0f0157	tune					
+0453e	3485	GP Table 23	3	0158	0	8	0	0f0158	tune					
+04540	3486	GP Table 24	3	0159	0	8	0	0f0159	tune					
+04542	3487	GP Table 25	3	015a	0	8	0	0f015a	tune					
+04544	3488	GP Table 26	3	015b	0	8	0	0f015b	tune					
+04546	3489	GP Table 27	3	015c	0	8	0	0f015c	tune					
+04548	3490	GP Table 28	3	015d	0	8	0	0f015d	tune					
+0454a	3491	GP Table 29	3	015e	0	8	0	0f015e	tune					
+0454c	3492	GP Table 30	3	015f	0	8	0	0f015f	tune					
+0454e	1574	Activation Method	3	0160	0	8	0	0f0160	tune					
+04550	3211	Function	3	0161	0	8	0	0f0161	tune					
+04552	3212	Function	3	0162	0	8	0	0f0162	tune					
+04554	3213	Function	3	0163	0	8	0	0f0163	tune					
+04556	2944	Accel Load Correction	1	0164			11	0f0164	tune	%	0.1	0	1	11
+04558	2849	Aux Fuel #5 - Timing	3	016f	0	1	0	0f016f	tune					
+0455a	2850	Aux Fuel #6 - Timing	3	016f	1	1	0	0f016f	tune					
+0455c	2851	Aux Fuel #7 - Timing	3	016f	2	1	0	0f016f	tune					
+0455e	2852	Aux Fuel #8 - Timing	3	016f	3	1	0	0f016f	tune					
+04560	2848	IAT % Correction	3	016f	4	1	0	0f016f	tune					
+04562	2847	WarmUp % Correction	3	016f	5	1	0	0f016f	tune					
+04564	1709	Active Tables - E-Throttle	3	016f	6	2	0	0f016f	tune					
+04566	2938	Wake-Up High Threshold	0	0170			1	0f0170	tune		0.1	0		
+04568	2939	Wake-Up Width	0	0171			1	0f0171	tune	ms	0.1	0		
+0456a	3446	Aux   9  Frequency	0	0172			2	0f0172	tune	Hz	1	0		
+0456c	1687	Lockout: %TP Delta &gt;	0	0174			1	0f0174	tune	%	0.1	0		
+0456e	1688	Lockout: MAP Delta &gt;	0	0175			1	0f0175	tune	kPa	1	0		
+04570	1689	Lockout: TP &gt;	0	0176			1	0f0176	tune	%	1	0		
+04572	1696	TPS(sub) Hi	0	0177			1	0f0177	tune	%TP (Main)	0.5	0		
+04574	1678	FPS(sub) Hi	0	0178			1	0f0178	tune	%FP (Main)	0.5	0		
+04576	2325	Ign1 Window	3	0179	0	1	0	0f0179	tune					
+04578	2326	Ign2 Window	3	0179	1	1	0	0f0179	tune					
+0457a	2327	Ign3 Window	3	0179	2	1	0	0f0179	tune					
+0457c	2328	Ign4 Window	3	0179	3	1	0	0f0179	tune					
+0457e	2329	Ign5 Window	3	0179	4	1	0	0f0179	tune					
+04580	2330	Ign6 Window	3	0179	5	1	0	0f0179	tune					
+04582	2331	Ign7 Window	3	0179	6	1	0	0f0179	tune					
+04584	2332	Ign8 Window	3	0179	7	1	0	0f0179	tune					
+04586	2860	Injector 5 Allocation	3	017a	0	4	0	0f017a	tune					
+04588	2861	Injector 6 Allocation	3	017a	4	4	0	0f017a	tune					
+0458a	2862	Injector 7 Allocation	3	017b	0	4	0	0f017b	tune					
+0458c	2863	Injector 8 Allocation	3	017b	4	4	0	0f017b	tune					
+0458e	1942	Analog Channel #12	3	017c	0	8	0	0f017c	tune					
+04590	2034	AnV Cal12	3	017d	0	8	0	0f017d	tune					
+04592	2194	AN Volt12 Error  Value	0	017e			2	0f017e	tune	V	0.0048875	0		
+04594	2195	AN Volt12 Error  Value	0	0180			2	0f0180	tune	V	0.0048875	0		
+04596	2196	AN Volt12 Error  Value	0	0182			2	0f0182	tune		0.0048875	0		
+04598	2900	Function	3	0184	0	8	0	0f0184	tune					
+0459a	2901	Function	3	0185	0	8	0	0f0185	tune					
+0459c	2902	Function	3	0186	0	8	0	0f0186	tune					
+0459e	2903	Function	3	0187	0	8	0	0f0187	tune					
+045a0	2904	Function	3	0188	0	8	0	0f0188	tune					
+045a2	2905	Function	3	0189	0	8	0	0f0189	tune					
+045a4	2906	Function	3	018a	0	8	0	0f018a	tune					
+045a6	2907	Function	3	018b	0	8	0	0f018b	tune					
+045a8	3517	Trigger 1 Arming Threshold	1	018c			8	0f018c	tune	V	0.1	0	1	8
+045aa	3518	Trigger 2 Arming Threshold	1	0194			8	0f0194	tune	V	0.1	0	1	8
+045ac	1636	Cyclic Idle Low	0	019c			1	0f019c	tune	%TP	1	0		
+045ae	1637	Cyclic Idle High	0	019d			1	0f019d	tune	%TP	1	0		
+045b0	1655	Limit Range AL	0	019e			1	0f019e	tune	RPM	10	0		
+045b2	1639	Arming Threshold	0	019f			1	0f019f	tune	%TP	1	0		
+045b4	1640	Timeout	0	01a0			1	0f01a0	tune	s	1	0		
+045b6	1641	Arming Threshold -RPM	0	01a1			1	0f01a1	tune	RPM	100	0		
+045b8	1642	Idle Solenoid Override	0	01a2			1	0f01a2	tune		1	0		
+045ba	1643	Cyclic Idle Limit	0	01a3			1	0f01a3	tune	RPM	100	0		
+045bc	3526	Trigger Offset	0	01a4			2	0f01a4	tune	 	1	-360		
+045be	1506	Ignition Mode	3	01a6	0	4	0	0f01a6	tune					
+045c0	1405	Dual Table Mode G4	3	01a6	4	2	0	0f01a6	tune					
+045c2	2	EmptyBit	3	01a6	6	1	0	0f01a6	tune					
+045c4	1442	Dwell Edge	3	01a6	7	1	0	0f01a6	tune					
+045c6	1400	Engine Temp Correction	3	01a7	0	1	0	0f01a7	tune					
+045c8	1401	Inlet Temp Correction	3	01a7	1	1	0	0f01a7	tune					
+045ca	1392	Mode	3	01a7	2	1	0	0f01a7	tune					
+045cc	2	EmptyBit	3	01a7	3	1	0	0f01a7	tune					
+045ce	2413	Ign Overlay Table	3	01a7	4	1	0	0f01a7	tune					
+045d0	1418	Ign Trim new 4.5.0	3	01a7	5	2	0	0f01a7	tune					
+045d2	2420	5D Ign Mode	3	01a7	7	1	0	0f01a7	tune					
+045d4	2754	Limit Mode - RPM	3	01a8	0	4	0	0f01a8	tune					
+045d6	2755	Limit Mode - MAP	3	01a8	4	4	0	0f01a8	tune					
+045d8	3539	Number Teeth	0	01a9			1	0f01a9	tune		1	0		
+045da	3450	Speedo Out Offset	0	01aa			2	0f01aa	tune	Hz	1	-30000		
+045dc	2516	DI #1 On State	3	01ac	0	1	0	0f01ac	tune					
+045de	2517	DI #2 On State	3	01ac	1	1	0	0f01ac	tune					
+045e0	2518	DI #3 On State	3	01ac	2	1	0	0f01ac	tune					
+045e2	2519	DI #4 On State	3	01ac	3	1	0	0f01ac	tune					
+045e4	2520	DI #5 On State	3	01ac	4	1	0	0f01ac	tune					
+045e6	2521	DI #6 On State	3	01ac	5	1	0	0f01ac	tune					
+045e8	2522	DI #7 On State	3	01ac	6	1	0	0f01ac	tune					
+045ea	2523	DI #8 On State	3	01ac	7	1	0	0f01ac	tune					
+045ec	2524	DI #9 On State	3	01ad	0	1	0	0f01ad	tune					
+045ee	2525	DI #10 On State	3	01ad	1	1	0	0f01ad	tune					
+045f0	2526	DI #11 On State	3	01ad	2	1	0	0f01ad	tune					
+045f2	2527	DI #12 On State	3	01ad	3	1	0	0f01ad	tune					
+045f4	852	DI #13 On State	3	01ad	4	1	0	0f01ad	tune					
+045f6	855	DI #14 On State	3	01ad	5	1	0	0f01ad	tune					
+045f8	858	DI #15 On State	3	01ad	6	1	0	0f01ad	tune					
+045fa	861	DI #16 On State	3	01ad	7	1	0	0f01ad	tune					
+045fc	3527	ECCS Widest slot 	0	01ae			1	0f01ae	tune	degrees	1	0		
+045fe	2941	Wake Up End Point	0	01af			1	0f01af	tune	RPM	100	0		
+04600	2973	Secondary Injector Deadtime	1	01b0			20	0f01b0	tune		0.001	0	1	10
+04602	3223	ON Value	0	01c4			2	0f01c4	tune		0.1	0		
+04604	3224	OFF Value	0	01c6			2	0f01c6	tune		0.1	0		
+04606	2500	Function DI 1	3	01c8	0	8	0	0f01c8	tune					
+04608	2501	Function DI 2	3	01c9	0	8	0	0f01c9	tune					
+0460a	2502	Function DI 3	3	01ca	0	8	0	0f01ca	tune					
+0460c	2503	Function DI 4	3	01cb	0	8	0	0f01cb	tune					
+0460e	2504	Function DI 5	3	01cc	0	8	0	0f01cc	tune					
+04610	2505	Function DI 6	3	01cd	0	8	0	0f01cd	tune					
+04612	2506	Function DI 7	3	01ce	0	8	0	0f01ce	tune					
+04614	2507	Function DI 8	3	01cf	0	8	0	0f01cf	tune					
+04616	2508	Function DI 9	3	01d0	0	8	0	0f01d0	tune					
+04618	2509	Function DI 10	3	01d1	0	8	0	0f01d1	tune					
+0461a	2510	Function DI 11	3	01d2	0	8	0	0f01d2	tune					
+0461c	2511	Function DI 12	3	01d3	0	8	0	0f01d3	tune					
+0461e	2680	Driven Wheel Speed Source	3	01d4	0	4	0	0f01d4	tune					
+04620	2681	Non Driven Wheel Speed Source	3	01d4	4	4	0	0f01d4	tune					
+04622	1278	RPM Lockout VVT	0	01d5			1	0f01d5	tune	RPM	100	0		
+04624	1466	Ignition Delay	0	01d6			1	0f01d6	tune	us	1	0		
+04626	2467	DI #1 Edge	3	01d7	0	1	0	0f01d7	tune					
+04628	2468	DI #2 Edge	3	01d7	1	1	0	0f01d7	tune					
+0462a	2469	DI #3 Edge	3	01d7	2	1	0	0f01d7	tune					
+0462c	2470	DI #4 Edge	3	01d7	3	1	0	0f01d7	tune					
+0462e	2471	DI #5 Edge	3	01d7	4	1	0	0f01d7	tune					
+04630	2472	DI #6 Edge	3	01d7	5	1	0	0f01d7	tune					
+04632	2473	DI #7 Edge	3	01d7	6	1	0	0f01d7	tune					
+04634	2474	DI #8 Edge	3	01d7	7	1	0	0f01d7	tune					
+04636	3034	Accel Delta	0	01d8			1	0f01d8	tune		1	0		
+04638	3022	Accel Hold Time	0	01d9			1	0f01d9	tune	INJ Events	1	0		
+0463a	2487	DI8	3	01da	0	1	0	0f01da	tune					
+0463c	2483	Di4	3	01da	1	1	0	0f01da	tune					
+0463e	2480	DI 1	3	01da	2	1	0	0f01da	tune					
+04640	2482	Di3	3	01da	3	1	0	0f01da	tune					
+04642	2485	Di6	3	01da	4	1	0	0f01da	tune					
+04644	2481	DI 2	3	01da	5	1	0	0f01da	tune					
+04646	2484	DI5	3	01da	6	1	0	0f01da	tune					
+04648	2486	Di7	3	01da	7	1	0	0f01da	tune					
+0464a	2490	Di11	3	01db	0	1	0	0f01db	tune					
+0464c	2489	DI10	3	01db	1	1	0	0f01db	tune					
+0464e	2491	Di12	3	01db	2	1	0	0f01db	tune					
+04650	2488	DI9	3	01db	3	1	0	0f01db	tune					
+04652	850	Di13	3	01db	4	1	0	0f01db	tune					
+04654	853	Di14	3	01db	5	1	0	0f01db	tune					
+04656	856	Di15	3	01db	6	1	0	0f01db	tune					
+04658	859	Di16	3	01db	7	1	0	0f01db	tune					
+0465a	1180	Calibration DI #1	0	01dc			2	0f01dc	tune		1	0		
+0465c	1181	Calibration DI #2	0	01de			2	0f01de	tune		1	0		
+0465e	1182	Calibration DI #3	0	01e0			2	0f01e0	tune		1	0		
+04660	1183	Calibration DI #4	0	01e2			2	0f01e2	tune		1	0		
+04662	1184	Calibration DI #5	0	01e4			2	0f01e4	tune		1	0		
+04664	1185	Calibration DI #6	0	01e6			2	0f01e6	tune		1	0		
+04666	1651	Pedal Closed	0	01e8			2	0f01e8	tune	V	0.004887585533	0		
+04668	1652	Pedal open	0	01ea			2	0f01ea	tune	V	0.004887585533	0		
+0466a	2977	Staging Table	1	01ec			24	0f01ec	tune	% Total Fuel Flow	0.1	0	1	12
+0466c	2908	Function	3	0204	0	8	0	0f0204	tune					
+0466e	2909	Function	3	0205	0	8	0	0f0205	tune					
+04670	2910	Function	3	0206	0	8	0	0f0206	tune					
+04672	2911	Function	3	0207	0	8	0	0f0207	tune					
+04674	2912	Function	3	0208	0	8	0	0f0208	tune					
+04676	2913	Function	3	0209	0	8	0	0f0209	tune					
+04678	2914	Function	3	020a	0	8	0	0f020a	tune					
+0467a	2915	Function	3	020b	0	8	0	0f020b	tune					
+0467c	2439	DI 1 Cam offset	0	020c			2	0f020c	tune	ATDC	0.1	0		
+0467e	2440	DI 2 Cam offset	0	020e			2	0f020e	tune	ATDC	0.1	0		
+04680	2441	DI 3 Cam offset	0	0210			2	0f0210	tune	ATDC	0.1	0		
+04682	2442	DI 4 Cam offset	0	0212			2	0f0212	tune	ATDC	0.1	0		
+04684	2443	DI 1 Cam type	3	0214	0	4	0	0f0214	tune					
+04686	2444	DI 2 Cam type	3	0214	4	4	0	0f0214	tune					
+04688	2445	DI 3 Cam type	3	0215	0	4	0	0f0215	tune					
+0468a	2446	DI 4 Cam type	3	0215	4	4	0	0f0215	tune					
+0468c	2447	Aux 1 Cam Type	3	0216	0	4	0	0f0216	tune					
+0468e	2448	Aux 2 Cam Type	3	0216	4	4	0	0f0216	tune					
+04690	2449	Aux 3 Cam Type	3	0217	0	4	0	0f0217	tune					
+04692	2450	Aux 4 Cam Type	3	0217	4	4	0	0f0217	tune					
+04694	2275	Retard Gain	0	0218			1	0f0218	tune	degrees/ %	0.01	0		
+04696	2276	Advance Delay	0	0219			1	0f0219	tune	s	0.1	0		
+04698	2277	Advance Rate	0	021a			1	0f021a	tune	degrees/ sec	0.5	0		
+0469a	1661	DeadBand	0	021b			1	0f021b	tune	%	0.1	0		
+0469c	2457	Aux 5 Cam Type	3	021c	0	4	0	0f021c	tune					
+0469e	2458	Aux 6 Cam Type	3	021c	4	4	0	0f021c	tune					
+046a0	2459	Aux 7 Cam Type	3	021d	0	4	0	0f021d	tune					
+046a2	2460	Aux 8 Cam Type	3	021d	4	4	0	0f021d	tune					
+046a4	1187	Calibration DI #7	0	021e			2	0f021e	tune		1	0		
+046a6	1188	Calibration DI #8	0	0220			2	0f0220	tune		1	0		
+046a8	3800	G4 Table 1	1	0222			176	0f0222	tune		0.5	0	11	16
+046aa	3801	G4 X Axis Control 1	1	02d2			32	0f02d2	tune		1	0	1	16
+046ac	3802	G4 Y Axis Control 1	1	02f2			22	0f02f2	tune		1	0	1	11
+046ae	3803	X-Axis GP table1	3	0308	0	8	0	0f0308	tune					
+046b0	3804	Y-Axis GP Table1	3	0309	0	8	0	0f0309	tune					
+046b2	3805	G4 Table 2	1	030a			176	0f030a	tune		1	0	11	16
+046b4	3806	G4 X Axis Control 2	1	03ba			32	0f03ba	tune		1	0	1	16
+046b6	3807	G4 Y Axis Control 	1	03da			22	0f03da	tune		1	0	1	11
+046b8	3808	X-Axis GP table2	3	03f0	0	8	0	0f03f0	tune					
+046ba	3809	Y-Axis GP Table2	3	03f1	0	8	0	0f03f1	tune					
+046bc	3810	G4 Table 3	1	03f2			176	0f03f2	tune		1	0	11	16
+046be	3811	G4 X Axis Control 3	1	04a2			32	0f04a2	tune		1	0	1	16
+046c0	3812	G4 Y Axis Control 	1	04c2			22	0f04c2	tune		1	0	1	11
+046c2	3813	X-Axis GP table 3	3	04d8	0	8	0	0f04d8	tune					
+046c4	3814	Y-Axis GP Table 3	3	04d9	0	8	0	0f04d9	tune					
+046c6	3815	G4 Table 4	1	04da			176	0f04da	tune		1	0	11	16
+046c8	3816	G4 X Axis Control 4	1	058a			32	0f058a	tune		1	0	1	16
+046ca	3817	G4 Y Axis Control  4	1	05aa			22	0f05aa	tune		1	0	1	11
+046cc	3818	X-Axis GP table 4	3	05c0	0	8	0	0f05c0	tune					
+046ce	3819	Y-Axis GP Table4	3	05c1	0	8	0	0f05c1	tune					
+046d0	3820	G4 Table 5	1	05c2			176	0f05c2	tune		1	0	11	16
+046d2	3821	G4 X Axis Control 5	1	0672			32	0f0672	tune		1	0	1	16
+046d4	3822	G4 Y Axis Control 5	1	0692			22	0f0692	tune		1	0	1	11
+046d6	3823	X-Axis GP table 5	3	06a8	0	8	0	0f06a8	tune					
+046d8	3824	Y-Axis GP Table 5	3	06a9	0	8	0	0f06a9	tune					
+046da	3825	G4 Table 6	1	06aa			176	0f06aa	tune		1	0	11	16
+046dc	3826	G4 X Axis Control 6	1	075a			32	0f075a	tune		1	0	1	16
+046de	3827	G4 Y Axis Control 6	1	077a			22	0f077a	tune		1	0	1	11
+046e0	3828	X-Axis GP table 6	3	0790	0	8	0	0f0790	tune					
+046e2	3829	Y-Axis GP Table 6	3	0791	0	8	0	0f0791	tune					
+046e4	3830	G4 Table 7	1	0792			176	0f0792	tune		1	0	11	16
+046e6	3831	G4 X Axis Control 7	1	0842			32	0f0842	tune		1	0	1	16
+046e8	3832	G4 Y Axis Control 7	1	0862			22	0f0862	tune		1	0	1	11
+046ea	3833	X-Axis GP table 7	3	0878	0	8	0	0f0878	tune					
+046ec	3834	Y-Axis GP Table7 	3	0879	0	8	0	0f0879	tune					
+046ee	3835	G4 Table 8	1	087a			176	0f087a	tune	poo	1	0	11	16
+046f0	3836	G4 X Axis Control 8	1	092a			32	0f092a	tune		1	0	1	16
+046f2	3837	G4 Y Axis Control 8	1	094a			22	0f094a	tune		1	0	1	11
+046f4	3838	X-Axis GP table 8	3	0960	0	8	0	0f0960	tune					
+046f6	3839	Y-Axis GP Table 8	3	0961	0	8	0	0f0961	tune					
+046f8	3840	G4 Table 9	1	0962			176	0f0962	tune		1	0	11	16
+046fa	3841	G4 X Axis Control 9	1	0a12			32	0f0a12	tune		1	0	1	16
+046fc	3842	G4 Y Axis Control 9	1	0a32			22	0f0a32	tune		1	0	1	11
+046fe	3843	X-Axis GP table 9	3	0a48	0	8	0	0f0a48	tune					
+04700	3844	Y-Axis GP Table 9	3	0a49	0	8	0	0f0a49	tune					
+04702	3845	G4 Table 10	1	0a4a			176	0f0a4a	tune		1	0	11	16
+04704	3846	G4 X Axis Control 10	1	0afa			32	0f0afa	tune		1	0	1	16
+04706	3847	G4 Y Axis Control 10	1	0b1a			22	0f0b1a	tune		1	0	1	11
+04708	3848	X-Axis GP table 10	3	0b30	0	8	0	0f0b30	tune					
+0470a	3849	Y-Axis GP Table 10	3	0b31	0	8	0	0f0b31	tune					
+0470c	3860	G4 Table  WU	1	0b32			140	0f0b32	tune		0.5	0	10	14
+0470e	3861	G4 X Axis Control WU	1	0bbe			28	0f0bbe	tune		1	0	1	14
+04710	3862	G4 Y Axis Control WU	1	0bda			20	0f0bda	tune		1	0	1	10
+04712	3863	X-Axis GP table WU	3	0bee	0	8	0	0f0bee	tune					
+04714	3864	Y-Axis GP Table WU	3	0bef	0	8	0	0f0bef	tune					
+04716	3865	G4 Table AirCor	1	0bf0			140	0f0bf0	tune	%	0.5	-50	10	14
+04718	3866	G4 X Axis Control AirCor	1	0c7c			28	0f0c7c	tune		1	0	1	14
+0471a	3867	G4 Y Axis Control AirCor	1	0c98			20	0f0c98	tune		1	0	1	10
+0471c	3868	X-Axis GP table AirCor	3	0cac	0	8	0	0f0cac	tune					
+0471e	3869	Y-Axis GP Table AirCor	3	0cad	0	8	0	0f0cad	tune					
+04720	3870	G4 Table Dwell	1	0cae			140	0f0cae	tune		0.1	0	10	14
+04722	3871	G4 X Axis Control Dwell	1	0d3a			28	0f0d3a	tune		1	0	1	14
+04724	3872	G4 Y Axis Control Dwell	1	0d56			20	0f0d56	tune		1	0	1	10
+04726	3873	X-Axis GP table Dwell	3	0d6a	0	8	0	0f0d6a	tune					
+04728	3874	Y-Axis GP Table Dwell	3	0d6b	0	8	0	0f0d6b	tune					
+0472a	3438	Frequency Aux 17 (ign5)	0	0d6c			2	0f0d6c	tune	Hz	1	0		
+0472c	3439	Frequency Aux 18 (ign6)	0	0d6e			2	0f0d6e	tune	Hz	1	0		
+0472e	3440	Frequency Aux 19 (ign7)	0	0d70			2	0f0d70	tune	Hz	1	0		
+04730	3441	Frequency Aux 20 (ign8)	0	0d72			2	0f0d72	tune	Hz	1	0		
+04732	3442	Frequency Aux 25 (inj5)	0	0d74			2	0f0d74	tune	Hz	1	0		
+04734	3443	Frequency Aux 26(inj6)	0	0d76			2	0f0d76	tune	Hz	1	0		
+04736	3444	Frequency Aux 27I(nj7)	0	0d78			2	0f0d78	tune	Hz	1	0		
+04738	3445	Frequency Aux 28(inj8)	0	0d7a			2	0f0d7a	tune	Hz	1	0		
+0473a	3572	GP SW17	0	0d7c			2	0f0d7c	tune		1	0		
+0473c	3573	GP SW17	0	0d7e			2	0f0d7e	tune		1	0		
+0473e	3574	GP SW17	3	0d80	0	8	0	0f0d80	tune					
+04740	3575	GP SW17	3	0d81	0	8	0	0f0d81	tune					
+04742	3577	GP SW18	0	0d82			2	0f0d82	tune		1	0		
+04744	3578	GP SW18	0	0d84			2	0f0d84	tune		1	0		
+04746	3579	GP SW18	3	0d86	0	8	0	0f0d86	tune					
+04748	3580	GP SW18	3	0d87	0	8	0	0f0d87	tune					
+0474a	3582	GP SW19	0	0d88			2	0f0d88	tune		1	0		
+0474c	3583	GP SW19	0	0d8a			2	0f0d8a	tune		1	0		
+0474e	3584	GP SW19	3	0d8c	0	8	0	0f0d8c	tune					
+04750	3585	GP SW19	3	0d8d	0	8	0	0f0d8d	tune					
+04752	3587	GP SW20	0	0d8e			2	0f0d8e	tune		1	0		
+04754	3588	GP SW20	0	0d90			2	0f0d90	tune		1	0		
+04756	3589	GP SW20	3	0d92	0	8	0	0f0d92	tune					
+04758	3590	GP SW20	3	0d93	0	8	0	0f0d93	tune					
+0475a	3592	GP SW21	0	0d94			2	0f0d94	tune		1	0		
+0475c	3593	GP SW21	0	0d96			2	0f0d96	tune		1	0		
+0475e	3594	GP SW21	3	0d98	0	8	0	0f0d98	tune					
+04760	3595	GP SW21	3	0d99	0	8	0	0f0d99	tune					
+04762	3597	GP SW22	0	0d9a			2	0f0d9a	tune		1	0		
+04764	3598	GP SW22	0	0d9c			2	0f0d9c	tune		1	0		
+04766	3599	GP SW22	3	0d9e	0	8	0	0f0d9e	tune					
+04768	3600	GP SW22	3	0d9f	0	8	0	0f0d9f	tune					
+0476a	3602	GP SW23	0	0da0			2	0f0da0	tune		1	0		
+0476c	3603	GP SW23	0	0da2			2	0f0da2	tune		1	0		
+0476e	3604	GP SW23	3	0da4	0	8	0	0f0da4	tune					
+04770	3605	GP SW23	3	0da5	0	8	0	0f0da5	tune					
+04772	3607	GP SW24	0	0da6			2	0f0da6	tune		1	0		
+04774	3608	GP SW24	0	0da8			2	0f0da8	tune		1	0		
+04776	3609	GP SW24	3	0daa	0	8	0	0f0daa	tune					
+04778	3610	GP SW24	3	0dab	0	8	0	0f0dab	tune					
+0477a	3612	GP SW25	0	0dac			2	0f0dac	tune		1	0		
+0477c	3613	GP SW25	0	0dae			2	0f0dae	tune		1	0		
+0477e	3614	GP SW25	3	0db0	0	8	0	0f0db0	tune					
+04780	3615	GP SW25	3	0db1	0	8	0	0f0db1	tune					
+04782	3617	GP SW26	0	0db2			2	0f0db2	tune		1	0		
+04784	3618	GP SW26	0	0db4			2	0f0db4	tune		1	0		
+04786	3619	GP SW26	3	0db6	0	8	0	0f0db6	tune					
+04788	3620	GP SW26	3	0db7	0	8	0	0f0db7	tune					
+0478a	3622	GP SW27	0	0db8			2	0f0db8	tune		1	0		
+0478c	3623	GP SW27	0	0dba			2	0f0dba	tune		1	0		
+0478e	3624	GP SW27	3	0dbc	0	8	0	0f0dbc	tune					
+04790	3625	GP SW27	3	0dbd	0	8	0	0f0dbd	tune					
+04792	3627	GP SW28	0	0dbe			2	0f0dbe	tune		1	0		
+04794	3628	GP SW28	0	0dc0			2	0f0dc0	tune		1	0		
+04796	3629	GP SW28	3	0dc2	0	8	0	0f0dc2	tune					
+04798	3630	GP SW28	3	0dc3	0	8	0	0f0dc3	tune					
+0479a	1347	AirCon Step	1	0dc4			6	0f0dc4	tune		1	0	1	6
+0479c	1348	Startup Step	1	0dca			6	0f0dca	tune		1	0	1	6
+0479e	1349	Derivative Gain	1	0dd0			12	0f0dd0	tune		0.01	0	1	6
+047a0	1350	Proportional Gain	1	0ddc			12	0f0ddc	tune		0.1	0	1	6
+047a2	1351	Anti-Stall Gain	1	0de8			12	0f0de8	tune		0.1	0	1	6
+047a4	3632	GP SW32	0	0df4			2	0f0df4	tune		1	0		
+047a6	3633	GP SW32	0	0df6			2	0f0df6	tune		1	0		
+047a8	3634	GP SW32	3	0df8	0	8	0	0f0df8	tune					
+047aa	3635	GP SW32	3	0df9	0	8	0	0f0df9	tune					
+047ac	3637	GP SW33	0	0dfa			2	0f0dfa	tune		1	0		
+047ae	3638	GP SW33	0	0dfc			2	0f0dfc	tune		1	0		
+047b0	3639	GP SW33	3	0dfe	0	8	0	0f0dfe	tune					
+047b2	3640	GP SW33	3	0dff	0	8	0	0f0dff	tune					
+047b4	3642	GP SW34	0	0e00			2	0f0e00	tune		1	0		
+047b6	3643	GP SW34	0	0e02			2	0f0e02	tune		1	0		
+047b8	3644	GP SW34	3	0e04	0	8	0	0f0e04	tune					
+047ba	3645	GP SW34	3	0e05	0	8	0	0f0e05	tune					
+047bc	3647	GP SW35	0	0e06			2	0f0e06	tune		1	0		
+047be	3648	GP SW35	0	0e08			2	0f0e08	tune		1	0		
+047c0	3649	GP SW35	3	0e0a	0	8	0	0f0e0a	tune					
+047c2	3650	GP SW35	3	0e0b	0	8	0	0f0e0b	tune					
+047c4	3652	GP SW36	0	0e0c			2	0f0e0c	tune		1	0		
+047c6	3653	GP SW36	0	0e0e			2	0f0e0e	tune		1	0		
+047c8	3654	GP SW36	3	0e10	0	8	0	0f0e10	tune					
+047ca	3655	GP SW36	3	0e11	0	8	0	0f0e11	tune					
+047cc	3657	GP SW37	0	0e12			2	0f0e12	tune		1	0		
+047ce	3658	GP SW37	0	0e14			2	0f0e14	tune		1	0		
+047d0	3659	GP SW37	3	0e16	0	8	0	0f0e16	tune					
+047d2	3660	GP SW37	3	0e17	0	8	0	0f0e17	tune					
+047d4	3636	GP SW32	3	0e18	0	8	0	0f0e18	tune					
+047d6	3641	GP SW33	3	0e19	0	8	0	0f0e19	tune					
+047d8	3646	GP SW34	3	0e1a	0	8	0	0f0e1a	tune					
+047da	3651	GP SW35	3	0e1b	0	8	0	0f0e1b	tune					
+047dc	3656	GP SW36	3	0e1c	0	8	0	0f0e1c	tune					
+047de	3661	GP SW37	3	0e1d	0	8	0	0f0e1d	tune					
+047e0	1860	Gear Detection Mode	3	0e1e	0	4	0	0f0e1e	tune					
+047e2	2	EmptyBit	3	0e1e	4	1	0	0f0e1e	tune					
+047e4	3416	Engine Fan 1 on AC	3	0e1e	5	1	0	0f0e1e	tune					
+047e6	3417	Engine Fan 2 on AC	3	0e1e	6	1	0	0f0e1e	tune					
+047e8	3418	Engine Fan 3 on AC	3	0e1e	7	1	0	0f0e1e	tune					
+047ea	1861	Gear Detect Volt tolerance	0	0e1f			1	0f0e1f	tune	V	0.01	0		
+047ec	1870	Gear Detect Gear A	3	0e20	0	4	0	0f0e20	tune					
+047ee	1871	Gear Detect Gear B	3	0e20	4	4	0	0f0e20	tune					
+047f0	1872	Gear Detect Gear C	3	0e21	0	4	0	0f0e21	tune					
+047f2	1873	Gear Detect Gear D	3	0e21	4	4	0	0f0e21	tune					
+047f4	1874	Gear Detect Gear E	3	0e22	0	4	0	0f0e22	tune					
+047f6	1875	Gear Detect Gear F	3	0e22	4	4	0	0f0e22	tune					
+047f8	1876	Gear Detect Gear G	3	0e23	0	4	0	0f0e23	tune					
+047fa	1877	Gear Detect Gear H	3	0e23	4	4	0	0f0e23	tune					
+047fc	1862	Gear Detect Volt Gear A	0	0e24			1	0f0e24	tune	V	0.02	0		
+047fe	1863	Gear Detect Volt Gear B	0	0e25			1	0f0e25	tune	V	0.02	0		
+04800	1864	Gear Detect Volt Gear C	0	0e26			1	0f0e26	tune	V	0.02	0		
+04802	1865	Gear Detect Volt Gear D	0	0e27			1	0f0e27	tune	V	0.02	0		
+04804	1866	Gear Detect Volt Gear E	0	0e28			1	0f0e28	tune	V	0.02	0		
+04806	1867	Gear Detect Volt Gear F	0	0e29			1	0f0e29	tune	V	0.02	0		
+04808	1868	Gear Detect Volt Gear G	0	0e2a			1	0f0e2a	tune	V	0.02	0		
+0480a	1869	Gear Detect Volt Gear H	0	0e2b			1	0f0e2b	tune	V	0.02	0		
+0480c	3506	Frequency Aux 13 (ign1)	0	0e2c			2	0f0e2c	tune	Hz	1	0		
+0480e	3507	Frequency Aux 14 (ign2)	0	0e2e			2	0f0e2e	tune	Hz	1	0		
+04810	3508	Frequency Aux 15 (ign3)	0	0e30			2	0f0e30	tune	Hz	1	0		
+04812	3509	Frequency Aux 16 (ign4)	0	0e32			2	0f0e32	tune	Hz	1	0		
+04814	3510	Frequency Aux 21 (inj1)	0	0e34			2	0f0e34	tune	Hz	1	0		
+04816	3511	Frequency Aux 22 (inj2)	0	0e36			2	0f0e36	tune	Hz	1	0		
+04818	3512	Frequency Aux 23 (inj3)	0	0e38			2	0f0e38	tune	Hz	1	0		
+0481a	3513	Frequency Aux 24 (inj4)	0	0e3a			2	0f0e3a	tune	Hz	1	0		
+0481c	3850	G4 Table 11	1	0e3c			176	0f0e3c	tune		1	0	11	16
+0481e	3851	G4 X Axis Control 11	1	0eec			32	0f0eec	tune		1	0	1	16
+04820	3852	G4 Y Axis Control 11	1	0f0c			22	0f0f0c	tune		1	0	1	11
+04822	3853	X-Axis GP table 11	3	0f22	0	8	0	0f0f22	tune					
+04824	3854	Y-Axis GP Table 11	3	0f23	0	8	0	0f0f23	tune					
+04826	3855	G4 Table 12	1	0f24			176	0f0f24	tune		1	0	11	16
+04828	3856	G4 X Axis Control 12	1	0fd4			32	0f0fd4	tune		1	0	1	16
+0482a	3857	G4 Y Axis Control 12	1	0ff4			22	0f0ff4	tune		1	0	1	11
+0482c	3858	X-Axis GP table 12	3	100a	0	8	0	0f100a	tune					
+0482e	3859	Y-Axis GP Table 12	3	100b	0	8	0	0f100b	tune					
+04830	3905	G4 Table 1	1	100c			176	0f100c	tune		0.5	0	11	16
+04832	3906	G4 X Axis Control 1	1	10bc			32	0f10bc	tune		1	0	1	16
+04834	3907	G4 Y Axis Control 1	1	10dc			22	0f10dc	tune		1	0	1	11
+04836	3908	X-Axis GP table1	3	10f2	0	8	0	0f10f2	tune					
+04838	3909	Y-Axis GP Table1	3	10f3	0	8	0	0f10f3	tune					
+0483a	3910	G4 Table 1	1	10f4			176	0f10f4	tune		0.5	0	11	16
+0483c	3911	G4 X Axis Control 1	1	11a4			32	0f11a4	tune		1	0	1	16
+0483e	3912	G4 Y Axis Control 1	1	11c4			22	0f11c4	tune		1	0	1	11
+04840	3913	X-Axis GP table1	3	11da	0	8	0	0f11da	tune					
+04842	3914	Y-Axis GP Table1	3	11db	0	8	0	0f11db	tune					
+04844	3915	G4 Table 1	1	11dc			176	0f11dc	tune		0.5	0	11	16
+04846	3916	G4 X Axis Control 1	1	128c			32	0f128c	tune		1	0	1	16
+04848	3917	G4 Y Axis Control 1	1	12ac			22	0f12ac	tune		1	0	1	11
+0484a	3918	X-Axis GP table1	3	12c2	0	8	0	0f12c2	tune					
+0484c	3919	Y-Axis GP Table1	3	12c3	0	8	0	0f12c3	tune					
+0484e	3920	G4 Table 1	1	12c4			176	0f12c4	tune		0.5	0	11	16
+04850	3921	G4 X Axis Control 1	1	1374			32	0f1374	tune		1	0	1	16
+04852	3922	G4 Y Axis Control 1	1	1394			22	0f1394	tune		1	0	1	11
+04854	3923	X-Axis GP table1	3	13aa	0	8	0	0f13aa	tune					
+04856	3924	Y-Axis GP Table1	3	13ab	0	8	0	0f13ab	tune					
+04858	3925	G4 Table 1	1	13ac			176	0f13ac	tune		0.5	0	11	16
+0485a	3926	G4 X Axis Control 1	1	145c			32	0f145c	tune		1	0	1	16
+0485c	3927	G4 Y Axis Control 1	1	147c			22	0f147c	tune		1	0	1	11
+0485e	3928	X-Axis GP table1	3	1492	0	8	0	0f1492	tune					
+04860	3929	Y-Axis GP Table1	3	1493	0	8	0	0f1493	tune					
+04862	3930	G4 Table 1	1	1494			176	0f1494	tune		0.5	0	11	16
+04864	3931	G4 X Axis Control 1	1	1544			32	0f1544	tune		1	0	1	16
+04866	3932	G4 Y Axis Control 1	1	1564			22	0f1564	tune		1	0	1	11
+04868	3933	X-Axis GP table1	3	157a	0	8	0	0f157a	tune					
+0486a	3934	Y-Axis GP Table1	3	157b	0	8	0	0f157b	tune					
+0486c	3935	G4 Table 1	1	157c			176	0f157c	tune		0.5	0	11	16
+0486e	3936	G4 X Axis Control 1	1	162c			32	0f162c	tune		1	0	1	16
+04870	3937	G4 Y Axis Control 1	1	164c			22	0f164c	tune		1	0	1	11
+04872	3938	X-Axis GP table1	3	1662	0	8	0	0f1662	tune					
+04874	3939	Y-Axis GP Table1	3	1663	0	8	0	0f1663	tune					
+04876	3940	G4 Table 1	1	1664			176	0f1664	tune		0.5	0	11	16
+04878	3941	G4 X Axis Control 1	1	1714			32	0f1714	tune		1	0	1	16
+0487a	3942	G4 Y Axis Control 1	1	1734			22	0f1734	tune		1	0	1	11
+0487c	3943	X-Axis GP table1	3	174a	0	8	0	0f174a	tune					
+0487e	3944	Y-Axis GP Table1	3	174b	0	8	0	0f174b	tune					
+04880	3945	G4 Table 1	1	174c			176	0f174c	tune		0.5	0	11	16
+04882	3946	G4 X Axis Control 1	1	17fc			32	0f17fc	tune		1	0	1	16
+04884	3947	G4 Y Axis Control 1	1	181c			22	0f181c	tune		1	0	1	11
+04886	3948	X-Axis GP table1	3	1832	0	8	0	0f1832	tune					
+04888	3949	Y-Axis GP Table1	3	1833	0	8	0	0f1833	tune					
+0488a	3950	G4 Table 1	1	1834			176	0f1834	tune		0.5	0	11	16
+0488c	3951	G4 X Axis Control 1	1	18e4			32	0f18e4	tune		1	0	1	16
+0488e	3952	G4 Y Axis Control 1	1	1904			22	0f1904	tune		1	0	1	11
+04890	3953	X-Axis GP table1	3	191a	0	8	0	0f191a	tune					
+04892	3954	Y-Axis GP Table1	3	191b	0	8	0	0f191b	tune					
+04894	3955	G4 Table 1	1	191c			176	0f191c	tune		0.5	0	11	16
+04896	3956	G4 X Axis Control 1	1	19cc			32	0f19cc	tune		1	0	1	16
+04898	3957	G4 Y Axis Control 1	1	19ec			22	0f19ec	tune		1	0	1	11
+0489a	3958	X-Axis GP table1	3	1a02	0	8	0	0f1a02	tune					
+0489c	3959	Y-Axis GP Table1	3	1a03	0	8	0	0f1a03	tune					
+0489e	3960	G4 Table 1	1	1a04			176	0f1a04	tune		0.5	0	11	16
+048a0	3961	G4 X Axis Control 1	1	1ab4			32	0f1ab4	tune		1	0	1	16
+048a2	3962	G4 Y Axis Control 1	1	1ad4			22	0f1ad4	tune		1	0	1	11
+048a4	3963	X-Axis GP table1	3	1aea	0	8	0	0f1aea	tune					
+048a6	3964	Y-Axis GP Table1	3	1aeb	0	8	0	0f1aeb	tune					
+048a8	3965	G4 Table 1	1	1aec			176	0f1aec	tune		0.5	0	11	16
+048aa	3966	G4 X Axis Control 1	1	1b9c			32	0f1b9c	tune		1	0	1	16
+048ac	3967	G4 Y Axis Control 1	1	1bbc			22	0f1bbc	tune		1	0	1	11
+048ae	3968	X-Axis GP table1	3	1bd2	0	8	0	0f1bd2	tune					
+048b0	3969	Y-Axis GP Table1	3	1bd3	0	8	0	0f1bd3	tune					
+048b2	3970	G4 Table 1	1	1bd4			176	0f1bd4	tune		0.5	0	11	16
+048b4	3971	G4 X Axis Control 1	1	1c84			32	0f1c84	tune		1	0	1	16
+048b6	3972	G4 Y Axis Control 1	1	1ca4			22	0f1ca4	tune		1	0	1	11
+048b8	3973	X-Axis GP table1	3	1cba	0	8	0	0f1cba	tune					
+048ba	3974	Y-Axis GP Table1	3	1cbb	0	8	0	0f1cbb	tune					
+048bc	3975	G4 Table 1	1	1cbc			176	0f1cbc	tune		0.5	0	11	16
+048be	3976	G4 X Axis Control 1	1	1d6c			32	0f1d6c	tune		1	0	1	16
+048c0	3977	G4 Y Axis Control 1	1	1d8c			22	0f1d8c	tune		1	0	1	11
+048c2	3978	X-Axis GP table1	3	1da2	0	8	0	0f1da2	tune					
+048c4	3979	Y-Axis GP Table1	3	1da3	0	8	0	0f1da3	tune					
+048c6	3980	G4 Table 1	1	1da4			176	0f1da4	tune		0.5	0	11	16
+048c8	3981	G4 X Axis Control 1	1	1e54			32	0f1e54	tune		1	0	1	16
+048ca	3982	G4 Y Axis Control 1	1	1e74			22	0f1e74	tune		1	0	1	11
+048cc	3983	X-Axis GP table1	3	1e8a	0	8	0	0f1e8a	tune					
+048ce	3984	Y-Axis GP Table1	3	1e8b	0	8	0	0f1e8b	tune					
+048d0	3985	G4 Table 1	1	1e8c			176	0f1e8c	tune		0.5	0	11	16
+048d2	3986	G4 X Axis Control 1	1	1f3c			32	0f1f3c	tune		1	0	1	16
+048d4	3987	G4 Y Axis Control 1	1	1f5c			22	0f1f5c	tune		1	0	1	11
+048d6	3988	X-Axis GP table1	3	1f72	0	8	0	0f1f72	tune					
+048d8	3989	Y-Axis GP Table1	3	1f73	0	8	0	0f1f73	tune					
+048da	3990	G4 Table 1	1	1f74			176	0f1f74	tune		0.5	0	11	16
+048dc	3991	G4 X Axis Control 1	1	2024			32	0f2024	tune		1	0	1	16
+048de	3992	G4 Y Axis Control 1	1	2044			22	0f2044	tune		1	0	1	11
+048e0	3993	X-Axis GP table1	3	205a	0	8	0	0f205a	tune					
+048e2	3994	Y-Axis GP Table1	3	205b	0	8	0	0f205b	tune					
+048e4	3890	Lambda Target Table	1	205c			140	0f205c	tune		0.005	0.4	10	14
+048e6	3880	G4 X Axis Control AFR	1	20e8			28	0f20e8	tune		1	0	1	14
+048e8	3881	G4 Y Axis Control AFR	1	2104			20	0f2104	tune		1	0	1	10
+048ea	3882	X-Axis AFR G4	3	2118	0	8	0	0f2118	tune					
+048ec	3883	Y-Axis AFR G4	3	2119	0	8	0	0f2119	tune					
+048ee	3891	Lambda Target Table 2	1	211a			140	0f211a	tune		0.005	0.4	10	14
+048f0	3892	G4 X Axis Control AFR	1	21a6			28	0f21a6	tune		1	0	1	14
+048f2	3893	G4 Y Axis Control AFR	1	21c2			20	0f21c2	tune		1	0	1	10
+048f4	3894	X-Axis AFR G4	3	21d6	0	8	0	0f21d6	tune					
+048f6	3895	Y-Axis AFR G4	3	21d7	0	8	0	0f21d7	tune					
+048f8	3884	Seq Table G4	1	21d8			140	0f21d8	tune		5	0	10	14
+048fa	3885	G4 X Axis ControlSeq	1	2264			28	0f2264	tune		1	0	1	14
+048fc	3886	G4 Y Axis Control Seq	1	2280			20	0f2280	tune		1	0	1	10
+048fe	3887	X-Axis Seq G4	3	2294	0	8	0	0f2294	tune					
+04900	3888	Y-Axis SeqG4	3	2295	0	8	0	0f2295	tune					
+0492a	2827	Slip Threshold	1	22aa			6	0f22aa	tune	%	1	0	1	6
+0492c	1297	Proportional Gain ISC	0	22b0			2	0f22b0	tune		0.1	0		
+0492e	1296	Integral Gain ISC	0	22b2			2	0f22b2	tune		1	0		
+04930	1298	Derivtive Gain ISC	0	22b4			2	0f22b4	tune		0.01	0		
+04932	2829	Ignition Retard	0	22b6			1	0f22b6	tune		0.1	-20		
+04934	2830	RPM Lockout	0	22b7			1	0f22b7	tune	RPM	100	0		
+04936	2831	TPS Lockout	0	22b8			1	0f22b8	tune	%TP	1	0		
+04938	2832	Speed Lockout	0	22b9			1	0f22b9	tune	kph	0.1	0		
+0493a	2378	Custom TDC Points	1	22ba			24	0f22ba	tune		0.1	0	1	12
+0493c	2955	Peak Current new	1	22d2			8	0f22d2	tune		0.0414902	0	1	8
+0493e	2956	Hold Current new	1	22da			8	0f22da	tune		0.0414902	0	1	8
+04968	1292	Proportional Gain CAM	0	22f6			2	0f22f6	tune		0.01	0		
+0496a	1293	Integral Gain 2 CAM	0	22f8			2	0f22f8	tune		0.01	0		
+0496c	1294	Derivaive Gain CAM	0	22fa			2	0f22fa	tune		0.01	0		
+04986	1295	Moving Point average	0	2308			1	0f2308	tune		1	0		
+0498a	1272	Proportional Gain CAM	0	230a			2	0f230a	tune		0.01	0		
+0498c	1273	Integral Gain 2 CAM	0	230c			2	0f230c	tune		0.01	0		
+0498e	1274	Derivaive Gain CAM	0	230e			2	0f230e	tune		0.01	0		
+049a8	1275	Moving Point average	0	231c			1	0f231c	tune		1	0		
+049ac	1249	Proportional Gain -Exh LH	0	231e			2	0f231e	tune		0.01	0		
+049ae	1250	Integral Gain-Exh LH	0	2320			2	0f2320	tune		0.01	0		
+049b0	1251	Derivative Gain-Exh LH	0	2322			2	0f2322	tune		0.01	0		
+049ca	1252	MPA Exh LH	0	2330			1	0f2330	tune		1	0		
+049ce	1245	Proportional Gain -Exh rH	0	2332			2	0f2332	tune		0.01	0		
+049d0	1246	Integral Gain-Exh RH	0	2334			2	0f2334	tune		0.01	0		
+049d2	1247	Derivative Gain- Exh RH	0	2336			2	0f2336	tune		0.01	0		
+049ec	1248	MPA Exh LH	0	2344			1	0f2344	tune		1	0		
+049f0	1285	Proportional Gain EWIRE	0	2346			2	0f2346	tune		0.00390625	0		
+049f2	1286	Intergral Gain 2 EWIRE	0	2348			2	0f2348	tune		0.00390625	0		
+049f4	1287	Derivtive Gain EWIRE	0	234a			2	0f234a	tune		0.00390625	0		
+04a06	1288	Min Clamp  EWIRE	0	2354			2	0f2354	tune	% DC	0.1	-100		
+04a08	1289	Max Clamp EWIRE	0	2356			2	0f2356	tune	% DC	0.1	-100		
+04a0e	1257	Min DC Clamp 	1	235a			3	0f235a	tune	% DC	1	0	1	3
+04a10	1258	Max DC Clamp 	1	235d			3	0f235d	tune	% DC	1	0	1	3
+04a12	1259	Min DC Clamp 	1	2360			3	0f2360	tune	% DC	1	0	1	3
+04a14	1260	Max DC Clamp 	1	2363			3	0f2363	tune	% DC	1	0	1	3
+04a16	1253	Min DC Clamp 	1	2366			3	0f2366	tune	% DC	1	0	1	3
+04a18	1254	Max DC Clamp 	1	2369			3	0f2369	tune	% DC	1	0	1	3
+04a1a	1255	Min DC Clamp 	1	236c			3	0f236c	tune	% DC	1	0	1	3
+04a1c	1256	Max DC Clamp 	1	236f			3	0f236f	tune	% DC	1	0	1	3
+04a1e	1803	ECT Trim Table G4	1	2372			18	0f2372	tune	%	1	-100	1	18
+04a20	1802	IAT Trim Table (%) G4	1	2384			18	0f2384	tune	%	1	-100	1	18
+04a22	2286	Cyl 1 Allocation	3	2396	0	4	0	0f2396	tune					
+04a24	2287	Cyl 2 Allocation	3	2396	4	4	0	0f2396	tune					
+04a26	2288	Cyl 3 Allocation	3	2397	0	4	0	0f2397	tune					
+04a28	2289	Cyl 4 Allocation	3	2397	4	4	0	0f2397	tune					
+04a2a	2290	Cyl 5 Allocation	3	2398	0	4	0	0f2398	tune					
+04a2c	2291	Cyl 6 Allocation	3	2398	4	4	0	0f2398	tune					
+04a2e	2292	Cyl 7 Allocation	3	2399	0	4	0	0f2399	tune					
+04a30	2293	Cyl 8 Allocation	3	2399	4	4	0	0f2399	tune					
+04a32	2881	RPM Zone Centers G4 FTable2	1	239a			44	0f239a	tune		1	0	1	22
+04a34	2882	Load Zone Centers G4 FTable2	1	23c6			40	0f23c6	tune		1	0	1	20
+04a36	2879	RPM Zone Centers G4 ITable2	1	23ee			44	0f23ee	tune		1	0	1	22
+04a38	2880	Load Zone Centers G4 ITable2	1	241a			40	0f241a	tune		1	0	1	20
+04a3a	3382	Function	3	2442	0	8	0	0f2442	tune					
+04a3c	3383	Function	3	2443	0	8	0	0f2443	tune					
+04a3e	3384	Function	3	2444	0	8	0	0f2444	tune					
+04a40	3385	Function	3	2445	0	8	0	0f2445	tune					
+04a42	3386	Function	3	2446	0	8	0	0f2446	tune					
+04a44	3387	Function	3	2447	0	8	0	0f2447	tune					
+04a46	1235	Start Switch Mode	3	2448	0	3	0	0f2448	tune					
+04a48	1236	Use Park/Neutral Lockout	3	2448	3	1	0	0f2448	tune					
+04a4a	1237	Use Antitheft Lockout	3	2448	4	1	0	0f2448	tune					
+04a4c	3401	AC Control Mode	3	2448	5	3	0	0f2448	tune					
+04a4e	1238	Starter Deactivation RPM	0	2449			1	0f2449	tune	RPM	10	0		
+04a50	1239	Max Crank Time	0	244a			1	0f244a	tune	s	0.1	0		
+04a52	3402	AC High Pressure Lockout	0	244b			1	0f244b	tune		20	0		
+04a54	3403	AC Low Pressure Lockout	0	244c			1	0f244c	tune		20	0		
+04a56	3404	AC Low Evap Temp Lockout	0	244d			1	0f244d	tune		0.2	-10		
+04a58	2613	Cruise On Switch Voltage	0	244e			1	0f244e	tune	Volts	0.02	0		
+04a5a	2614	Cruise Set Switch Voltage	0	244f			1	0f244f	tune	Volts	0.02	0		
+04a5c	2615	Cruise Resume Switch Voltage	0	2450			1	0f2450	tune	Volts	0.02	0		
+04a5e	2616	Cruise Cancel Switch Voltage	0	2451			1	0f2451	tune	Volts	0.02	0		
+04a60	2617	Cruise Switch Voltage Tollerance	0	2452			1	0f2452	tune	Volts	0.02	0		
+04a62	2661	Slip Filter Size	3	2453	0	4	0	0f2453	tune					
+04a64	2683	Acceleration Source	3	2453	4	4	0	0f2453	tune					
+04a66	2314	Random thingie	0	2454			1	0f2454	tune	%	1	0		
+04a68	2315	Low Percentage	0	2455			1	0f2455	tune	%	1	0		
+04a6a	2317	Entry TP Low	0	2456			1	0f2456	tune	%TP	1	0		
+04a6c	2318	Entry % Cut (TP Low)	0	2457			1	0f2457	tune	%	1	0		
+04a6e	2319	Exit Decay Rate	0	2458			1	0f2458	tune	% / 20ms	1	0		
+04a70	2320	Hard Limit Activation	0	2459			1	0f2459	tune	RPM	10	0		
+04a72	2760	Start Cut (100%TP)	0	245a			1	0f245a	tune	%	1	0		
+04a74	2761	End Cut	0	245b			1	0f245b	tune	%	1	0		
+04a76	2762	TP Low	0	245c			1	0f245c	tune	%TP	1	0		
+04a78	2763	Start Cut (TP Low)	0	245d			1	0f245d	tune	%	1	0		
+04a7a	2764	Exit Decay Rate	0	245e			1	0f245e	tune	%/20ms	1	0		
+04a7c	2765	Hard Limit Activation	0	245f			1	0f245f	tune	RPM	10	0		
+04a7e	2766	Start Cut (100%TP)	0	2460			1	0f2460	tune	%	1	0		
+04a80	2767	End Cut	0	2461			1	0f2461	tune	%	1	0		
+04a82	2768	TP Low	0	2462			1	0f2462	tune	%TP	1	0		
+04a84	2769	Start Cut (TP Low)	0	2463			1	0f2463	tune	%	1	0		
+04a86	2770	Exit Decay Rate	0	2464			1	0f2464	tune	%/20ms	1	0		
+04a88	2771	Hard Limit Activation	0	2465			1	0f2465	tune		0.1	0		
+04a8a	2772	Start Cut (100%TP)	0	2466			1	0f2466	tune	%	1	0		
+04a8c	2773	End Cut	0	2467			1	0f2467	tune	%	1	0		
+04a8e	2774	TP Low	0	2468			1	0f2468	tune	%TP	1	0		
+04a90	2775	Start Cut (TP Low)	0	2469			1	0f2469	tune	%	1	0		
+04a92	2776	Exit Decay Rate	0	246a			1	0f246a	tune	%/20ms	1	0		
+04a94	2777	Hard Limit Activation	0	246b			1	0f246b	tune	kPa	1	0		
+04a96	2778	Start Cut (TP 100%)	0	246c			1	0f246c	tune	%	1	0		
+04a98	2779	End Cut	0	246d			1	0f246d	tune	%	1	0		
+04a9a	2780	TP Low	0	246e			1	0f246e	tune	%TP	1	0		
+04a9c	2781	Start Cut (TP Low)	0	246f			1	0f246f	tune	%	1	0		
+04a9e	2782	Exit Decay Rate	0	2470			1	0f2470	tune	%/20ms	1	0		
+04aa0	2783	Hard Limit Activation	0	2471			1	0f2471	tune	RPM	10	0		
+04aa2	2784	Start Cut (TP 100%)	0	2472			1	0f2472	tune	%	1	0		
+04aa4	2785	End Cut	0	2473			1	0f2473	tune	%	1	0		
+04aa6	2786	TP Low	0	2474			1	0f2474	tune	%TP	1	0		
+04aa8	2787	Start Cut (TP Low)	0	2475			1	0f2475	tune	%	1	0		
+04aaa	2788	Exit Decay Rate	0	2476			1	0f2476	tune	%/20ms	1	0		
+04aac	2789	Hard Limit Activation	0	2477			1	0f2477	tune	RPM	10	0		
+04aae	2790	Start Cut (TP 100%)	0	2478			1	0f2478	tune	%	1	0		
+04ab0	2791	End Cut	0	2479			1	0f2479	tune	%	1	0		
+04ab2	2792	TP Low	0	247a			1	0f247a	tune	%TP	1	0		
+04ab4	2793	Start Cut (TP Low)	0	247b			1	0f247b	tune	%	1	0		
+04ab6	2794	Exit Decay Rate	0	247c			1	0f247c	tune	%/20ms	1	0		
+04ab8	2795	Hard Limit Activation	0	247d			1	0f247d	tune	RPM	1	0		
+04aba	2796	Start Cut (TP 100%)	0	247e			1	0f247e	tune	%	1	0		
+04abc	2797	End Cut	0	247f			1	0f247f	tune	%	1	0		
+04abe	3662	Function	3	2480	0	8	0	0f2480	tune					
+04ac0	3670	Function	3	2481	0	8	0	0f2481	tune					
+04ac2	3678	Function	3	2482	0	8	0	0f2482	tune					
+04ac6	2802	Cut Effect	3	2484	0	1	0	0f2484	tune					
+04ac8	2803	Cut Effect	3	2484	1	1	0	0f2484	tune					
+04aca	2804	Cut Effect	3	2484	2	1	0	0f2484	tune					
+04acc	2805	Cut Effect	3	2484	3	1	0	0f2484	tune					
+04ace	2806	Cut Effect	3	2484	4	1	0	0f2484	tune					
+04ad0	2807	Cut Effect	3	2484	5	1	0	0f2484	tune					
+04ad2	2808	Cut Effect	3	2484	6	1	0	0f2484	tune					
+04ad4	2	EmptyBit	3	2484	7	1	0	0f2484	tune					
+04ad6	2679	Driven Wheel Speed Correction	0	2485			1	0f2485	tune	%	0.1	-10		
+04ad8	2632	Activation Control	3	2486	0	8	0	0f2486	tune					
+04ada	3029	Master Fuel	0	2487			1	0f2487	tune	%	1	-100		
+04adc	2809	Hard Limit Mode	3	2488	0	4	0	0f2488	tune					
+04ade	2810	Hard Limit Mode	3	2488	4	4	0	0f2488	tune					
+04ae0	2811	Hard Limit Mode	3	2489	0	4	0	0f2489	tune					
+04ae2	2812	Hard Limit Mode	3	2489	4	4	0	0f2489	tune					
+04ae4	2813	Hard Limit Mode	3	248a	0	4	0	0f248a	tune					
+04ae6	2814	Hard Limit Mode	3	248a	4	4	0	0f248a	tune					
+04ae8	2321	Ignition Retard	0	248b			1	0f248b	tune		0.1	-20		
+04aea	2322	Ignition Retard	0	248c			1	0f248c	tune		0.1	-20		
+04aec	2323	Ignition Retard	0	248d			1	0f248d	tune		0.1	-20		
+04aee	1826	Wastegate Max DC	0	248e			1	0f248e	tune	%	1	0		
+04af0	1814	Deactivation Timeout	0	248f			1	0f248f	tune	secs	0.1	0		
+04af2	1823	ECT Boost Compensation	1	2490			18	0f2490	tune	kPa	1	-100	1	18
+04af4	2306	Cyl1 Knk Gain	0	24a2			1	0f24a2	tune		0.01	0		
+04af6	2307	Cyl2 Knk Gain	0	24a3			1	0f24a3	tune		0.01	0		
+04af8	2308	Cyl3 Knk Gain	0	24a4			1	0f24a4	tune		0.01	0		
+04afa	2309	Cyl4 Knk Gain	0	24a5			1	0f24a5	tune		0.01	0		
+04afc	2310	Cyl5 Knk Gain	0	24a6			1	0f24a6	tune		0.01	0		
+04afe	2311	Cy6  Knk Gain	0	24a7			1	0f24a7	tune		0.01	0		
+04b00	2312	Cyl7 Knk Gain	0	24a8			1	0f24a8	tune		0.01	0		
+04b02	2313	Cyl8 Knk Gain	0	24a9			1	0f24a9	tune		0.01	0		
+04b04	1824	IAT Boost Compensation	1	24aa			18	0f24aa	tune	kPa	1	-100	1	18
+04b06	1825	Gear Boost Compensation	1	24bc			6	0f24bc	tune	kPa	1	-100	1	6
+04b08	1827	Gear WG Comp	1	24c2			6	0f24c2	tune		1	-100	1	6
+04b0a	3502	Trig 2 Lockout	0	24c8			2	0f24c8	tune	RPM	1	0		
+04b0c	1840	PD/PI XOver Delay	0	24ca			1	0f24ca	tune	secs	0.05	0		
+04b0e	1835	Integral  OFF	0	24cb			1	0f24cb	tune	kPa	1	0		
+04b10	1828	PD/PI XOver	0	24cc			1	0f24cc	tune	kPa	1	0		
+04b12	1830	Integral Clamp	0	24cd			1	0f24cd	tune	%DC	0.1	0		
+04b14	3458	CLL AN Souce 2	3	24ce	0	4	0	0f24ce	tune					
+04b16	2603	Cruise Mode	3	24ce	4	2	0	0f24ce	tune					
+04b18	2008	Timer 1 Polarity	3	24ce	6	2	0	0f24ce	tune					
+04b1a	2006	Timer 1 Activation	3	24cf	0	8	0	0f24cf	tune					
+04b1c	2010	Timer 1 Max Time	0	24d0			2	0f24d0	tune	s	0.001	0		
+04b1e	2011	Timer 2 Max Time	0	24d2			2	0f24d2	tune	s	0.001	0		
+04b20	2007	Timer 2 Activation	3	24d4	0	8	0	0f24d4	tune					
+04b22	2836	Slip Threshold (%)	1	24d5			6	0f24d5	tune	%	1	0	1	6
+04b30	2838	Table 2 Activation	3	24e1	0	8	0	0f24e1	tune					
+04b32	1729	OBD Mode	3	24e2	0	4	0	0f24e2	tune					
+04b34	2	EmptyBit	3	24e2	4	1	0	0f24e2	tune					
+04b36	2	EmptyBit	3	24e2	5	1	0	0f24e2	tune					
+04b38	2	EmptyBit	3	24e2	6	1	0	0f24e2	tune					
+04b3a	2	EmptyBit	3	24e2	7	1	0	0f24e2	tune					
+04b3c	1730	G4S CAN1 Mode	3	24e3	0	8	0	0f24e3	tune					
+04b3e	1738	G4S CAN 1 Channel 1 Mode	3	24e4	0	8	0	0f24e4	tune					
+04b40	1739	G4S CAN 1 Channel 2 Mode	3	24e5	0	8	0	0f24e5	tune					
+04b42	1740	G4S CAN 1 Channel 3 Mode	3	24e6	0	8	0	0f24e6	tune					
+04b44	1741	G4S CAN 1 Channel 4 Mode	3	24e7	0	8	0	0f24e7	tune					
+04b46	1742	G4S CAN 1 Channel 5 Mode	3	24e8	0	8	0	0f24e8	tune					
+04b48	1743	G4S CAN 1 Channel 6 Mode	3	24e9	0	8	0	0f24e9	tune					
+04b4a	1762	G4S CAN 1 Channel 1 CAN ID	0	24ea			4	0f24ea	tune		1	0		
+04b4c	1763	G4S CAN 1 Channel 2 CAN ID	0	24ee			4	0f24ee	tune		1	0		
+04b4e	1764	G4S CAN 1 Channel 3 CAN ID	0	24f2			4	0f24f2	tune		1	0		
+04b50	1765	G4S CAN 1 Channel 4 CAN ID	0	24f6			4	0f24f6	tune		1	0		
+04b52	1766	G4S CAN 1 Channel 5 CAN ID	0	24fa			4	0f24fa	tune		1	0		
+04b54	1767	G4S CAN 1 Channel 6 CAN ID	0	24fe			4	0f24fe	tune		1	0		
+04b56	1750	G4S CAN 1 Channel 1 Rate	0	2502			1	0f2502	tune	ms	5	0		
+04b58	1751	G4S CAN 1 Channel 2 Rate	0	2503			1	0f2503	tune	ms	5	0		
+04b5a	1752	G4S CAN 1 Channel 3 Rate	0	2504			1	0f2504	tune	ms	5	0		
+04b5c	1753	G4S CAN 1 Channel 4 Rate	0	2505			1	0f2505	tune	ms	5	0		
+04b5e	1754	G4S CAN 1 Channel 5 Rate	0	2506			1	0f2506	tune	ms	5	0		
+04b60	1755	G4S CAN 1 Channel 6 Rate	0	2507			1	0f2507	tune	ms	5	0		
+04b64	1731	G4S CAN2 Mode	3	2509	0	8	0	0f2509	tune					
+04b66	1744	G4S CAN 2 Channel 1 Mode	3	250a	0	8	0	0f250a	tune					
+04b68	1745	G4S CAN 2 Channel 2 Mode	3	250b	0	8	0	0f250b	tune					
+04b6a	1746	G4S CAN 2 Channel 3 Mode	3	250c	0	8	0	0f250c	tune					
+04b6c	1747	G4S CAN 2 Channel 4 Mode	3	250d	0	8	0	0f250d	tune					
+04b6e	1748	G4S CAN 2 Channel 5 Mode	3	250e	0	8	0	0f250e	tune					
+04b70	1749	G4S CAN 2 Channel 6 Mode	3	250f	0	8	0	0f250f	tune					
+04b72	1768	G4S CAN 2 Channel 1 CAN ID	0	2510			4	0f2510	tune		1	0		
+04b74	1769	G4S CAN 2 Channel 2 CAN ID	0	2514			4	0f2514	tune		1	0		
+04b76	1770	G4S CAN 2 Channel 3 CAN ID	0	2518			4	0f2518	tune		1	0		
+04b78	1771	G4S CAN 2 Channel 4 CAN ID	0	251c			4	0f251c	tune		1	0		
+04b7a	1772	G4S CAN 2 Channel 5 CAN ID	0	2520			4	0f2520	tune		1	0		
+04b7c	1773	G4S CAN 2 Channel 6 CAN ID	0	2524			4	0f2524	tune		1	0		
+04b7e	1756	G4S CAN 2 Channel 1 Rate	0	2528			1	0f2528	tune	ms	5	0		
+04b80	1757	G4S CAN 2 Channel 2 Rate	0	2529			1	0f2529	tune	ms	5	0		
+04b82	1758	G4S CAN 2 Channel 3 Rate	0	252a			1	0f252a	tune	ms	5	0		
+04b84	1759	G4S CAN 2 Channel 4 Rate	0	252b			1	0f252b	tune	ms	5	0		
+04b86	1760	G4S CAN 2 Channel 5 Rate	0	252c			1	0f252c	tune	ms	5	0		
+04b88	1761	G4S CAN 2 Channel 6 Rate	0	252d			1	0f252d	tune	ms	5	0		
+04b8a	1131	Sample Rate	0	252e			1	0f252e	tune		1	0		
+04b8c	1302	RPM Lockout	0	252f			1	0f252f	tune		10	0		
+04b8e	1290	TP/FP lockout	0	2530			1	0f2530	tune	%	0.1	0		
+04b90	1291	Activation Delay	0	2531			1	0f2531	tune	kPa	1	0		
+04bf2	3186	FP Speed Off DC	0	2562			1	0f2562	tune	%	1	0		
+04bf4	723	ISCIgnTarget	0	2563			1	0f2563	tune	°BTDC	0.2	-10		
+04bf6	724	ISCIgnRange	0	2564			1	0f2564	tune	±°	0.2	0		
+04bf8	721	Dashpot Step	0	2565			1	0f2565	tune	rpm	5	0		
+04bfa	722	Dashpot Hold Time	0	2566			1	0f2566	tune	s	0.02	0		
+04bfc	720	Dashpot Decay Rate	0	2567			1	0f2567	tune		1	0		
+04bfe	700	Function	3	2568	0	8	0	0f2568	tune					
+04c00	710	Function	3	2569	0	8	0	0f2569	tune					
+04c02	701	GP SW12	0	256a			2	0f256a	tune		1	0		
+04c04	702	GP SW12	0	256c			2	0f256c	tune		1	0		
+04c06	703	GP SW12	0	256e			2	0f256e	tune		1	0		
+04c08	704	GP SW12	3	2570	0	8	0	0f2570	tune					
+04c0a	705	GP SW12	3	2571	0	8	0	0f2571	tune					
+04c0c	706	GP SW12	3	2572	0	8	0	0f2572	tune					
+04c0e	707	GP SW12	3	2573	0	8	0	0f2573	tune					
+04c10	711	GP SW12	0	2574			2	0f2574	tune		1	0		
+04c12	712	GP SW12	0	2576			2	0f2576	tune		1	0		
+04c14	713		0	2578			2	0f2578	tune		1	0		
+04c16	714	GP SW12	3	257a	0	8	0	0f257a	tune					
+04c18	715	GP SW12	3	257b	0	8	0	0f257b	tune					
+04c1a	716	GP SW12	3	257c	0	8	0	0f257c	tune					
+04c1c	717	GP SW12	3	257d	0	8	0	0f257d	tune					
+04c1e	1723	G4S Log RPM Above	0	257e			2	0f257e	tune	RPM	1	0		
+04c20	1724	G4S Log TPS Above	0	2580			1	0f2580	tune	%	1	0		
+04c22	1725	G4S Log MAP Above	0	2581			1	0f2581	tune	kPa	2	0		
+04c24	1726	G4S Log I/O On	3	2582	0	8	0	0f2582	tune					
+04c26	1727	G4S Log Timeout	0	2583			1	0f2583	tune	s	0.1	0		
+04c28	1241	VVT Custom Cam Positions	1	2584			16	0f2584	tune		0.1	0	1	8
+04c2a	1242	VVT Custom Cam Positions	1	2594			16	0f2594	tune		0.1	0	1	8
+04c2c	1243	VVT Custom Cam Positions	1	25a4			16	0f25a4	tune		0.1	0	1	8
+04c2e	1244	VVT Custom Cam Positions	1	25b4			16	0f25b4	tune		0.1	0	1	8
+04c30	1321	Custom VVT Cam Tooth Count	0	25c4			1	0f25c4	tune		1	0		
+04c32	1322	Custom VVT Cam Tooth Count	0	25c5			1	0f25c5	tune		1	0		
+04c34	1323	Custom VVT Cam Tooth Count	0	25c6			1	0f25c6	tune		1	0		
+04c36	1324	Custom VVT Cam Tooth Count	0	25c7			1	0f25c7	tune		1	0		
+04c38	1240	VVT Custom Cam Tolerance	0	25c8			2	0f25c8	tune		0.1	0		
+04c3a	2604	Cruise Min Speed	0	25ca			1	0f25ca	tune		1	0		
+04c3c	2605	Cruise Max Speed	0	25cb			1	0f25cb	tune		1	0		
+04c3e	3719	Cruise P Gain	0	25cc			1	0f25cc	tune		0.0625	0		
+04c40	3720	Cruise I Gain	0	25cd			1	0f25cd	tune		0.00390625	0		
+04c42	3721	Cruise D Gain	0	25ce			1	0f25ce	tune		0.0625	0		
+04c44	3722	Cruise Accel Rate	0	25cf			1	0f25cf	tune	km/h/s	0.1	0		
+04c46	2012	Multiple VVT Inl Tables	3	25d0	0	2	0	0f25d0	tune					
+04c48	2013	Multiple VVT Exh Tables	3	25d0	2	2	0	0f25d0	tune					
+04c4a	2752	Multiple Traction Tables	3	25d0	4	2	0	0f25d0	tune					
+04c4c	1571	3D RPM Limit Mode	3	25d0	6	1	0	0f25d0	tune					
+04c4e	1576	3D MAP Limit Mode	3	25d0	7	1	0	0f25d0	tune					
+04c50	2014	Table Activation VVT Inl 2	3	25d1	0	8	0	0f25d1	tune					
+04c52	2015	Table Activation VVT Inl 3	3	25d2	0	8	0	0f25d2	tune					
+04c54	2016	Table Activation VVT Exh 2	3	25d3	0	8	0	0f25d3	tune					
+04c56	2017	Table Activation VVT Exh 3	3	25d4	0	8	0	0f25d4	tune					
+04c58	3045	Traction Prop Gain	0	25d5			1	0f25d5	tune		1	0		
+04c5a	3046	Traction Int Gain	0	25d6			1	0f25d6	tune		0.00390625	0		
+04c5c	3047	Traction Der Gain	0	25d7			1	0f25d7	tune		1	0		
+04c5e	2	EmptyBit	3	25d8	0	1	0	0f25d8	tune					
+04c60	2	EmptyBit	3	25d8	1	1	0	0f25d8	tune					
+04c62	2	EmptyBit	3	25d8	2	1	0	0f25d8	tune					
+04c64	2	EmptyBit	3	25d8	3	1	0	0f25d8	tune					
+04c66	2	EmptyBit	3	25d8	4	1	0	0f25d8	tune					
+04c68	888	Typhoon Ign Sw DI Polarity	3	25d8	5	1	0	0f25d8	tune					
+04c6a	889	Zero Accelerometer	3	25d8	6	1	0	0f25d8	tune					
+04c6c	2582	Keep Alive Restart Mode	3	25d8	7	1	0	0f25d8	tune					
+04c6e	1602	Activation Method	3	25d9	0	8	0	0f25d9	tune					
+04c70	1318	Hold Step	0	25da			1	0f25da	tune	%	1	0		
+04c72	3706	GP PWM Frequency Mode	3	25db	0	1	0	0f25db	tune					
+04c74	3707	GP PWM Frequency Mode	3	25db	1	1	0	0f25db	tune					
+04c76	3708	GP PWM Frequency Mode	3	25db	2	1	0	0f25db	tune					
+04c78	3709	GP PWM Frequency Mode	3	25db	3	1	0	0f25db	tune					
+04c7a	3710	GP PWM Frequency Mode	3	25db	4	1	0	0f25db	tune					
+04c7c	3711	GP PWM Frequency Mode	3	25db	5	1	0	0f25db	tune					
+04c7e	3712	GP PWM Frequency Mode	3	25db	6	1	0	0f25db	tune					
+04c80	3713	GP PWM Frequency Mode	3	25db	7	1	0	0f25db	tune					
+04c82	3663	GP SW12	0	25dc			2	0f25dc	tune		1	0		
+04c84	3664	GP SW12	0	25de			2	0f25de	tune		1	0		
+04c86	3665	GP SW12	0	25e0			2	0f25e0	tune		1	0		
+04c88	3666	GP SW12	3	25e2	0	8	0	0f25e2	tune					
+04c8a	3667	GP SW12	3	25e3	0	8	0	0f25e3	tune					
+04c8c	3668	GP SW12	3	25e4	0	8	0	0f25e4	tune					
+04c8e	3669	GP SW12	3	25e5	0	8	0	0f25e5	tune					
+04c90	3671	GP SW12	0	25e6			2	0f25e6	tune		1	0		
+04c92	3672	GP SW12	0	25e8			2	0f25e8	tune		1	0		
+04c94	3673	GP SW12	0	25ea			2	0f25ea	tune		1	0		
+04c96	3674	GP SW12	3	25ec	0	8	0	0f25ec	tune					
+04c98	3675	GP SW12	3	25ed	0	8	0	0f25ed	tune					
+04c9a	3676	GP SW12	3	25ee	0	8	0	0f25ee	tune					
+04c9c	3677	GP SW12	3	25ef	0	8	0	0f25ef	tune					
+04c9e	3679	GP SW12	0	25f0			2	0f25f0	tune		1	0		
+04ca0	3680	GP SW12	0	25f2			2	0f25f2	tune		1	0		
+04ca2	3681	GP SW12	0	25f4			2	0f25f4	tune		1	0		
+04ca4	3682	GP SW12	3	25f6	0	8	0	0f25f6	tune					
+04ca6	3683	GP SW12	3	25f7	0	8	0	0f25f7	tune					
+04ca8	3684	GP SW12	3	25f8	0	8	0	0f25f8	tune					
+04caa	3685	GP SW12	3	25f9	0	8	0	0f25f9	tune					
+04cac	1365	Inlet Fully Rtd Posn	0	25fa			1	0f25fa	tune	 BTDC	1	0		
+04cae	1366	Exh Fully Adv Posn	0	25fb			1	0f25fb	tune	 ATDC	1	0		
+04cb0	2917	Accel Max ClampTable	1	25fc			28	0f25fc	tune	%	0.1	0	1	14
+04cb2	3035	Accel Cold Trim	1	2618			12	0f2618	tune		0.1	0	1	12
+04cb4	2872	Crank Enrichment Table	1	2624			36	0f2624	tune	%	0.1	-100	1	18
+04cb6	2873	Post Start Enrichment Table	1	2648			36	0f2648	tune	%	0.1	-100	1	18
+04cb8	2871	Post Start Decay Time(s) G4	1	266c			18	0f266c	tune		1	0	1	18
+04cba	2870	Post Start Hold Time(s) G4	1	267e			18	0f267e	tune		0.1	0	1	18
+04cbc	2869	Crank Hold Time(s) G4	1	2690			18	0f2690	tune		0.1	0	1	18
+04cbe	2874	Fuel Prime Time	1	26a2			18	0f26a2	tune	ms	1	0	1	18
+04cc0	1799	Proportional Gain	0	26b4			1	0f26b4	tune		0.1	0		
+04cc2	1801	Integral Gain	0	26b5			1	0f26b5	tune		0.01	0		
+04cc4	1800	Derivative Gain	0	26b6			1	0f26b6	tune		0.1	0		
+04cc6	1891	LAmbda Sensor Control On/Off	3	26b7	0	1	0	0f26b7	tune					
+04cc8	1894	Lambda 1 Run When Stalled	3	26b7	1	1	0	0f26b7	tune					
+04cca	2	EmptyBit	3	26b7	2	1	0	0f26b7	tune					
+04ccc	2	EmptyBit	3	26b7	3	1	0	0f26b7	tune					
+04cce	892	LAmbda Sensor Control On/Off	3	26b7	4	1	0	0f26b7	tune					
+04cd0	895	Lambda 2 Run When Stalled	3	26b7	5	1	0	0f26b7	tune					
+04cd2	2	EmptyBit	3	26b7	6	1	0	0f26b7	tune					
+04cd4	2418	CLL Ftrim tables	3	26b7	7	1	0	0f26b7	tune					
+04cd6	1577	DI ON/OFF Control Speed	3	26b8	0	8	0	0f26b8	tune					
+04cd8	2538	Dual Fuel Mode	3	26b9	0	8	0	0f26b9	tune					
+04cda	2539	Dual Ign Cut Mode	3	26ba	0	8	0	0f26ba	tune					
+04cee	1710	Table2 Activation EWire	3	26c4	0	8	0	0f26c4	tune					
+04cf0	1711	Table3 Activation EWire	3	26c5	0	8	0	0f26c5	tune					
+04cf2	1712	Cyclic ISC Override	0	26c6			1	0f26c6	tune	%	1	0		
+04cf4	1713	Cyclic Timeout	0	26c7			1	0f26c7	tune	s	1	0		
+04cf6	2537	Dual Ign Retard Mode	3	26c8	0	8	0	0f26c8	tune					
+04cf8	2	EmptyBit	3	26c9	0	1	0	0f26c9	tune					
+04cfa	2	EmptyBit	3	26c9	1	1	0	0f26c9	tune					
+04cfc	2	EmptyBit	3	26c9	2	1	0	0f26c9	tune					
+04cfe	2	EmptyBit	3	26c9	3	1	0	0f26c9	tune					
+04d00	1909	Freq G4 TB Pro	3	26c9	4	4	0	0f26c9	tune					
+04d02	1841	Pre-Spool Duty	0	26ca			1	0f26ca	tune	%DC	1	0		
+04d04	1842	Pre-Spool OFF	0	26cb			1	0f26cb	tune	kPa	1	0		
+04d06	2622	Cyl 1 CLL allocation	3	26cc	0	1	0	0f26cc	tune					
+04d08	2623	Cyl 1 CLL allocation	3	26cc	1	1	0	0f26cc	tune					
+04d0a	2624	Cyl 1 CLL allocation	3	26cc	2	1	0	0f26cc	tune					
+04d0c	2625	Cyl 1 CLL allocation	3	26cc	3	1	0	0f26cc	tune					
+04d0e	2626	Cyl 1 CLL allocation	3	26cc	4	1	0	0f26cc	tune					
+04d10	2627	Cyl 1 CLL allocation	3	26cc	5	1	0	0f26cc	tune					
+04d12	2628	Cyl 1 CLL allocation	3	26cc	6	1	0	0f26cc	tune					
+04d14	2629	Cyl 1 CLL allocation	3	26cc	7	1	0	0f26cc	tune					
+04d18	1908	Gain G4 TB Pro	0	26ce			1	0f26ce	tune		1	0		
+04d1a	1314	Speed Lockout	0	26cf			1	0f26cf	tune	kph	1	0		
+04d1c	3359	GP SW14	0	26d0			2	0f26d0	tune		1	0		
+04d1e	3360	GP SW14	0	26d2			2	0f26d2	tune		1	0		
+04d20	3361	GP SW14	0	26d4			2	0f26d4	tune		1	0		
+04d22	3362	GP SW14	3	26d6	0	8	0	0f26d6	tune					
+04d24	3363	GP SW14	3	26d7	0	8	0	0f26d7	tune					
+04d26	3364	GP SW14	3	26d8	0	8	0	0f26d8	tune					
+04d28	3365	GP SW14	3	26d9	0	8	0	0f26d9	tune					
+04d2a	1575	MAP Limit G4 B	1	26da			18	0f26da	tune		2	0	1	18
+04d2c	2365	FuelTable1	1	26ec			880	0f26ec	tune	%	0.1	0	20	22
+04d2e	2366	IgnTable880	1	2a5c			880	0f2a5c	tune		0.1	-100	20	22
+04d30	2367	Fuel Table2	1	2dcc			880	0f2dcc	tune	%	0.1	0	20	22
+04d32	2368	Ignition Table2	1	313c			880	0f313c	tune		0.1	-100	20	22
+04d34	3074	RPM Zone Centers	1	34ac			44	0f34ac	tune		1	0	1	22
+04d36	3075	LOAD Zone Centers	1	34d8			40	0f34d8	tune		1	0	1	20
+04d38	1415	RPM Zone Centers	1	3500			44	0f3500	tune		1	0	1	22
+04d3a	1416	LOAD Zone Centers	1	352c			40	0f352c	tune		1	0	1	20
+04d3c	1939	Temp Cal Offset11	1	3554			32	0f3554	tune		1	0	1	16
+04d3e	1940	Temp Cal Offset12	1	3574			32	0f3574	tune		1	0	1	16
+04d40	1941	Temp Cal Offset13	1	3594			32	0f3594	tune		1	0	1	16
+04d42	1943	Cal table1 Start	0	35b4			2	0f35b4	tune		0.1	0		
+04d44	1944	Cal table1 Increments	0	35b6			2	0f35b6	tune		0.1	0		
+04d46	1945	Cal table2 Start	0	35b8			2	0f35b8	tune		0.1	0		
+04d48	1946	Cal table2 Increments	0	35ba			2	0f35ba	tune		0.1	0		
+04d4a	1947	Cal table3 Start	0	35bc			2	0f35bc	tune		0.1	0		
+04d4c	1948	Cal table3 Increments	0	35be			2	0f35be	tune		0.1	0		
+04d4e	1949	Cal 1 Input Units	3	35c0	0	4	0	0f35c0	tune					
+04d50	1950	Cal1 Untis	3	35c0	4	4	0	0f35c0	tune					
+04d52	1951	Cal 2 Input Units	3	35c1	0	4	0	0f35c1	tune					
+04d54	1952	Cal2 Untis	3	35c1	4	4	0	0f35c1	tune					
+04d56	1953	Cal 3 Input Units	3	35c2	0	4	0	0f35c2	tune					
+04d58	1954	Cal3 Untis	3	35c2	4	4	0	0f35c2	tune					
+04d5a	2066	Map Sensor Fault Table	3	35c3	0	1	0	0f35c3	tune					
+04d5c	2067	IAT Sensor Fault Table	3	35c3	1	1	0	0f35c3	tune					
+04d5e	2	EmptyBit	3	35c3	2	1	0	0f35c3	tune					
+04d60	2	EmptyBit	3	35c3	3	1	0	0f35c3	tune					
+04d62	1917	Cal4 Untis	3	35c3	4	4	0	0f35c3	tune					
+04d64	1918	Cal5 Untis	3	35c4	0	4	0	0f35c4	tune					
+04d66	1919	Cal6 Untis	3	35c4	4	4	0	0f35c4	tune					
+04d68	2023	AnV1 Cal	3	35c5	0	8	0	0f35c5	tune					
+04d6a	2024	AnV2 Cal	3	35c6	0	8	0	0f35c6	tune					
+04d6c	2025	AnV3 Cal	3	35c7	0	8	0	0f35c7	tune					
+04d6e	2026	AnV Cal4	3	35c8	0	8	0	0f35c8	tune					
+04d70	2027	AnV Cal5	3	35c9	0	8	0	0f35c9	tune					
+04d72	2028	AnV Cal6	3	35ca	0	8	0	0f35ca	tune					
+04d74	2029	AnV Cal7	3	35cb	0	8	0	0f35cb	tune					
+04d76	2030	AnV Cal8	3	35cc	0	8	0	0f35cc	tune					
+04d78	2031	AnV Cal9	3	35cd	0	8	0	0f35cd	tune					
+04d7a	2032	AnV Cal10	3	35ce	0	8	0	0f35ce	tune					
+04d7c	2033	AnV Cal11	3	35cf	0	8	0	0f35cf	tune					
+04d7e	1966	AV Cal 1	0	35d0			2	0f35d0	tune	V	0.01	0		
+04d80	1968	AV Cal 1	0	35d2			2	0f35d2	tune	V	0.01	0		
+04d82	1967	AV Cal 1	0	35d4			2	0f35d4	tune		0.1	0		
+04d84	1969	AV Cal 1	0	35d6			2	0f35d6	tune		0.1	0		
+04d86	1970	AV Cal 2	0	35d8			2	0f35d8	tune	V	0.01	0		
+04d88	1972	AV Cal 2	0	35da			2	0f35da	tune	V	0.01	0		
+04d8a	1971	AV Cal 2	0	35dc			2	0f35dc	tune		0.1	0		
+04d8c	1973	AV Cal 2	0	35de			2	0f35de	tune		0.1	0		
+04d8e	1974	AV Cal 3	0	35e0			2	0f35e0	tune	V	0.01	0		
+04d90	1976	AV Cal 3	0	35e2			2	0f35e2	tune	V	0.01	0		
+04d92	1975	AV Cal 3	0	35e4			2	0f35e4	tune		0.1	0		
+04d94	1977	AV Cal 3	0	35e6			2	0f35e6	tune		0.1	0		
+04d96	2272	RPM Low Lockout	0	35e8			1	0f35e8	tune	RPM	100	0		
+04d98	2273	RPM High Lockout	0	35e9			1	0f35e9	tune	RPM	100	0		
+04d9a	2274	TPS Low Lockout	0	35ea			1	0f35ea	tune	%	1	0		
+04d9c	2271	TP Delta Lockout	0	35eb			1	0f35eb	tune	%	0.1	0		
+04d9e	2336	Cal Table 7	1	35ec			32	0f35ec	tune		1	0	1	16
+04da0	2337	Cal Table 7 X Axis	1	360c			32	0f360c	tune		1	0	1	16
+04da2	2339	Cal 7 Input Units	3	362c	0	4	0	0f362c	tune					
+04da4	2340	Cal 7 Untis	3	362c	4	4	0	0f362c	tune					
+04da6	824	DAC#1 Function	3	362d	0	2	0	0f362d	tune					
+04da8	825	DAC#2 Function	3	362d	2	2	0	0f362d	tune					
+04daa	826	DAC#3 Function	3	362d	4	2	0	0f362d	tune					
+04dac	827	DAC#4 Function	3	362d	6	2	0	0f362d	tune					
+04dae	3011	De-Activation RPM G4	1	362e			18	0f362e	tune	Engine Temperature (C)	100	0	1	18
+04db0	2478	Gain G4	1	3640			6	0f3640	tune		0.1	0	1	6
+04db2	2987	Injector Dead Time - Prim	1	3646			20	0f3646	tune	ms	0.001	0	1	10
+04db4	1311	Idle Table	1	365a			36	0f365a	tune		0.1	0	1	18
+04db6	1312	Idle RPM	1	367e			36	0f367e	tune		1	0	1	18
+04db8	3247	GP SW1	0	36a2			2	0f36a2	tune		1	0		
+04dba	3248	GP SW1	0	36a4			2	0f36a4	tune		1	0		
+04dbc	3249	GP SW1	0	36a6			2	0f36a6	tune		1	0		
+04dbe	3244	SW Function1 GP SW1	3	36a8	0	8	0	0f36a8	tune					
+04dc0	3245	SW Function2 GP SW1	3	36a9	0	8	0	0f36a9	tune					
+04dc2	3246	SW Function3 GP SW1	3	36aa	0	8	0	0f36aa	tune					
+04dc4	3250	Switch Logic GP SW1	3	36ab	0	8	0	0f36ab	tune					
+04dc6	3255	GP SW2	0	36ac			2	0f36ac	tune		1	0		
+04dc8	3256	GP SW2	0	36ae			2	0f36ae	tune		1	0		
+04dca	3257	GP SW2	0	36b0			2	0f36b0	tune		1	0		
+04dcc	3251	SW Function1 GP SW2	3	36b2	0	8	0	0f36b2	tune					
+04dce	3252	SW Function1 GP SW2	3	36b3	0	8	0	0f36b3	tune					
+04dd0	3253	SW Function1 GP SW2	3	36b4	0	8	0	0f36b4	tune					
+04dd2	3254	GP SW2	3	36b5	0	8	0	0f36b5	tune					
+04dd4	3282	GP SW3	0	36b6			2	0f36b6	tune		1	0		
+04dd6	3283	GP SW3	0	36b8			2	0f36b8	tune		1	0		
+04dd8	3284	GP SW3	0	36ba			2	0f36ba	tune		1	0		
+04dda	3285	GP SW3	3	36bc	0	8	0	0f36bc	tune					
+04ddc	3286	GP SW3	3	36bd	0	8	0	0f36bd	tune					
+04dde	3287	GP SW3	3	36be	0	8	0	0f36be	tune					
+04de0	3288	GP SW3	3	36bf	0	8	0	0f36bf	tune					
+04de2	3289	GP SW4	0	36c0			2	0f36c0	tune		1	0		
+04de4	3290	GP SW4	0	36c2			2	0f36c2	tune		1	0		
+04de6	3291	GP SW4	0	36c4			2	0f36c4	tune		1	0		
+04de8	3292	GP SW4	3	36c6	0	8	0	0f36c6	tune					
+04dea	3293	GP SW4	3	36c7	0	8	0	0f36c7	tune					
+04dec	3294	GP SW4	3	36c8	0	8	0	0f36c8	tune					
+04dee	3295	GP SW4	3	36c9	0	8	0	0f36c9	tune					
+04df0	3296	GP SW5	0	36ca			2	0f36ca	tune		1	0		
+04df2	3297	GP SW5	0	36cc			2	0f36cc	tune		1	0		
+04df4	3298	GP SW5	0	36ce			2	0f36ce	tune		1	0		
+04df6	3299	GP SW5	3	36d0	0	8	0	0f36d0	tune					
+04df8	3300	GP SW5	3	36d1	0	8	0	0f36d1	tune					
+04dfa	3301	GP SW5	3	36d2	0	8	0	0f36d2	tune					
+04dfc	3302	GP SW5	3	36d3	0	8	0	0f36d3	tune					
+04dfe	3303	GP SW6	0	36d4			2	0f36d4	tune		1	0		
+04e00	3304	GP SW6	0	36d6			2	0f36d6	tune		1	0		
+04e02	3305	GP SW6	0	36d8			2	0f36d8	tune		1	0		
+04e04	3306	GP SW6	3	36da	0	8	0	0f36da	tune					
+04e06	3307	GP SW6	3	36db	0	8	0	0f36db	tune					
+04e08	3308	GP SW6	3	36dc	0	8	0	0f36dc	tune					
+04e0a	3309	GP SW6	3	36dd	0	8	0	0f36dd	tune					
+04e0c	3310	GP SW7	0	36de			2	0f36de	tune		1	0		
+04e0e	3311	GP SW7	0	36e0			2	0f36e0	tune		1	0		
+04e10	3312	GP SW7	0	36e2			2	0f36e2	tune		1	0		
+04e12	3313	GP SW7	3	36e4	0	8	0	0f36e4	tune					
+04e14	3314	GP SW7	3	36e5	0	8	0	0f36e5	tune					
+04e16	3315	GP SW7	3	36e6	0	8	0	0f36e6	tune					
+04e18	3316	GP SW7	3	36e7	0	8	0	0f36e7	tune					
+04e1a	3317	GP SW8	0	36e8			2	0f36e8	tune		1	0		
+04e1c	3318	GP SW8	0	36ea			2	0f36ea	tune		1	0		
+04e1e	3319	GP SW8	0	36ec			2	0f36ec	tune		1	0		
+04e20	3320	GP SW8	3	36ee	0	8	0	0f36ee	tune					
+04e22	3321	GP SW8	3	36ef	0	8	0	0f36ef	tune					
+04e24	3322	GP SW8	3	36f0	0	8	0	0f36f0	tune					
+04e26	3323	GP SW8	3	36f1	0	8	0	0f36f1	tune					
+04e28	3324	GP SW9	0	36f2			2	0f36f2	tune		1	0		
+04e2a	3325	GP SW9	0	36f4			2	0f36f4	tune		1	0		
+04e2c	3326	GP SW9	0	36f6			2	0f36f6	tune		1	0		
+04e2e	3327	GP SW9	3	36f8	0	8	0	0f36f8	tune					
+04e30	3328	GP SW9	3	36f9	0	8	0	0f36f9	tune					
+04e32	3329	GP SW9	3	36fa	0	8	0	0f36fa	tune					
+04e34	3330	GP SW9	3	36fb	0	8	0	0f36fb	tune					
+04e36	3331	GP SW10	0	36fc			2	0f36fc	tune		1	0		
+04e38	3332	GP SW10	0	36fe			2	0f36fe	tune		1	0		
+04e3a	3333	GP SW10	0	3700			2	0f3700	tune		1	0		
+04e3c	3334	GP SW10	3	3702	0	8	0	0f3702	tune					
+04e3e	3335	GP SW10	3	3703	0	8	0	0f3703	tune					
+04e40	3336	GP SW10	3	3704	0	8	0	0f3704	tune					
+04e42	3337	GP SW10	3	3705	0	8	0	0f3705	tune					
+04e44	2477	CL Rate G4	1	3706			10	0f3706	tune		1	0	1	10
+04e46	3345	GP SW12	0	3710			2	0f3710	tune		1	0		
+04e48	3346	GP SW12	0	3712			2	0f3712	tune		1	0		
+04e4a	3347	GP SW12	0	3714			2	0f3714	tune		1	0		
+04e4c	3348	GP SW12	3	3716	0	8	0	0f3716	tune					
+04e4e	3349	GP SW12	3	3717	0	8	0	0f3717	tune					
+04e50	3350	GP SW12	3	3718	0	8	0	0f3718	tune					
+04e52	3351	GP SW12	3	3719	0	8	0	0f3719	tune					
+04e54	3552	GP SW13	0	371a			2	0f371a	tune		1	0		
+04e56	3553	GP SW13	0	371c			2	0f371c	tune		1	0		
+04e58	3554	GP SW13	3	371e	0	8	0	0f371e	tune					
+04e5a	3555	GP SW13	3	371f	0	8	0	0f371f	tune					
+04e5c	3557	GP SW14	0	3720			2	0f3720	tune		1	0		
+04e5e	3558	GP SW14	0	3722			2	0f3722	tune		1	0		
+04e60	3559	GP SW14	3	3724	0	8	0	0f3724	tune					
+04e62	3560	GP SW14	3	3725	0	8	0	0f3725	tune					
+04e64	3562	GP SW15	0	3726			2	0f3726	tune		1	0		
+04e66	3563	GP SW15	0	3728			2	0f3728	tune		1	0		
+04e68	3564	GP SW15	3	372a	0	8	0	0f372a	tune					
+04e6a	3565	GP SW15	3	372b	0	8	0	0f372b	tune					
+04e6c	3567	GP SW16	0	372c			2	0f372c	tune		1	0		
+04e6e	3568	GP SW16	0	372e			2	0f372e	tune		1	0		
+04e70	3569	GP SW16	3	3730	0	8	0	0f3730	tune					
+04e72	3570	GP SW16	3	3731	0	8	0	0f3731	tune					
+04e74	3556	GP SW13	3	3732	0	8	0	0f3732	tune					
+04e76	3561	GP SW14	3	3733	0	8	0	0f3733	tune					
+04e78	3566	GP SW15	3	3734	0	8	0	0f3734	tune					
+04e7a	3571	GP SW16	3	3735	0	8	0	0f3735	tune					
+04e7c	3576	GP SW17	3	3736	0	8	0	0f3736	tune					
+04e7e	3581	GP SW18	3	3737	0	8	0	0f3737	tune					
+04e80	3586	GP SW19	3	3738	0	8	0	0f3738	tune					
+04e82	3591	GP SW20	3	3739	0	8	0	0f3739	tune					
+04e84	3596	GP SW21	3	373a	0	8	0	0f373a	tune					
+04e86	3601	GP SW22	3	373b	0	8	0	0f373b	tune					
+04e88	3606	GP SW23	3	373c	0	8	0	0f373c	tune					
+04e8a	3611	GP SW24	3	373d	0	8	0	0f373d	tune					
+04e8c	3616	GP SW25	3	373e	0	8	0	0f373e	tune					
+04e8e	3621	GP SW26	3	373f	0	8	0	0f373f	tune					
+04e90	3626	GP SW27	3	3740	0	8	0	0f3740	tune					
+04e92	3631	GP SW28	3	3741	0	8	0	0f3741	tune					
+04e94	1623	RPM Limit G4	1	3742			18	0f3742	tune		100	0	1	18
+04e96	1624	MAP Limit G4	1	3754			36	0f3754	tune		1	0	1	18
+04e98	1397	Engine Temperature Trim	1	3778			18	0f3778	tune		0.5	-50	1	18
+04e9a	1398	Inlet Air Temp Trim	1	378a			18	0f378a	tune		0.5	-50	1	18
+04e9c	3352	GP SW13	0	379c			2	0f379c	tune		1	0		
+04e9e	3353	GP SW13	0	379e			2	0f379e	tune		1	0		
+04ea0	3354	GP SW13	0	37a0			2	0f37a0	tune		1	0		
+04ea2	3355	GP SW13	3	37a2	0	8	0	0f37a2	tune					
+04ea4	3356	GP SW13	3	37a3	0	8	0	0f37a3	tune					
+04ea6	3357	GP SW13	3	37a4	0	8	0	0f37a4	tune					
+04ea8	3358	GP SW13	3	37a5	0	8	0	0f37a5	tune					
+04eaa	2149	AN Volt1 Error  Value	0	37a6			2	0f37a6	tune	V	0.0048875	0		
+04eac	2150	AN Volt1 Error  Value	0	37a8			2	0f37a8	tune	V	0.0048875	0		
+04eae	2151	AN Volt1 Error  Value	0	37aa			2	0f37aa	tune		1	0		
+04eb0	2152	AN Volt2 Error  Value	0	37ac			2	0f37ac	tune	V	0.0048875	0		
+04eb2	2153	AN Volt2 Error  Value	0	37ae			2	0f37ae	tune	V	0.0048875	0		
+04eb4	2154	AN Volt2 Error  Value	0	37b0			2	0f37b0	tune		1	0		
+04eb6	2155	AN Volt3 Error  Value	0	37b2			2	0f37b2	tune	V	0.0048875	0		
+04eb8	2156	AN Volt3 Error  Value	0	37b4			2	0f37b4	tune	V	0.0048875	0		
+04eba	2157	AN Volt3 Error  Value	0	37b6			2	0f37b6	tune		1	0		
+04ebc	2158	AN Volt4 Error  Value	0	37b8			2	0f37b8	tune	V	0.0048875	0		
+04ebe	2159	AN Volt4 Error  Value	0	37ba			2	0f37ba	tune	V	0.0048875	0		
+04ec0	2160	AN Volt4 Error  Value	0	37bc			2	0f37bc	tune		1	0		
+04ec2	2161	AN Volt5 Error  Value	0	37be			2	0f37be	tune	V	0.0048875	0		
+04ec4	2162	AN Volt5 Error  Value	0	37c0			2	0f37c0	tune	V	0.0048875	0		
+04ec6	2163	AN Volt5 Error  Value	0	37c2			2	0f37c2	tune		1	0		
+04ec8	2164	AN Volt6 Error  Value	0	37c4			2	0f37c4	tune	V	0.0048875	0		
+04eca	2165	AN Volt6 Error  Value	0	37c6			2	0f37c6	tune	V	0.0048875	0		
+04ecc	2166	AN Volt6 Error  Value	0	37c8			2	0f37c8	tune		1	0		
+04ece	2167	AN Volt7 Error  Value	0	37ca			2	0f37ca	tune	V	0.0048875	0		
+04ed0	2168	AN Volt7 Error  Value	0	37cc			2	0f37cc	tune	V	0.0048875	0		
+04ed2	2169	AN Volt7 Error  Value	0	37ce			2	0f37ce	tune		1	0		
+04ed4	2170	AN Volt8 Error  Value	0	37d0			2	0f37d0	tune	V	0.0048875	0		
+04ed6	2171	AN Volt8 Error  Value	0	37d2			2	0f37d2	tune	V	0.0048875	0		
+04ed8	2172	AN Volt8 Error  Value	0	37d4			2	0f37d4	tune		1	0		
+04eda	2173	AN Volt9 Error  Value	0	37d6			2	0f37d6	tune	V	0.0048875	0		
+04edc	2174	AN Volt9 Error  Value	0	37d8			2	0f37d8	tune	V	0.0048875	0		
+04ede	2175	AN Volt9 Error  Value	0	37da			2	0f37da	tune		1	0		
+04ee0	2176	AN Volt10 Error  Value	0	37dc			2	0f37dc	tune	V	0.0048875	0		
+04ee2	2177	AN Volt10 Error  Value	0	37de			2	0f37de	tune	V	0.0048875	0		
+04ee4	2178	AN Volt10 Error  Value	0	37e0			2	0f37e0	tune		1	0		
+04ee6	2179	AN Volt11 Error  Value	0	37e2			2	0f37e2	tune	V	0.0048875	0		
+04ee8	2180	AN Volt11 Error  Value	0	37e4			2	0f37e4	tune	V	0.0048875	0		
+04eea	2181	AN Volt11 Error  Value	0	37e6			2	0f37e6	tune		0.0048875	0		
+04eec	2182	ANTemp 1Error  Value	0	37e8			2	0f37e8	tune	V	0.0048875	0		
+04eee	2183	ANTemp 1Error  Value	0	37ea			2	0f37ea	tune	V	0.0048875	0		
+04ef0	2184	ANTemp 2 Error  Value	0	37ec			2	0f37ec	tune	V	0.0048875	0		
+04ef2	2185	ANTemp 2 Error  Value	0	37ee			2	0f37ee	tune	V	0.0048875	0		
+04ef4	2186	ANTemp 3 Error  Value	0	37f0			2	0f37f0	tune	V	0.0048875	0		
+04ef6	2187	ANTemp 3 Error  Value	0	37f2			2	0f37f2	tune	V	0.0048875	0		
+04ef8	2188	ANTemp 4 Error  Value	0	37f4			2	0f37f4	tune	V	0.0048875	0		
+04efa	2189	ANTemp 4 Error  Value	0	37f6			2	0f37f6	tune	V	0.0048875	0		
+04efc	2190	ANTemp 1Error  Value	0	37f8			1	0f37f8	tune		1	-50		
+04efe	2191	ANTemp 2 Error  Value	0	37f9			1	0f37f9	tune		1	-50		
+04f00	2192	ANTemp 3 Error  Value	0	37fa			1	0f37fa	tune		1	-50		
+04f02	2193	ANTemp 4 Error  Value	0	37fb			1	0f37fb	tune		1	-50		
+04f04	2833	Ign Retard(End Cut)	0	37fc			1	0f37fc	tune		0.1	-20		
+04f06	3367	Aux 11 on SPI LS OL Detect	3	37fd	0	1	0	0f37fd	tune					
+04f08	3368	Aux 12 on SPI LS OL Detect	3	37fd	1	1	0	0f37fd	tune					
+04f0a	3369	Aux 13 on SPI LS OL Detect	3	37fd	2	1	0	0f37fd	tune					
+04f0c	3370	Aux 14 on SPI LS OL Detect	3	37fd	3	1	0	0f37fd	tune					
+04f0e	3371	Aux 15 on SPI LS OL Detect	3	37fd	4	1	0	0f37fd	tune					
+04f10	3372	Aux 16 on SPI LS OL Detect	3	37fd	5	1	0	0f37fd	tune					
+04f12	2	EmptyBit	3	37fd	6	1	0	0f37fd	tune					
+04f14	2	EmptyBit	3	37fd	7	1	0	0f37fd	tune					
+04f16	2876	Stoich Ratio	0	37fe			2	0f37fe	tune	AFR	0.01	0		
+04f18	1555	G4S Feature Enable Bit 0	3	3800	0	1	0	0f3800	tune					
+04f1a	1556	G4S Feature Enable Bit 1	3	3800	1	1	0	0f3800	tune					
+04f1c	1557	G4S Feature Enable Bit 2	3	3800	2	1	0	0f3800	tune					
+04f1e	1558	G4S Feature Enable Bit 3	3	3800	3	1	0	0f3800	tune					
+04f20	1559	G4S Feature Enable Bit 4	3	3800	4	1	0	0f3800	tune					
+04f22	2	EmptyBit	3	3800	5	1	0	0f3800	tune					
+04f24	2	EmptyBit	3	3800	6	1	0	0f3800	tune					
+04f26	2	EmptyBit	3	3800	7	1	0	0f3800	tune					
+04f28	2	EmptyBit	3	3801	0	1	0	0f3801	tune					
+04f2a	2	EmptyBit	3	3801	1	1	0	0f3801	tune					
+04f2c	2	EmptyBit	3	3801	2	1	0	0f3801	tune					
+04f2e	2	EmptyBit	3	3801	3	1	0	0f3801	tune					
+04f30	2	EmptyBit	3	3801	4	1	0	0f3801	tune					
+04f32	2	EmptyBit	3	3801	5	1	0	0f3801	tune					
+04f34	2	EmptyBit	3	3801	6	1	0	0f3801	tune					
+04f36	1570	G4S Feature Enable Bit 15	3	3801	7	1	0	0f3801	tune					
+04f38	1846	Trq. Red. Ignition Trim Gain	0	3802			1	0f3802	tune	/%	0.02	0		
+04f3a	1847	Trq. Red. Max Ignition Trim 	0	3803			1	0f3803	tune		0.2	0		
+04f40	1844	Trans REduction Recovery PEriod	0	3806			1	0f3806	tune	ms	1	0		
+04f42	1881	Trq. Red. Ignition Trim Gain	0	3807			1	0f3807	tune	/%	0.02	0		
+04f44	2200	DI 1 Label	8	3808			20	0f3808	tune					
+04f46	2201	DI 2 Label	8	381c			20	0f381c	tune					
+04f48	2202	DI 3 Label	8	3830			20	0f3830	tune					
+04f4a	2203	DI 4 Label	8	3844			20	0f3844	tune					
+04f4c	2204	DI 5 Label	8	3858			20	0f3858	tune					
+04f4e	2205	DI 6 Label	8	386c			20	0f386c	tune					
+04f50	2206	DI 7 Label	8	3880			20	0f3880	tune					
+04f52	2207	DI 8 Label	8	3894			20	0f3894	tune					
+04f54	2208	DI 9 Label	8	38a8			20	0f38a8	tune					
+04f56	2209	DI 10 Label	8	38bc			20	0f38bc	tune					
+04f58	2210	Aux 1 Label	8	38d0			20	0f38d0	tune					
+04f5a	2211	Aux 2 Label	8	38e4			20	0f38e4	tune					
+04f5c	2212	Aux 3 Label	8	38f8			20	0f38f8	tune					
+04f5e	2213	Aux 4 Label	8	390c			20	0f390c	tune					
+04f60	2214	Aux 5 Label	8	3920			20	0f3920	tune					
+04f62	2215	Aux 6 Label	8	3934			20	0f3934	tune					
+04f64	2216	Aux 7 Label	8	3948			20	0f3948	tune					
+04f66	2217	Aux 8 Label	8	395c			20	0f395c	tune					
+04f68	2218	Aux 9 Label	8	3970			20	0f3970	tune					
+04f6a	2219	Aux 10 Label	8	3984			20	0f3984	tune					
+04f6c	2220	Virtual Aux 1 Label	8	3998			20	0f3998	tune					
+04f6e	2221	Virtual Aux 2 Label	8	39ac			20	0f39ac	tune					
+04f70	2222	Virtual Aux 3 Label	8	39c0			20	0f39c0	tune					
+04f72	2223	An Volt 1 Label	8	39d4			20	0f39d4	tune					
+04f74	2224	An Volt 2 Label	8	39e8			20	0f39e8	tune					
+04f76	2225	An Volt 3 Label	8	39fc			20	0f39fc	tune					
+04f78	2226	An Volt 4 Label	8	3a10			20	0f3a10	tune					
+04f7a	2227	An Volt 5 Label	8	3a24			20	0f3a24	tune					
+04f7c	2228	An Volt 6 Label	8	3a38			20	0f3a38	tune					
+04f7e	2229	An Volt 7 Label	8	3a4c			20	0f3a4c	tune					
+04f80	2230	An Volt 8 Label	8	3a60			20	0f3a60	tune					
+04f82	2231	An Volt 9 Label	8	3a74			20	0f3a74	tune					
+04f84	2232	An Volt 10 Label	8	3a88			20	0f3a88	tune					
+04f86	2233	An Volt 11 Label	8	3a9c			20	0f3a9c	tune					
+04f88	2234	An Temp 1 Label	8	3ab0			20	0f3ab0	tune					
+04f8a	2235	An Temp 2 Label	8	3ac4			20	0f3ac4	tune					
+04f8c	2236	An Temp 3 Label	8	3ad8			20	0f3ad8	tune					
+04f8e	2237	An Temp 4 Label	8	3aec			20	0f3aec	tune					
+04f90	2238	Aux Inj 5 Label	8	3b00			20	0f3b00	tune					
+04f92	2239	Aux Inj 6 Label	8	3b14			20	0f3b14	tune					
+04f94	2240	Aux Inj 7 Label	8	3b28			20	0f3b28	tune					
+04f96	2241	Aux Inj 8 Label	8	3b3c			20	0f3b3c	tune					
+04f98	2242	Aux Ign 5 Label	8	3b50			20	0f3b50	tune					
+04f9a	2243	Aux Ign 6 Label	8	3b64			20	0f3b64	tune					
+04f9c	2244	Aux Ign 7 Label	8	3b78			20	0f3b78	tune					
+04f9e	2245	Aux Ign 8 Label	8	3b8c			20	0f3b8c	tune					
+04fa0	2246	Memo Text	8	3ba0			100	0f3ba0	tune					
+04fa2	2247	Aux Ign 3 Label	8	3c04			20	0f3c04	tune					
+04fa4	2248	Aux Ign 4 Label	8	3c18			20	0f3c18	tune					
+04fa6	2249	Aux Inj 3 Label	8	3c2c			20	0f3c2c	tune					
+04fa8	2251	Aux Inj 4 Label	8	3c40			20	0f3c40	tune					
+04faa	2250	VIN Number	8	3c54			17	0f3c54	tune					
+04fae	1125	CAN Custom Streams	1	3c66			500	0f3c66	tune		1	0	1	500
+04fb0	3000	Charge Temp Aproximation	1	3e5a			48	0f3e5a	tune	%	0.5	0	6	8
+04fb2	3002	Engine Capacity	0	3e8a			2	0f3e8a	tune	cc	1	0		
+04fb4	2997	Primary Short Pulse Adder	1	3e8c			66	0f3e8c	tune	ms	0.0016	0	1	33
+04fb6	2984	Minimum Pulse Width	0	3ece			1	0f3ece	tune	ms	0.0064	0		
+04fb8	3415	Engine Fan Speed Lockout	0	3ecf			1	0f3ecf	tune		1	0		
+04fba	2120	Shift RPM Table	1	3ed0			12	0f3ed0	tune		1	0	1	6
+04fbc	2121	Shift Control Range Table	1	3edc			6	0f3edc	tune		10	0	1	6
+04fbe	2122	Shift Start DC	0	3ee2			1	0f3ee2	tune	%	1	0		
+04fc0	2123	Shift End DC	0	3ee3			1	0f3ee3	tune	%	1	0		
+04fc2	2998	Primary Short Pulse Adder	1	3ee4			66	0f3ee4	tune	ms	0.0016	0	1	33
+04fc4	3737	Fuel Equation Mode	3	3f26	0	3	0	0f3f26	tune					
+04fc6	2843	Fuel System Type	3	3f26	3	3	0	0f3f26	tune					
+04fc8	3111	Warmup Enrich Table 2 mode	3	3f26	6	1	0	0f3f26	tune					
+04fca	2	EmptyBit	3	3f26	7	1	0	0f3f26	tune					
+04fcc	1502	Test Injection Frequency	0	3f27			1	0f3f27	tune	Hz	1	0		
+04fce	3738	Stoich Ratio	0	3f28			2	0f3f28	tune	AFR	0.01	0		
+04fd0	3016	Injector Size	0	3f2a			2	0f3f2a	tune	cc/min	1	0		
+04fd2	3013	Fuel Density	0	3f2c			2	0f3f2c	tune	g/cc	0.0001	0		
+04fd4	3014	Fuel Density	0	3f2e			2	0f3f2e	tune	1/C	1e-06	0		
+04fd6	3015	Fuel Density	0	3f30			2	0f3f30	tune	1/C	1e-06	0		
+04fd8	3020	Fuel Charge Cooling Coef 1	0	3f32			1	0f3f32	tune	C	0.25	0		
+04fda	2415	Ethanol Sensor Lockout Time	0	3f33			1	0f3f33	tune	s	1	0		
+04fdc	2416	Ethanol Sensor Lockout Time	0	3f34			1	0f3f34	tune	%	1	0		
+04fde	3021	Fuel Charge Cooling Coef 2	0	3f35			1	0f3f35	tune	C	0.25	0		
+04fe0	1515	Fuel Table Ratio Table	1	3f36			11	0f3f36	tune		0.5	0	1	11
+04fe2	1517	Fuel Table Ratio X Parameter	3	3f41	0	8	0	0f3f41	tune					
+04fe4	1516	Fuel Table Ratio X Axis	1	3f42			22	0f3f42	tune		1	0	1	11
+04fe6	1512	Fuel Blend Ratio Table	1	3f58			11	0f3f58	tune		0.5	0	1	11
+04fe8	1514	Fuel Blend X Parameter	3	3f63	0	8	0	0f3f63	tune					
+04fea	1513	Fuel Blend Ratio Table Axis	1	3f64			22	0f3f64	tune		1	0	1	11
+04fec	1518	Ignition Table Ratio Table	1	3f7a			11	0f3f7a	tune		0.5	0	1	11
+04fee	1520	Ignition Table Ratio X Parameter	3	3f85	0	8	0	0f3f85	tune					
+04ff0	1519	Ignition Table Ratio X Axis	1	3f86			22	0f3f86	tune		1	0	1	11
+04ff2	1521	Boost Table Ratio Table	1	3f9c			11	0f3f9c	tune		0.5	0	1	11
+04ff4	1523	Boost Table Ratio X Parameter	3	3fa7	0	8	0	0f3fa7	tune					
+04ff6	1522	Boost Table Ratio X Axis	1	3fa8			22	0f3fa8	tune		1	0	1	11
+04ff8	2841	Reference Fuel Pressure	0	3fbe			2	0f3fbe	tune		1	0		
+04ffa	2842	Base Fuel Pressure	0	3fc0			2	0f3fc0	tune		1	0		
+04ffc	1501	Test Injection Counts	0	3fc2			2	0f3fc2	tune		1	0		
+04ffe	1503	Test Injection Pulse Width	0	3fc4			2	0f3fc4	tune	ms	0.0016	0		
+05000	1885	Gear Lever Gradient	0	3fc6			2	0f4000	tune	N/V	0.01	0		
+05002	1886	Gear Lever Offset	0	3fc8			2	0f4002	tune	V	0.001	0		
+05004	2036	Upshift Force	0	3fca			1	0f4004	tune	N	2	0		
+05006	2037	Downshift Force	0	3fcb			1	0f4005	tune	N	-2	0		
+05008	2038	Gear Cut Start Mode	3	3fcc	0	4	0	0f4006	tune					
+0500a	2039	Gear Cut Start Mode	3	3fcc	4	4	0	0f4006	tune					
+0500c	2040	Gear Cut Reactivation Delay	0	3fcd			1	0f4007	tune	ms	2	0		
+0500e	2043	Gear Cut Power On	0	3fce			1	0f4008	tune	% TP	1	0		
+05010	2053	Gear Cut Max Cut Time	0	3fcf			1	0f4009	tune	ms	2	0		
+05012	2044	Gear Cut Period DU	1	3fd0			16	0f400a	tune	ms	2		1	8
+05014	2045	Gear Cut Period DD	1	3fe0			16	0f401a	tune	ms	2		1	8
+05016	2046	Gear Cut Period OU	1	3ff0			16	0f402a	tune	ms	2		1	8
+05018	2047	Gear Cut Period OD	1	4000			16	0f403a	tune	ms	2		1	8
+0501a	2042	Gear Cut Max Cut Time	0	4010			2	0f404a	tune	ms	2	0		
+0501c	2051	Gear Cut Recovery DU	1	4012			16	0f404c	tune	ms	2		1	8
+0501e	2052	Gear Cut Recovery  DD	1	4022			16	0f405c	tune	ms	2		1	8
+05020	2060	Gear Up Shift DI	3	4032	0	8	0	0f406c	tune					
+05022	2054	Start Shift Voltage Threshold	0	4033			1	0f406d	tune	V	0.001	0		
+05024	2080	Cut Percent DU	1	4034			8	0f406e	tune	%	1		1	8
+05026	2081	Cut PErcent DD	1	403c			8	0f4076	tune	%	1		1	8
+05028	2082	Ignition Trim DU	1	4044			8	0f407e	tune		-0.2		1	8
+0502a	2083	Ignition Trim DD	1	404c			8	0f4086	tune		-0.2		1	8
+0502c	2084	Fuel Trim DU	1	4054			8	0f408e	tune	%	0.1		1	8
+0502e	2085	Fuel Trim DD	1	405c			8	0f4096	tune	%	0.1		1	8
+05030	2086	Throttle Trim OU	1	4064			8	0f409e	tune	%	0.2		1	8
+05032	2087	Throttle Trim OD	1	406c			8	0f40a6	tune	%	0.2		1	8
+05034	2090	Max Downshift RPM	1	4074			16	0f40ae	tune	RPM	1		1	8
+05036	2592	Gear Ratio Table	1	4084			14	0f40be	tune		0.01	0	1	7
+05038	2109	Blip Response Time	1	4092			8	0f40cc	tune	ms	1		1	8
+0503a	1461	Gear Shift Speed Lockout	0	409a			1	0f40d4	tune		1	0		
+0503c	1888	Use end of gears	3	409b	0	1	0	0f40d5	tune					
+0503e	1889	Cut type	3	409b	1	1	0	0f40d5	tune					
+05040	2009	Timer 2 Polarity	3	409b	2	2	0	0f40d5	tune					
+05042	3723	Timer 2 Polarity	3	409b	4	2	0	0f40d5	tune					
+05044	3724	Timer 2 Polarity	3	409b	6	2	0	0f40d5	tune					
+05046	2341	Cal Table 8	1	409c			32	0f40d6	tune		1	0	1	16
+05048	2342	Cal Table 8 X Axis	1	40bc			32	0f40f6	tune		1	0	1	16
+0504a	2344	Cal 8 Input Units	3	40dc	0	4	0	0f4116	tune					
+0504c	2345	Cal 8 Untis	3	40dc	4	4	0	0f4116	tune					
+0504e	2349	Cal 9 Input Units	3	40dd	0	4	0	0f4117	tune					
+05050	2350	Cal 9 Untis	3	40dd	4	4	0	0f4117	tune					
+05052	2346	Cal Table 9	1	40de			32	0f4118	tune		1	0	1	16
+05054	2347	Cal Table 9 X Axis	1	40fe			32	0f4138	tune		1	0	1	16
+05056	2351	Cal Table 10	1	411e			32	0f4158	tune		1	0	1	16
+05058	2352	Cal Table 10 X Axis	1	413e			32	0f4178	tune		1	0	1	16
+0505a	2354	Cal 10 Input Units	3	415e	0	4	0	0f4198	tune					
+0505c	2355	Cal 10 Untis	3	415e	4	4	0	0f4198	tune					
+0505e	3123	FP Speed P Gain	0	415f			1	0f4199	tune	%/kPa	0.003125	0		
+05060	3124	FP Speed I Gain	0	4160			1	0f419a	tune	%/kPa/s	9.65625e-05	0		
+05062	3125	FP Speed D Gain	0	4161			1	0f419b	tune	%.s/kPa	0.003125	0		
+05064	3126	FP Startup Override Pressure	0	4162			1	0f419c	tune		5	0		
+05066	3128	Input Shaft RPM Source	3	4163	0	5	0	0f419d	tune					
+05068	2	EmptyBit	3	4163	5	1	0	0f419d	tune					
+0506a	2	EmptyBit	3	4163	6	1	0	0f419d	tune					
+0506c	2	EmptyBit	3	4163	7	1	0	0f419d	tune					
+0506e	3129	Input Shaft RPM Calibration	0	4164			2	0f419e	tune	RPM/Hz	0.001	0		
+05070	3727	Timer 1 Activation	3	4166	0	8	0	0f41a0	tune					
+05072	3728	Timer 1 Activation	3	4167	0	8	0	0f41a1	tune					
+05074	3725	Timer 1 Max Time	0	4168			2	0f41a2	tune	s	0.001	0		
+05076	3726	Timer 1 Max Time	0	416a			2	0f41a4	tune	s	0.001	0		
+05078	2	EmptyBit	3	416c	0	1	0	0f41a6	tune					
+0507a	3740	GDI Pump Lobes	3	416c	1	3	0	0f41a6	tune					
+0507c	3747	GDI Pump Control Polarity	3	416c	4	1	0	0f41a6	tune					
+0507e	3749	GDI Driver Type	3	416c	5	1	0	0f41a6	tune					
+05080	2104	Inj Driver Mode	3	416c	6	1	0	0f41a6	tune					
+05082	2105	Inj Driver Mode	3	416c	7	1	0	0f41a6	tune					
+05084	3748	GDI Pump Control Polarity	3	416d	0	3	0	0f41a7	tune					
+05086	2	EmptyBit	3	416d	3	1	0	0f41a7	tune					
+05088	2	EmptyBit	3	416d	4	1	0	0f41a7	tune					
+0508a	2	EmptyBit	3	416d	5	1	0	0f41a7	tune					
+0508c	2	EmptyBit	3	416d	6	1	0	0f41a7	tune					
+0508e	2	EmptyBit	3	416d	7	1	0	0f41a7	tune					
+05090	3741	GDI Pump Lobe Centerline	0	416e			2	0f41a8	tune	° Crank  ATDC	1	0		
+05092	3472	GDI P Gain	0	4170			2	0f41aa	tune		0.00390625	0		
+05094	3743	GDI Pump Cal Deg	1	4172			32	0f41ac	tune	 Before Lobe Center	0.01		1	16
+05096	3744	GDI Pump Cal cc	1	4192			32	0f41cc	tune	 ° Before Lobe Center	0.1		1	16
+05098	2106	Current at high voltage	0	41b2			1	0f41ec	tune	Amps	0.051151	-1.35552		
+0509a	2107	Current at 12V	0	41b3			1	0f41ed	tune	Amps	0.051151	-1.35552		
+0509c	2108	Limited Current	0	41b4			1	0f41ee	tune	Amps	0.051151	-1.35552		
+0509e	2096	Time at peak current	0	41b5			1	0f41ef	tune	us	10	0		
+050a0	2097	Peak to Hold Off time	0	41b6			1	0f41f0	tune	us	0.166667	0		
+050a2	2098	DC-DC Converter Voltage	0	41b7			1	0f41f1	tune	V	0.3125	0		
+050a4	2094	Peak Current	0	41b8			1	0f41f2	tune	Amps	0.05181950502	-1.347307112		
+050a6	2095	Hold Current	0	41b9			1	0f41f3	tune	Amps	0.05181950502	-1.347307112		
+050a8	2103	GDI PWM Frequency	0	41ba			1	0f41f4	tune	Hz	5	0		
+050aa	1882	RiDE Max Reverse Torque	0	41bb			1	0f41f5	tune	%	0.5	0		
+050ac	3745	GDI Spill Valve On Time	0	41bc			2	0f41f6	tune	°	0.1	0		
+050ae	3746	GDI Volume Per Pump	0	41be			2	0f41f8	tune	cc	0.001	0		
+050b0	3130	FP Speed FF Gain	0	41c0			1	0f41fa	tune	%/cc/min	0.000390625	0		
+050b2	3153	GDI Pump Mode	3	41c1	0	8	0	0f41fb	tune					
+050b4	2061	Gear Down Shift DI	3	41c2	0	8	0	0f41fc	tune					
+050b6	3155	GDI Min Pump Angle	0	41c3			1	0f41fd	tune	°	0.1	0		
+050b8	2581	Keep Alive Time	0	41c4			2	0f41fe	tune	s	0.02	0		
+050ba	3473	GDI I Gain	0	41c6			2	0f4200	tune		1.525878906e-05	0		
+050bc	3144	GDI Speed P Gain High Speed	0	41c8			1	0f4202	tune	kPa/s	125	0		
+050be	3718	Cruise Startup Lockout	0	41c9			1	0f4203	tune	s	0.1	0		
+050c0	3714	Cruise Min RPM	0	41ca			2	0f4204	tune	RPM	1	0		
+050c2	3715	Cruise Max RPM	0	41cc			2	0f4206	tune	RPM	1	0		
+050c4	3716	Cruise RPM Ramp Rate	0	41ce			2	0f4208	tune	RPM/s	1	0		
+050c6	3190	GDI Prop Gain Table	1	41d0			16	0f420a	tune	ms	0.0016	0	1	8
+050c8	3750	GDI Diag High Pres	0	41e0			2	0f421a	tune		1	0		
+050ca	3751	GDI Diag Low Pres	0	41e2			2	0f421c	tune		1	0		
+050cc	3752	GDI Diag Low Pres	0	41e4			2	0f421e	tune	s	0.008	0		
+050ce	3168	FP Speed Min DC	0	41e6			1	0f4220	tune	%	1	0		
+050d0	3169	FP Speed Max DC	0	41e7			1	0f4221	tune	%	1	0		
+050d2	3193	FP OL Speed Table	1	41e8			28	0f4222	tune		0.1	0	1	14
+050d4	3194	FP OL Speed Table Axis	1	4204			28	0f423e	tune		0.1	0	1	14
+050d6	3156	GDI Target Pressure	1	4220			200	0f425a	tune		1	0	10	10
+050d8	3157	GDI Target Pres X Axis	1	42e8			20	0f4322	tune		1		1	10
+050da	3158	GDI Target Pres Y Axis	1	42fc			20	0f4336	tune		1		1	10
+050dc	3159	GDI Target Pres X Param	3	4310	0	8	0	0f434a	tune					
+050de	3160	GDI Target Pres X Param	3	4311	0	8	0	0f434b	tune					
+050e0	3167	GDI Pump Compensation	1	4312			200	0f434c	tune	%	0.1	0	10	10
+050e2	3161	GDI Pump Comp X Axis	1	43da			20	0f4414	tune		1	0	1	10
+050e4	3162	GDI Pump Com Y Axis	1	43ee			20	0f4428	tune		1	0	1	10
+050e6	3163	GDI Pump Comp X Param	3	4402	0	8	0	0f443c	tune					
+050e8	3164	GDI Pump Comp X Param	3	4403	0	8	0	0f443d	tune					
+050ea	851	Function DI 13	3	4404	0	8	0	0f443e	tune					
+050ec	854	Function DI 14	3	4405	0	8	0	0f443f	tune					
+050ee	857	Function DI 15	3	4406	0	8	0	0f4440	tune					
+050f0	860	Function DI 16	3	4407	0	8	0	0f4441	tune					
+050f2	1200	Calibration DI #11	0	4408			2	0f4442	tune		1	0		
+050f4	1201	Calibration DI #12	0	440a			2	0f4444	tune		1	0		
+050f6	1202	Calibration DI #13	0	440c			2	0f4446	tune		1	0		
+050f8	1204	Calibration DI #14	0	440e			2	0f4448	tune		1	0		
+050fa	1205	Calibration DI #15	0	4410			2	0f444a	tune		1	0		
+050fc	1206	Calibration DI #16	0	4412			2	0f444c	tune		1	0		
+050fe	862	Analog Channel #13	3	4414	0	8	0	0f444e	tune					
+05100	866	AnV Cal13	3	4415	0	8	0	0f444f	tune					
+05102	870	AN Volt13 Error  Value	0	4416			2	0f4450	tune	V	0.0048875	0		
+05104	871	AN Volt13 Error  Value	0	4418			2	0f4452	tune	V	0.0048875	0		
+05106	872	AN Volt13 Error  Value	0	441a			2	0f4454	tune		0.0048875	0		
+05108	863	Analog Channel #14	3	441c	0	8	0	0f4456	tune					
+0510a	867	AnV Cal14	3	441d	0	8	0	0f4457	tune					
+0510c	873	AN Volt14 Error  Value	0	441e			2	0f4458	tune	V	0.0048875	0		
+0510e	874	AN Volt14 Error  Value	0	4420			2	0f445a	tune	V	0.0048875	0		
+05110	875	AN Volt14 Error  Value	0	4422			2	0f445c	tune		0.0048875	0		
+05112	864	Analog Channel #15	3	4424	0	8	0	0f445e	tune					
+05114	868	AnV Cal15	3	4425	0	8	0	0f445f	tune					
+05116	876	AN Volt15 Error  Value	0	4426			2	0f4460	tune	V	0.0048875	0		
+05118	877	AN Volt15 Error  Value	0	4428			2	0f4462	tune	V	0.0048875	0		
+0511a	878	AN Volt15 Error  Value	0	442a			2	0f4464	tune		0.0048875	0		
+0511c	865	Analog Channel #16	3	442c	0	8	0	0f4466	tune					
+0511e	869	AnV Cal16	3	442d	0	8	0	0f4467	tune					
+05120	879	AN Volt16 Error  Value	0	442e			2	0f4468	tune	V	0.0048875	0		
+05122	880	AN Volt16 Error  Value	0	4430			2	0f446a	tune	V	0.0048875	0		
+05124	881	AN Volt16 Error  Value	0	4432			2	0f446c	tune		0.0048875	0		
+05126	882	TC1 Error Low	0	4434			2	0f446e	tune		0.1	-1000		
+05128	883	TC1 Error High	0	4436			2	0f4470	tune		0.1	-1000		
+0512a	884	TC1 Error Value	0	4438			2	0f4472	tune		0.1	-1000		
+0512c	885	TC2 Error Low	0	443a			2	0f4474	tune		0.1	-1000		
+0512e	886	TC2 Error High	0	443c			2	0f4476	tune		0.1	-1000		
+05130	887	TC2 Error Value	0	443e			2	0f4478	tune		0.1	-1000		
+05132	890	Function	3	4440	0	8	0	0f447a	tune					
+05134	830	E-Throttle 2 Mode	3	4441	0	2	0	0f447b	tune					
+05136	2	EmptyBit	3	4441	2	1	0	0f447b	tune					
+05138	832	EThrottle Quiet	3	4441	3	1	0	0f447b	tune					
+0513a	840	Ethrottle Target Table 2 Option	3	4441	4	4	0	0f447b	tune					
+0513c	841	TPS LOW	0	4442			2	0f447c	tune	V	0.004887585533	0		
+0513e	842	TPS HIGH	0	4444			2	0f447e	tune	V	0.004887585533	0		
+05140	843	Throttle Plate Closed	0	4446			2	0f4480	tune	V	0.004887585533	0		
+05142	844	Throttle Plate Open	0	4448			2	0f4482	tune	V	0.004887585533	0		
+05148	835	Proportional Gain EWIRE	0	444c			2	0f4486	tune		0.00390625	0		
+0514a	836	Intergral Gain 2 EWIRE	0	444e			2	0f4488	tune		0.00390625	0		
+0514c	837	Derivtive Gain EWIRE	0	4450			2	0f448a	tune		0.00390625	0		
+0514e	838	Min Clamp  EWIRE	0	4452			2	0f448c	tune	% DC	0.1	-100		
+05150	839	Max Clamp EWIRE	0	4454			2	0f448e	tune	% DC	0.1	-100		
+05152	833	DeadBand	0	4456			1	0f4490	tune	%	0.1	0		
+05154	845	TPS(sub) Hi	0	4457			1	0f4491	tune	%TP 2 (Main)	0.5	0		
+05156	893	Aux 17 Function	3	4458	0	8	0	0f4492	tune					
+05158	894	Aux 18 Function	3	4459	0	8	0	0f4493	tune					
+0515a	898	Aux 17 Frequency	0	445a			2	0f4494	tune	Hz	1	0		
+0515c	899	Aux 18 Frequency	0	445c			2	0f4496	tune	Hz	1	0		
+0515e	814	Aux 19 Function	3	445e	0	8	0	0f4498	tune					
+05160	815	Aux 20 Function	3	445f	0	8	0	0f4499	tune					
+05162	818	Aux 19 Frequency	0	4460			2	0f449a	tune	Hz	1	0		
+05164	819	Aux 20 Frequency	0	4462			2	0f449c	tune	Hz	1	0		
+05166	896	Aux 17 Polarity	3	4464	0	1	0	0f449e	tune					
+05168	897	Aux 18 Polarity	3	4464	1	1	0	0f449e	tune					
+0516a	816	Aux 19 Polarity	3	4464	2	1	0	0f449e	tune					
+0516c	817	Aux 20 Polarity	3	4464	3	1	0	0f449e	tune					
+0516e	2	EmptyBit	3	4464	4	1	0	0f449e	tune					
+05170	2	EmptyBit	3	4464	5	1	0	0f449e	tune					
+05172	2	EmptyBit	3	4464	6	1	0	0f449e	tune					
+05174	2	EmptyBit	3	4464	7	1	0	0f449e	tune					
+05176	849	Accelerometer Filter Size	0	4465			1	0f449f	tune		1	0		
+05178	1718	G4S Logged Rates	1	4466			100	0f44a0	tune		1	0	1	100
+0517a	3106	OL FP Min Duty	0	44ca			2	0f4504	tune	%	0.1	0		
+0517c	3107	OL FP Max Duty	0	44cc			2	0f4506	tune	%	0.1	0		
+0517e	3108	OL FP Multi	0	44ce			2	0f4508	tune	% / %	0.01	0		
+05180	3109	OL FP Offset	0	44d0			2	0f450a	tune	%	0.1	0		
+05182	3115	OL FP Prime Duty	0	44d2			2	0f450c	tune	%	0.1	0		
+05184	1717	G4S Logged Parameters	1	44d4			200	0f450e	tune		1	0	1	100
+05186	2252	DI 11 Label	8	459c			20	0f45d6	tune					
+05188	2253	DI 13 Label	8	45b0			20	0f45ea	tune					
+0518a	2254	DI 13 Label	8	45c4			20	0f45fe	tune					
+0518c	2255	DI 14 Label	8	45d8			20	0f4612	tune					
+0518e	2256	DI 15 Label	8	45ec			20	0f4626	tune					
+05190	2257	DI 16 Label	8	4600			20	0f463a	tune					
+05192	2258	An Volt 12 Label	8	4614			20	0f464e	tune					
+05194	2259	An Volt 13 Label	8	4628			20	0f4662	tune					
+05196	2260	An Volt 14 Label	8	463c			20	0f4676	tune					
+05198	2261	An Volt 15 Label	8	4650			20	0f468a	tune					
+0519a	2262	An Volt 16 Label	8	4664			20	0f469e	tune					
+0519c	804	ISC 3D Base	1	4678			192	0f46b2	tune		0.1	0	8	12
+0519e	805	ISC 3D Base X Axis	1	4738			24	0f4772	tune		1	0	1	12
+051a0	806	ISC Base 3D Y Axis	1	4750			16	0f478a	tune		1	0	1	8
+051a2	807	ISC 3D Base X Param	3	4760	0	8	0	0f479a	tune					
+051a4	808	ISC 3D Base Y Param	3	4761	0	8	0	0f479b	tune					
+051a6	803	ISC Base/Targ Table Mode	3	4762	0	2	0	0f479c	tune					
+051a8	2	EmptyBit	3	4762	2	1	0	0f479c	tune					
+051aa	2	EmptyBit	3	4762	3	1	0	0f479c	tune					
+051ac	2	EmptyBit	3	4762	4	1	0	0f479c	tune					
+051ae	2	EmptyBit	3	4762	5	1	0	0f479c	tune					
+051b0	2	EmptyBit	3	4762	6	1	0	0f479c	tune					
+051b2	2	EmptyBit	3	4762	7	1	0	0f479c	tune					
+051b4	1319	Park/Neutral Step	0	4763			1	0f479d	tune	%	1	0		
+051b6	1328	ISC Speed Lockout	0	4764			1	0f479e	tune		0.1	0		
+051b8	2022	Ewire Fault Duty Cycle	0	4765			1	0f479f	tune	% DC	1	0		
+051ba	809	ISC 3D Target Trim	1	4766			192	0f47a0	tune	RPM	1	-2000	8	12
+051bc	810	ISC 3D Target Trim X Axis	1	4826			24	0f4860	tune		1	0	1	12
+051be	811	ISC Target Trim 3D Y Axis	1	483e			16	0f4878	tune		1	0	1	8
+051c0	812	ISC 3D Target Trim X Param	3	484e	0	8	0	0f4888	tune					
+051c2	813	ISC 3D Target Trim Y Param	3	484f	0	8	0	0f4889	tune					
+051c4	3696	Cal 1 Label	8	4850			20	0f488a	tune					
+051c6	3697	Cal 2 Label	8	4864			20	0f489e	tune					
+051c8	3698	Cal 3 Label	8	4878			20	0f48b2	tune					
+051ca	3699	Cal 4 Label	8	488c			20	0f48c6	tune					
+051cc	3700	Cal 5 Label	8	48a0			20	0f48da	tune					
+051ce	3701	Cal 6 Label	8	48b4			20	0f48ee	tune					
+051d0	3702	Cal 7 Label	8	48c8			20	0f4902	tune					
+051d2	3703	Cal 8 Label	8	48dc			20	0f4916	tune					
+051d4	3704	Cal 9 Label	8	48f0			20	0f492a	tune					
+051d6	3705	Cal 10 Label	8	4904			20	0f493e	tune					
+051d8	821	Aux 11 Label	8	4918			20	0f4952	tune					
+051da	822	Aux 12 Label	8	492c			20	0f4966	tune					
+051dc	823	Aux 13 Label	8	4940			20	0f497a	tune					
+051de	828	Aux 14 Label	8	4954			20	0f498e	tune					
+051e0	829	Aux 15 Label	8	4968			20	0f49a2	tune					
+051e2	831	Aux 16 Label	8	497c			20	0f49b6	tune					
+051e4	846	Aux 17 Label	8	4990			20	0f49ca	tune					
+051e6	847	Aux 18 Label	8	49a4			20	0f49de	tune					
+051e8	848	Aux 19 Label	8	49b8			20	0f49f2	tune					
+051ea	820	Aux 20 Label	8	49cc			20	0f4a06	tune					
+051ec	2263	Virtual Aux 4 Label	8	49e0			20	0f4a1a	tune					
+051ee	2264	Virtual Aux 5 Label	8	49f4			20	0f4a2e	tune					
+051f0	2265	Virtual Aux 6 Label	8	4a08			20	0f4a42	tune					
+051f2	708	Virtual Aux 7 Label	8	4a1c			20	0f4a56	tune					
+051f4	718	Virtual Aux 8 Label	8	4a30			20	0f4a6a	tune					
+051f6	3765	Timer 1 Label	8	4a44			20	0f4a7e	tune					
+051f8	3766	Timer 2 Label	8	4a58			20	0f4a92	tune					
+051fa	3767	Timer 3 Label	8	4a6c			20	0f4aa6	tune					
+051fc	3768	Timer 4 Label	8	4a80			20	0f4aba	tune					
+05226	790	GDI Pump Tuning	1	4aa8			330	0f4ae2	tune	%	0.01	0	15	11
+05228	791	GDI Pump Tuning X Axis	1	4bf2			22	0f4c2c	tune		1	0	1	11
+0522a	792	GDI Pump Tuning Y Axis	1	4c08			30	0f4c42	tune		1	0	1	15
+0522c	793	GDI Pump Tuning X Param	3	4c26	0	8	0	0f4c60	tune					
+0522e	794	GDI PumpTuning Y Param	3	4c27	0	8	0	0f4c61	tune					
+05230	2294	Master Password G4	1	4c28			10	0f4c62	tune		1	0	1	10
+05232	2295	User Password G4	1	4c32			10	0f4c6c	tune		1	0	1	10
+05236	2	EmptyBit	3	4c3d	0	1	0	0f4c77	tune					
+05238	2	EmptyBit	3	4c3d	1	1	0	0f4c77	tune					
+0523a	2	EmptyBit	3	4c3d	2	1	0	0f4c77	tune					
+0523c	2	EmptyBit	3	4c3d	3	1	0	0f4c77	tune					
+0523e	2299	Password Settings	3	4c3d	4	2	0	0f4c77	tune					
+05240	2	EmptyBit	3	4c3d	6	1	0	0f4c77	tune					
+05242	2303	Password Settings	3	4c3d	7	1	0	0f4c77	tune					
+05244	1530	Max Engine Speed	0	4c3e			2	0f4c78	tune	RPM	1	0		
+05246	1531	Max MAP	0	4c40			2	0f4c7a	tune	kPa	1	0		
+05248	1532	Max INJ %FF	0	4c42			2	0f4c7c	tune	%	0.1	0		
+0524a	1533	Max ECT	0	4c44			2	0f4c7e	tune	C	1	-50		
+0524c	1534	Max IAT	0	4c46			2	0f4c80	tune	C	1	-50		
+0524e	1535	RPM Soft Lim Count	0	4c48			2	0f4c82	tune	Counts	1	0		
+05250	1536	Launch Limit	0	4c4a			2	0f4c84	tune	Counts	1	0		
+05252	1537	Num of Stores	0	4c4c			2	0f4c86	tune		1	0		
+05254	1538	Num of Starts	0	4c4e			2	0f4c88	tune		1	0		
+05256	1539	Max Voltage	0	4c50			2	0f4c8a	tune		0.01	0		
+05258	1540	Max ECU Temp	0	4c52			2	0f4c8c	tune	C	1	-50		
+0525a	1541	Max INJ ms	0	4c54			2	0f4c8e	tune	ms	0.001	0		
+0525c	1542	Speed Limit Count	0	4c56			2	0f4c90	tune	Counts	1	0		
+0525e	1543	MAP Soft Lim Count	0	4c58			2	0f4c92	tune	Counts	1	0		
+05264	1545	Engine Running Time	0	4c5c			2	0f4c96	tune	Mins	1	0		
+05266	1546	Voltage Lim Count	0	4c5e			2	0f4c98	tune	Counts	1	0		
+05268	1547	Knock Counter	0	4c60			2	0f4c9a	tune		1	0		
+0526a	1548	GP RPM Limit 	0	4c62			1	0f4c9c	tune	Counts	1	0		
+0526c	1549	Rotary Oil Pump Err.	0	4c63			1	0f4c9d	tune	Counts	1	0		
+0526e	1550	GP2 RPM Limit 	0	4c64			1	0f4c9e	tune	Counts	1	0		
+05270	1551	Traction Limit Counter	0	4c65			1	0f4c9f	tune	Counts	1	0		
+052ee	2385	ECU Serial Number	4	4ca4			2	0f4cde	tune		1	0		
+052f0	2384	ECU Type	5	4ca6	0	8	0	0f4ce0	tune					
+052f2	2383	Main Board Revision	4	4ca7			1	0f4ce1	tune		0.1	0		
+052f4	2382	Support Board Revision	4	4ca8			1	0f4ce2	tune		1	0		
+052f8	2427	Authentication Number	4	4caa			2	0f4ce4	tune		1	0		
+05306	2381	MAP Calibaration	4	4cb2			2	0f4cec	tune		1	0		
+05308	2380	BAP Calibration	4	4cb4			2	0f4cee	tune		1	0		
+0530a	1000	Engine Speed	4	4cb6			2	00e372	rtv	RPM	1	0		
+0530c	1001	Manifold Pressure	4	4cb8			2	00e374	rtv	kPa	1	0		
+0530e	1091	Gauge Pressure	4	4cba			2	00e376	rtv	kPa	1	-100		
+05310	1051	Baro	4	4cbc			2	00e378	rtv	kPa	0.1	0		
+05312	1078	TP	4	4cbe			2	00e37a	rtv	%	0.1	0		
+05314	1007	%FF	4	4cc0			2	00e37c	rtv	 %	0.1	0		
+05316	1096	Inj Duty Cycle (Stg)	4	4cc2			2	00e37e	rtv	%	0.1	0		
+05318	2967	Injector PW	4	4cc4			2	00e380	rtv	ms	0.001	0		
+0531a	1004	Engine Coolant Temperature	4	4cc6			2	00e382	rtv	C	1	-50		
+0531c	1011	IAT	4	4cc8			2	00e384	rtv	C	1	-50		
+0531e	1081	Battery Voltage	4	4cca			2	00e386	rtv	V	0.01	0		
+05320	1075	Mass Air Flow  g/s 1dp	4	4ccc			2	00e388	rtv	g/s	0.1	0		
+05322	1085	Air per Cylinder	4	4cce			2	00e38a	rtv	g/cyl	0.001	0		
+05324	2587	Gear	5	4cd0	0	8	0	00e38c	rtv					
+05326	2056	ECU Temperature	4	4cd1			1	00e38d	rtv	C	1	-50		
+05328	1083	Injector Timing	4	4cd2			2	00e38e	rtv	BTDC	1	0		
+0532a	1064	Ign Angle	4	4cd4			2	00e390	rtv	 BTDC	0.1	-100		
+0532c	2434	Cam Inlet (LH)	4	4cd6			2	00e392	rtv		0.1	0		
+0532e	2435	Cam Inlet (RH)	4	4cd8			2	00e394	rtv		0.1	0		
+05330	2436	Cam Exhaust (LH)	4	4cda			2	00e396	rtv		-0.1	0		
+05332	2437	Cam Exhaust (RH)	4	4cdc			2	00e398	rtv		-0.1	0		
+05334	1052	GP Temp AN1	4	4cde			1	00e39a	rtv	C	1	-50		
+05336	1053	GP Temp AN2	4	4cdf			1	00e39b	rtv	C	1	-50		
+05338	1054	GP Temp AN3	4	4ce0			1	00e39c	rtv	C	1	-50		
+0533a	1055	GP Temp AN4	4	4ce1			1	00e39d	rtv	C	1	-50		
+0533c	1334	GP  AV1	4	4ce2			2	00e39e	rtv		1	0		
+0533e	1335	GP  AV2	4	4ce4			2	00e3a0	rtv		0.1	0		
+05340	1336	GP  AV3	4	4ce6			2	00e3a2	rtv		0.1	0		
+05342	1337	GP  AV4	4	4ce8			2	00e3a4	rtv		0.1	0		
+05344	1338	GP  AV5	4	4cea			2	00e3a6	rtv		0.1	0		
+05346	1339	GP  AV6	4	4cec			2	00e3a8	rtv		0.1	0		
+05348	1355	AN Volt 7	4	4cee			2	00e3aa	rtv		1	0		
+0534a	1356	AN Volt 8	4	4cf0			2	00e3ac	rtv		1	0		
+0534c	1357	AN Volt 9	4	4cf2			2	00e3ae	rtv		1	0		
+0534e	1358	AN Volt 10	4	4cf4			2	00e3b0	rtv		1	0		
+05350	1359	AN Volt 11	4	4cf6			2	00e3b2	rtv		1	0		
+05352	1172	DI 1 Speed	4	4cf8			2	00e3b4	rtv	kph	0.1	0		
+05354	1173	DI 2 Speed	4	4cfa			2	00e3b6	rtv	kph	0.1	0		
+05356	1174	DI 3 Speed	4	4cfc			2	00e3b8	rtv	kph	0.1	0		
+05358	1175	DI 4 Speed	4	4cfe			2	00e3ba	rtv	kph	0.1	0		
+0535a	1176	DI 5 Speed	4	4d00			2	00e3bc	rtv	kph	0.1	0		
+0535c	1177	DI 6 Speed	4	4d02			2	00e3be	rtv	kph	0.1	0		
+0535e	1163	DI 1 Frequency	4	4d04			2	00e3c0	rtv	Hz	0.1	0		
+05360	1164	DI 2 Frequency	4	4d06			2	00e3c2	rtv	Hz	0.1	0		
+05362	1165	DI 3 Frequency	4	4d08			2	00e3c4	rtv	Hz	0.1	0		
+05364	1166	DI 4 Frequency	4	4d0a			2	00e3c6	rtv	Hz	0.1	0		
+05366	1167	DI 5 Frequency	4	4d0c			2	00e3c8	rtv	Hz	0.1	0		
+05368	1168	DI 6 Frequency	4	4d0e			2	00e3ca	rtv	Hz	0.1	0		
+0536a	1094	Knock Level #1	4	4d10			2	00e3cc	rtv		1	0		
+0536c	1099	Knock Count	4	4d12			2	00e3ce	rtv		1	0		
+0536e	1098	Knock Threshold	4	4d14			2	00e3d0	rtv		5	0		
+05370	1203	Dwel_time	4	4d16			2	00e3d2	rtv	ms	0.0016	0		
+05372	1626	RPM Limit	5	4d18	0	1	0	00e3d4	rtv					
+05374	1627	MAP Limit	5	4d18	1	1	0	00e3d4	rtv					
+05376	1630	KPH Limit	5	4d18	2	1	0	00e3d4	rtv					
+05378	1629	Ign Adv Limit	5	4d18	3	1	0	00e3d4	rtv					
+0537a	1628	AL Ign Cut	5	4d18	4	1	0	00e3d4	rtv					
+0537c	1631	Voltage Limit	5	4d18	5	1	0	00e3d4	rtv					
+0537e	1622	Overrun Fuel Cut	5	4d18	6	1	0	00e3d4	rtv					
+05380	1586	Traction Limit	5	4d18	7	1	0	00e3d4	rtv					
+05382	1633	Under Voltage	5	4d19	0	1	0	00e3d5	rtv					
+05384	1634	Launch RPM Limit	5	4d19	1	1	0	00e3d5	rtv					
+05386	1635	Wake-Up Status	5	4d19	2	1	0	00e3d5	rtv					
+05388	1595	AN Limit	5	4d19	3	1	0	00e3d5	rtv					
+0538a	1587	Rotary Oil Pump	5	4d19	4	1	0	00e3d5	rtv					
+0538c	1578	GP2 RPM Limit	5	4d19	5	1	0	00e3d5	rtv					
+0538e	1599	E-Throttle Limit	5	4d19	6	1	0	00e3d5	rtv					
+05390	1600	Cyclic Idle Limit	5	4d19	7	1	0	00e3d5	rtv					
+05392	1157	Link 3 Trig1 Error Counter	4	4d1a			1	00e3d6	rtv		1	0		
+05394	1162	Fault Codes	5	4d1b	0	8	0	00e3d7	rtv					
+05396	1159	Trig1 Signal	5	4d1c	0	1	0	00e3d8	rtv					
+05398	1160	Trig2 Signal	5	4d1c	1	1	0	00e3d8	rtv					
+0539a	1161	ECCS Widest Slot	5	4d1c	2	1	0	00e3d8	rtv					
+0539c	1158	Polaris Engine Reverse	5	4d1c	3	1	0	00e3d8	rtv					
+0539e	2	EmptyBit	3	4d1c	4	1	0	00e3d8	rtv					
+053a0	2	EmptyBit	3	4d1c	5	1	0	00e3d8	rtv					
+053a2	2	EmptyBit	3	4d1c	6	1	0	00e3d8	rtv					
+053a4	2	EmptyBit	3	4d1c	7	1	0	00e3d8	rtv					
+053a6	1369	Knk Count Cyl 1	4	4d1d			1	00e3d9	rtv		5	0		
+053a8	1370	Knk Count Cyl 2	4	4d1e			1	00e3da	rtv		5	0		
+053aa	1371	Knk Count Cyl 3	4	4d1f			1	00e3db	rtv		5	0		
+053ac	1372	Knk Count Cyl 4	4	4d20			1	00e3dc	rtv		5	0		
+053ae	1373	Knk Level Cyl 5	4	4d21			1	00e3dd	rtv		5	0		
+053b0	1374	Knk Level Cyl 6	4	4d22			1	00e3de	rtv		5	0		
+053b2	1375	Knk Level Cyl 7	4	4d23			1	00e3df	rtv		5	0		
+053b4	1376	Knk Level Cyl 8	4	4d24			1	00e3e0	rtv		5	0		
+053b6	1377	Knk Counter Cyl 1	4	4d25			1	00e3e1	rtv		1	0		
+053b8	1378	Knk Counter Cyl 2	4	4d26			1	00e3e2	rtv		1	0		
+053ba	1379	Knk Counter Cyl 3	4	4d27			1	00e3e3	rtv		1	0		
+053bc	1380	Knk Counter Cyl 4	4	4d28			1	00e3e4	rtv		1	0		
+053be	1381	Knk Counter Cyl 5	4	4d29			1	00e3e5	rtv		1	0		
+053c0	1382	Knk Counter Cyl 6	4	4d2a			1	00e3e6	rtv		1	0		
+053c2	1383	Knk Counter Cyl 7	4	4d2b			1	00e3e7	rtv		1	0		
+053c4	1384	Knk Counter Cyl 8	4	4d2c			1	00e3e8	rtv		1	0		
+053c6	1014	Oil Temp.	4	4d2d			1	00e3e9	rtv	C	1	-50		
+053c8	3040	Lambda 1	4	4d2e			2	00e3ea	rtv		0.001	0		
+053ca	3041	Lambda 2	4	4d30			2	00e3ec	rtv		0.001	0		
+053cc	3042	Lambda 1 and 2 Average	4	4d32			2	00e3ee	rtv		0.001	0		
+053ce	3073	AFR Average	4	4d34			2	00e3f0	rtv	AFR	0.01	0		
+053d0	1151	All Limits Flags for CAN	4	4d36			2	00e3f2	rtv		1	0		
+053d2	2541	DI Runtime flag	5	4d38	0	1	0	00e3f4	rtv					
+053d4	2542	DI Runtime flag	5	4d38	1	1	0	00e3f4	rtv					
+053d6	2543	DI Runtime flag	5	4d38	2	1	0	00e3f4	rtv					
+053d8	2544	DI Runtime flag	5	4d38	3	1	0	00e3f4	rtv					
+053da	2545	DI Runtime flag	5	4d38	4	1	0	00e3f4	rtv					
+053dc	2546	DI Runtime flag	5	4d38	5	1	0	00e3f4	rtv					
+053de	2547	DI Runtime flag	5	4d38	6	1	0	00e3f4	rtv					
+053e0	2548	DI Runtime flag	5	4d38	7	1	0	00e3f4	rtv					
+053e2	2549	DI Runtime flag	5	4d39	0	1	0	00e3f5	rtv					
+053e4	2550	DI Runtime flag	5	4d39	1	1	0	00e3f5	rtv					
+053e6	2551	DI Runtime flag	5	4d39	2	1	0	00e3f5	rtv					
+053e8	2552	DI Runtime flag	5	4d39	3	1	0	00e3f5	rtv					
+053ea	2599	DI Runtime flag	5	4d39	4	1	0	00e3f5	rtv					
+053ec	2600	DI Runtime flag	5	4d39	5	1	0	00e3f5	rtv					
+053ee	2601	DI Runtime flag	5	4d39	6	1	0	00e3f5	rtv					
+053f0	2602	DI Runtime flag	5	4d39	7	1	0	00e3f5	rtv					
+053f2	2664	ANV1 - DI 	5	4d3a	0	1	0	00e3f6	rtv					
+053f4	2665	ANV2 - DI 	5	4d3a	1	1	0	00e3f6	rtv					
+053f6	2666	ANV3 - DI 	5	4d3a	2	1	0	00e3f6	rtv					
+053f8	2667	ANV4 - DI 	5	4d3a	3	1	0	00e3f6	rtv					
+053fa	2668	ANV5 - DI 	5	4d3a	4	1	0	00e3f6	rtv					
+053fc	2669	ANV6 - DI 	5	4d3a	5	1	0	00e3f6	rtv					
+053fe	2670	ANV7 - DI 	5	4d3a	6	1	0	00e3f6	rtv					
+05400	2671	ANV8 - DI 	5	4d3a	7	1	0	00e3f6	rtv					
+05402	2672	ANV9 - DI 	5	4d3b	0	1	0	00e3f7	rtv					
+05404	2673	ANV10 - DI 	5	4d3b	1	1	0	00e3f7	rtv					
+05406	2674	ANV11 - DI 	5	4d3b	2	1	0	00e3f7	rtv					
+05408	2682	ANV12 - DI 	5	4d3b	3	1	0	00e3f7	rtv					
+0540a	2596	Anti-Lag Ign	5	4d3b	4	2	0	00e3f7	rtv					
+0540c	1702	Active Table	5	4d3b	6	2	0	00e3f7	rtv					
+0540e	2070	AN1	5	4d3c	0	2	0	00e3f8	rtv					
+05410	2071	AN2	5	4d3c	2	2	0	00e3f8	rtv					
+05412	2072	AN3	5	4d3c	4	2	0	00e3f8	rtv					
+05414	2073	AN4	5	4d3c	6	2	0	00e3f8	rtv					
+05416	2074	AN5	5	4d3d	0	2	0	00e3f9	rtv					
+05418	2075	AN6	5	4d3d	2	2	0	00e3f9	rtv					
+0541a	2076	AN7	5	4d3d	4	2	0	00e3f9	rtv					
+0541c	2077	AN8	5	4d3d	6	2	0	00e3f9	rtv					
+0541e	2062	AN11	5	4d3e	0	2	0	00e3fa	rtv					
+05420	2063	AN12	5	4d3e	2	2	0	00e3fa	rtv					
+05422	2064	AN13	5	4d3e	4	2	0	00e3fa	rtv					
+05424	2065	AN14	5	4d3e	6	2	0	00e3fa	rtv					
+05426	2078	AN9	5	4d3f	0	2	0	00e3fb	rtv					
+05428	2079	AN10	5	4d3f	2	2	0	00e3fb	rtv					
+0542a	2068	AN17	5	4d3f	4	2	0	00e3fb	rtv					
+0542c	2069	AN18	5	4d3f	6	2	0	00e3fb	rtv					
+0542e	2113	AN13	5	4d40	0	2	0	00e3fc	rtv					
+05430	2114	AN14	5	4d40	2	2	0	00e3fc	rtv					
+05432	2115	AN15	5	4d40	4	2	0	00e3fc	rtv					
+05434	2116	AN16	5	4d40	6	2	0	00e3fc	rtv					
+05436	2	EmptyBit	3	4d41	0	1	0	00e3fd	rtv					
+05438	2	EmptyBit	3	4d41	1	1	0	00e3fd	rtv					
+0543a	2	EmptyBit	3	4d41	2	1	0	00e3fd	rtv					
+0543c	2	EmptyBit	3	4d41	3	1	0	00e3fd	rtv					
+0543e	2	EmptyBit	3	4d41	4	1	0	00e3fd	rtv					
+05440	2	EmptyBit	3	4d41	5	1	0	00e3fd	rtv					
+05442	2	EmptyBit	3	4d41	6	1	0	00e3fd	rtv					
+05444	2	EmptyBit	3	4d41	7	1	0	00e3fd	rtv					
+05446	2968	Eff INJ PW	4	4d42			2	00e3fe	rtv	ms	0.001	0		
+05448	1154	RPM Limit	4	4d44			2	00e400	rtv	RPM	1	0		
+0544a	1155	MAP Limit	4	4d46			2	00e402	rtv		1	0		
+0544c	3225	Aux 1	5	4d48	0	2	0	00e404	rtv					
+0544e	3226	Aux 2	5	4d48	2	2	0	00e404	rtv					
+05450	3227	Aux 3	5	4d48	4	2	0	00e404	rtv					
+05452	3228	Aux 4	5	4d48	6	2	0	00e404	rtv					
+05454	3229	Aux 5	5	4d49	0	2	0	00e405	rtv					
+05456	3230	Aux 6	5	4d49	2	2	0	00e405	rtv					
+05458	3231	Aux 7	5	4d49	4	2	0	00e405	rtv					
+0545a	3232	Aux 8	5	4d49	6	2	0	00e405	rtv					
+0545c	3233	Aux 9	5	4d4a	0	2	0	00e406	rtv					
+0545e	3234	Aux 10	5	4d4a	2	2	0	00e406	rtv					
+05460	2	EmptyBit	3	4d4a	4	1	0	00e406	rtv					
+05462	2	EmptyBit	3	4d4a	5	1	0	00e406	rtv					
+05464	2	EmptyBit	3	4d4a	6	1	0	00e406	rtv					
+05466	2	EmptyBit	3	4d4a	7	1	0	00e406	rtv					
+05468	2	EmptyBit	3	4d4b	0	1	0	00e407	rtv					
+0546a	2	EmptyBit	3	4d4b	1	1	0	00e407	rtv					
+0546c	2	EmptyBit	3	4d4b	2	1	0	00e407	rtv					
+0546e	2	EmptyBit	3	4d4b	3	1	0	00e407	rtv					
+05470	2	EmptyBit	3	4d4b	4	1	0	00e407	rtv					
+05472	2	EmptyBit	3	4d4b	5	1	0	00e407	rtv					
+05474	2597	Anti-Lag Ign Cut	5	4d4b	6	2	0	00e407	rtv					
+05476	3430	Aux13	5	4d4c	0	2	0	00e408	rtv					
+05478	3431	Aux14	5	4d4c	2	2	0	00e408	rtv					
+0547a	3432	Aux15	5	4d4c	4	2	0	00e408	rtv					
+0547c	3433	Aux16	5	4d4c	6	2	0	00e408	rtv					
+0547e	3434	Aux17	5	4d4d	0	2	0	00e409	rtv					
+05480	3435	Aux18	5	4d4d	2	2	0	00e409	rtv					
+05482	3436	Aux19	5	4d4d	4	2	0	00e409	rtv					
+05484	3437	Aux20	5	4d4d	6	2	0	00e409	rtv					
+05486	3422	Aux21	5	4d4e	0	2	0	00e40a	rtv					
+05488	3423	Aux22	5	4d4e	2	2	0	00e40a	rtv					
+0548a	3424	Aux23	5	4d4e	4	2	0	00e40a	rtv					
+0548c	3425	Aux24	5	4d4e	6	2	0	00e40a	rtv					
+0548e	3426	Aux25	5	4d4f	0	2	0	00e40b	rtv					
+05490	3427	Aux26	5	4d4f	2	2	0	00e40b	rtv					
+05492	3428	Aux27	5	4d4f	4	2	0	00e40b	rtv					
+05494	3429	Aux28	5	4d4f	6	2	0	00e40b	rtv					
+05496	1354	ECU Hold Power	5	4d50	0	2	0	00e40c	rtv					
+05498	2	EmptyBit	3	4d50	2	1	0	00e40c	rtv					
+0549a	2	EmptyBit	3	4d50	3	1	0	00e40c	rtv					
+0549c	2575	Logging Status G4	5	4d50	4	4	0	00e40c	rtv					
+0549e	2324	Password Protection G4	5	4d51	0	3	0	00e40d	rtv					
+054a0	2333	Engine Kill Function Active	5	4d51	3	1	0	00e40d	rtv					
+054a2	2268	Knock System New	5	4d51	4	4	0	00e40d	rtv					
+054a4	3236	Aux 12	5	4d52	0	2	0	00e40e	rtv					
+054a6	3237	Aux 13	5	4d52	2	2	0	00e40e	rtv					
+054a8	3238	Aux 14	5	4d52	4	2	0	00e40e	rtv					
+054aa	3239	Aux 12	5	4d52	6	2	0	00e40e	rtv					
+054ac	3240	Virtual Aux 5	5	4d53	0	2	0	00e40f	rtv					
+054ae	3032	Virtual Aux ^	5	4d53	2	2	0	00e40f	rtv					
+054b0	3033	Virtual Aux 7	5	4d53	4	2	0	00e40f	rtv					
+054b2	3036	Virtual Aux 8	5	4d53	6	2	0	00e40f	rtv					
+054b4	2835	Traction Status	5	4d54	0	3	0	00e410	rtv					
+054b6	3412	Engine Fan 1 Status	5	4d54	3	1	0	00e410	rtv					
+054b8	3413	Engine Fan 2 Status	5	4d54	4	1	0	00e410	rtv					
+054ba	2399	CLL 2 Status	5	4d54	5	3	0	00e410	rtv					
+054bc	1897	Lambda 2 Error	5	4d55	0	8	0	00e411	rtv					
+054be	1306	Idle Width	4	4d56			2	00e412	rtv	%DC	0.1	0		
+054c0	1305	Idle Target	4	4d58			2	00e414	rtv	 RPM	1	0		
+054c2	1315	Idle Status	5	4d5a	0	8	0	00e416	rtv					
+054c4	2593	Anti-Lag mode	5	4d5b	0	3	0	00e417	rtv					
+054c6	2594	Launch Control Status	5	4d5b	3	2	0	00e417	rtv					
+054c8	2019	VVT Active Exh Table	5	4d5b	5	2	0	00e417	rtv					
+054ca	1270	Ethanol sensor status	5	4d5b	7	1	0	00e417	rtv					
+054cc	1316	Wgate Duty Cycle	4	4d5c			2	00e418	rtv	%	0.1	0		
+054ce	1317	Boost Target	4	4d5e			2	00e41a	rtv	kPa	1	0		
+054d0	1329	Boost ET Trim	4	4d60			1	00e41c	rtv	%	1	-100		
+054d2	1330	Boost AT Trim	4	4d61			1	00e41d	rtv	%	1	-100		
+054d4	1331	IAT Wastegate Comp	4	4d62			1	00e41e	rtv	%	1	-100		
+054d6	1488	DIG #1 State	5	4d63	0	1	0	00e41f	rtv					
+054d8	1489	DIG #2 State	5	4d63	1	1	0	00e41f	rtv					
+054da	1490	DIG #3 State	5	4d63	2	1	0	00e41f	rtv					
+054dc	1491	DIG #4 State	5	4d63	3	1	0	00e41f	rtv					
+054de	1492	DIG #5 State	5	4d63	4	1	0	00e41f	rtv					
+054e0	1493	DIG #6 State	5	4d63	5	1	0	00e41f	rtv					
+054e2	1494	DIG #7 State	5	4d63	6	1	0	00e41f	rtv					
+054e4	1495	DIG #8 State	5	4d63	7	1	0	00e41f	rtv					
+054e6	1327	P-Gain	4	4d64			2	00e420	rtv	%DC	0.1	-100		
+054e8	1326	I-Gain	4	4d66			2	00e422	rtv	%DC	0.1	-100		
+054ea	1325	D-Gain	4	4d68			2	00e424	rtv	%DC	0.1	-100		
+054ec	2055	Analog Out Supply	4	4d6a			2	00e426	rtv	V	0.01	0		
+054ee	2057	12V Internal Supply	4	4d6c			2	00e428	rtv	V	0.01	0		
+054f0	2059	CAS Voltage	4	4d6e			2	00e42a	rtv	V	0.01	0		
+054f2	2050	3.3V Internal	4	4d70			2	00e42c	rtv	V	0.01	0		
+054f4	2092	DAC 1	4	4d72			2	00e42e	rtv	V	0.01	0		
+054f6	2093	DAC 2	4	4d74			2	00e430	rtv	V	0.01	0		
+054f8	2144	E-Wire Supply 	4	4d76			2	00e432	rtv	V	0.01	0		
+054fa	2100	Hardware Check DI 1-4	5	4d78	0	1	0	00e434	rtv					
+054fc	2101	Hardware Check DI 5-8	5	4d78	1	1	0	00e434	rtv					
+054fe	2102	Hardware CheckTriggers	5	4d78	2	1	0	00e434	rtv					
+05500	1999	Aux 9/10 Supply Status	5	4d78	3	2	0	00e434	rtv					
+05502	2	EmptyBit	3	4d78	5	1	0	00e434	rtv					
+05504	2147	Table Allocation G4	5	4d78	6	1	0	00e434	rtv					
+05506	2839	Active Traction Table	5	4d78	7	1	0	00e434	rtv					
+05508	1084	DataFlash Chksum 	5	4d79	0	1	0	00e435	rtv					
+0550a	1082	5V Analog Supply	5	4d79	1	1	0	00e435	rtv					
+0550c	2111	Fuel Calculation	5	4d79	2	2	0	00e435	rtv					
+0550e	2110	SPI Bus Error (Polled loop timeout)	5	4d79	4	1	0	00e435	rtv					
+05510	1998	Aux 17-20 Supply Status	5	4d79	5	1	0	00e435	rtv					
+05512	2	EmptyBit	3	4d79	6	1	0	00e435	rtv					
+05514	2	EmptyBit	3	4d79	7	1	0	00e435	rtv					
+05516	1225	chksum error	4	4d7a			2	00e436	rtv		1	0		
+05518	1226	Chksum Page Error	4	4d7c			2	00e438	rtv		1	0		
+0551a	1065	FCut Retard	4	4d7e			2	00e43a	rtv		-0.1	0		
+0551c	1002	Ign 4D G4	4	4d80			2	00e43c	rtv		0.1	-100		
+0551e	1003	Ign 5D G4	4	4d82			2	00e43e	rtv		0.1	-100		
+05520	1048	Ign Table1 G4	4	4d84			2	00e440	rtv	 BTDC	0.1	-100		
+05522	1049	Ign Table2 G4	4	4d86			2	00e442	rtv	 BTDC	0.1	-100		
+05524	1395	ECT Ign Trim G4	4	4d88			2	00e444	rtv		0.1	-100		
+05526	1396	IAT Ign Trim G4	4	4d8a			2	00e446	rtv		0.1	-100		
+05528	1443	Anti-Lag Retard	4	4d8c			2	00e448	rtv		0.1	-100		
+0552a	1449	Trailing Split	4	4d8e			2	00e44a	rtv		0.1	-100		
+0552c	1450	Launch Ign Trim	4	4d90			2	00e44c	rtv		0.1	-100		
+0552e	1391	Transient Ign Retard	4	4d92			2	00e44e	rtv		0.1	-100		
+05530	1403	Limit Ign Trim	4	4d94			1	00e450	rtv		0.1	-20		
+05532	1406	Traction_Ignition_Trim	4	4d95			1	00e451	rtv		0.1	-20		
+05534	1404	Gear Cut Ign Trim	4	4d96			2	00e452	rtv		0.1	-100		
+05536	1005	Ignition Idle Control	4	4d98			2	00e454	rtv		0.1	-100		
+05538	3010	Enext	4	4d9a			2	00e456	rtv	 %	0.1	-100		
+0553a	3056	Post Start	4	4d9c			2	00e458	rtv	%	0.1	-100		
+0553c	3008	Warmup Up Enrichment RTV	4	4d9e			2	00e45a	rtv	%	0.1	-100		
+0553e	2895	IAT Fuel Corr. G4	4	4da0			2	00e45c	rtv	%	0.1	-50		
+05540	3110	Fuel 4D Corr.	4	4da2			2	00e45e	rtv	%	0.1	-100		
+05542	2892	Fuel 5D Table	4	4da4			2	00e460	rtv	%	0.1	-100		
+05544	2392	Lambda  Trim	4	4da6			2	00e462	rtv	%	0.1	-100		
+05546	2969	Prime Fuel	4	4da8			2	00e464	rtv	ms	1	0		
+05548	2983	Injector PW (Sec)	4	4daa			2	00e466	rtv	ms	0.0016	0		
+0554a	3025	Fuel Table1 G4	4	4dac			2	00e468	rtv	%	0.1	0		
+0554c	3026	Fuel Table2 G4	4	4dae			2	00e46a	rtv	%	0.1	0		
+0554e	3038	Accel Fuel	4	4db0			2	00e46c	rtv	%	0.1	0		
+05550	2919	TP Delta Max	4	4db2			2	00e46e	rtv	%	0.1	0		
+05552	2918	Wake-Up Width	4	4db4			2	00e470	rtv	ms	0.0016	0		
+05554	3068	Lag Fuel Trim	4	4db6			2	00e472	rtv	%	0.1	-100		
+05556	3070	AirCon Fuel	4	4db8			2	00e474	rtv	ms	0.01	-10		
+05558	3118	Drive Fuel	4	4dba			2	00e476	rtv	ms	0.01	-10		
+0555a	2980	Eng Fan Trim 	4	4dbc			2	00e478	rtv	ms	0.01	-10		
+0555c	3131	Inj Deadtime	4	4dbe			2	00e47a	rtv	ms	0.0016	0		
+0555e	2972	Inj Deadtime(Sec)	4	4dc0			2	00e47c	rtv	ms	0.0016	0		
+05560	3146	Base Staged Width	4	4dc2			2	00e47e	rtv	%	0.1	0		
+05562	2936	Lambda Target	4	4dc4			2	00e480	rtv		0.001	0		
+05564	2898	OverCurrent Inj1&amp;2	5	4dc6	0	1	0	00e482	rtv					
+05566	2897	OverCurr-INJ 3/4	5	4dc6	1	1	0	00e482	rtv					
+05568	2896	OverCurr-INJ 5/6	5	4dc6	2	1	0	00e482	rtv					
+0556a	3419	AC Clutch On	5	4dc6	3	1	0	00e482	rtv					
+0556c	3414	Engine Fan 3 Status	5	4dc6	4	1	0	00e482	rtv					
+0556e	1880	In Driven Gear	5	4dc6	5	1	0	00e482	rtv					
+05570	2618	Active Boost Table	5	4dc6	6	2	0	00e482	rtv					
+05572	2576	Active Fuel Table G4	5	4dc7	0	1	0	00e483	rtv					
+05574	2577	Active Fuel Table G4	5	4dc7	1	1	0	00e483	rtv					
+05576	2578	Active Ign Table G4	5	4dc7	2	1	0	00e483	rtv					
+05578	2579	Active Ign Table G4	5	4dc7	3	1	0	00e483	rtv					
+0557a	2619	Active Boost Table	5	4dc7	4	4	0	00e483	rtv					
+0557c	2856	Aux Fuel #5	4	4dc8			2	00e484	rtv	%	0.1	0		
+0557e	2857	Aux Fuel #6	4	4dca			2	00e486	rtv	%	0.1	0		
+05580	2858	Aux Fuel #7	4	4dcc			2	00e488	rtv	%	0.1	0		
+05582	2859	Aux Fuel #8	4	4dce			2	00e48a	rtv	 %	0.1	0		
+05584	3069	Launch Fuel	4	4dd0			2	00e48c	rtv	%	0.1	-100		
+05586	3063	Gear Cut Fuel	4	4dd2			2	00e48e	rtv	%	0.1	-100		
+05588	2395	CLL 1 Status	5	4dd4	0	8	0	00e490	rtv					
+0558a	2586	Gear Ratio Calc.	5	4dd5	0	8	0	00e491	rtv					
+0558c	2651	Gear Ratio Calc.	4	4dd6			2	00e492	rtv	RPM/kph	0.01	0		
+0558e	2652	Gear Normalising value	4	4dd8			2	00e494	rtv		1e-07	0		
+05590	1780	AC Request	5	4dda	0	1	0	00e496	rtv					
+05592	1781	IC Spray	5	4dda	1	1	0	00e496	rtv					
+05594	1782	Anti Theft	5	4dda	2	1	0	00e496	rtv					
+05596	1783	Park/Neutral	5	4dda	3	1	0	00e496	rtv					
+05598	1784	Power Steer	5	4dda	4	1	0	00e496	rtv					
+0559a	1785	Dual ECU	5	4dda	5	1	0	00e496	rtv					
+0559c	1786	Ignition Switch	5	4dda	6	1	0	00e496	rtv					
+0559e	1787	Limit Switch	5	4dda	7	1	0	00e496	rtv					
+055a0	1788	Start Switch	5	4ddb	0	1	0	00e497	rtv					
+055a2	1789	Clutch Switch	5	4ddb	1	1	0	00e497	rtv					
+055a4	1790	Brake Switch NC	5	4ddb	2	1	0	00e497	rtv					
+055a6	1791	Brake Switch NO	5	4ddb	3	1	0	00e497	rtv					
+055a8	2609	Cruise Switch	5	4ddb	4	1	0	00e497	rtv					
+055aa	2610	Cruise Resume Switch	5	4ddb	5	1	0	00e497	rtv					
+055ac	1794	Stop Switch	5	4ddb	6	1	0	00e497	rtv					
+055ae	1795	Oil Level Switch	5	4ddb	7	1	0	00e497	rtv					
+055b0	1796	Oil Pressure Switch	5	4ddc	0	1	0	00e498	rtv					
+055b2	1797	Dual Fuel Switch	5	4ddc	1	1	0	00e498	rtv					
+055b4	1234	CAN Anti Theft Request	5	4ddc	2	1	0	00e498	rtv					
+055b6	1798	Traction Disable Switch	5	4ddc	3	1	0	00e498	rtv					
+055b8	2611	Cruise Cancel Switch	5	4ddc	4	1	0	00e498	rtv					
+055ba	2612	Cruise On Switch	5	4ddc	5	1	0	00e498	rtv					
+055bc	2	EmptyBit	3	4ddc	6	1	0	00e498	rtv					
+055be	2	EmptyBit	3	4ddc	7	1	0	00e498	rtv					
+055c0	2	EmptyBit	3	4ddd	0	1	0	00e499	rtv					
+055c2	2	EmptyBit	3	4ddd	1	1	0	00e499	rtv					
+055c4	2	EmptyBit	3	4ddd	2	1	0	00e499	rtv					
+055c6	2	EmptyBit	3	4ddd	3	1	0	00e499	rtv					
+055c8	2	EmptyBit	3	4ddd	4	1	0	00e499	rtv					
+055ca	2	EmptyBit	3	4ddd	5	1	0	00e499	rtv					
+055cc	2	EmptyBit	3	4ddd	6	1	0	00e499	rtv					
+055ce	2	EmptyBit	3	4ddd	7	1	0	00e499	rtv					
+055d0	1012	Oil Pressure	4	4dde			2	00e49a	rtv	kPa	1	0		
+055d2	1013	Fuel Pressure	4	4de0			2	00e49c	rtv	kPa	1	0		
+055d4	2452	Cam Inlet (LH) Targ	4	4de2			2	00e49e	rtv		0.1	0		
+055d6	2453	Cam Inlet (RH) Targ	4	4de4			2	00e4a0	rtv		0.1	0		
+055d8	2454	Cam Exhaust (LH) Targ	4	4de6			2	00e4a2	rtv		-0.1	0		
+055da	2455	Cam Exhaust (RH) Targ	4	4de8			2	00e4a4	rtv		-0.1	0		
+055dc	1194	LH Inlet	5	4dea	0	4	0	00e4a6	rtv					
+055de	1195	RH Inlet	5	4dea	4	4	0	00e4a6	rtv					
+055e0	1209	Exh / LH Sys Status	5	4deb	0	4	0	00e4a7	rtv					
+055e2	1210	Exh RH Sys Status	5	4deb	4	4	0	00e4a7	rtv					
+055e4	1196	Inlet LH Signal - new	5	4dec	0	8	0	00e4a8	rtv					
+055e6	1197	Inlet RH Signal  -new	5	4ded	0	8	0	00e4a9	rtv					
+055e8	1198	Exh / LH Signal	5	4dee	0	8	0	00e4aa	rtv					
+055ea	1199	Exh RH Signal	5	4def	0	8	0	00e4ab	rtv					
+055ec	2462	Cam Inlet (LH)  	4	4df0			2	00e4ac	rtv	%DC	0.1	0		
+055ee	2463	Cam Inlet (RH) 	4	4df2			2	00e4ae	rtv	%DC	0.1	0		
+055f0	2464	Exh / LH Solenoid	4	4df4			2	00e4b0	rtv	%DC	0.1	0		
+055f2	2465	Exh RH Solenoid	4	4df6			2	00e4b2	rtv	%DC	0.1	0		
+055f4	1192	CAM Inlet(LH) Err Cnt	4	4df8			1	00e4b4	rtv		1	0		
+055f6	1193	CAM Inlet(RH) Err Cnt	4	4df9			1	00e4b5	rtv		1	0		
+055f8	1178	Inlet / LH Err Counter	4	4dfa			1	00e4b6	rtv		1	0		
+055fa	1179	Exh RH Err Counter	4	4dfb			1	00e4b7	rtv		1	0		
+055fc	2662	Slip G4 New 1dp	4	4dfc			2	00e4b8	rtv	%	0.1	-100		
+055fe	2278	Cyl1 Knk I-Trim	4	4dfe			1	00e4ba	rtv		0.1	-20		
+05600	2279	Cyl2 Knk I-Trim	4	4dff			1	00e4bb	rtv		0.1	-20		
+05602	2280	Cyl3 Knk I-Trim	4	4e00			1	00e4bc	rtv		0.1	-20		
+05604	2281	Cyl4 Knk I-Trim	4	4e01			1	00e4bd	rtv		0.1	-20		
+05606	2282	Cyl5 Knk I-Trim	4	4e02			1	00e4be	rtv		0.1	-20		
+05608	2283	Cyl6 Knk I-Trim	4	4e03			1	00e4bf	rtv		0.1	-20		
+0560a	2284	Cyl7 Knk I-Trim	4	4e04			1	00e4c0	rtv		0.1	-20		
+0560c	2285	Cyl8 Knk I-Trim	4	4e05			1	00e4c1	rtv		0.1	-20		
+0560e	1650	Pedal Position -Setpoint	4	4e06			2	00e4c2	rtv	%	0.1	0		
+05610	1654	Pedal Position(Sub)	4	4e08			2	00e4c4	rtv	%	0.1	0		
+05612	1646	TP Sub	4	4e0a			2	00e4c6	rtv	%	0.1	0		
+05614	1653	Target Position	4	4e0c			2	00e4c8	rtv	%	0.1	0		
+05616	1698	Target Base	4	4e0e			2	00e4ca	rtv	%	0.1	0		
+05618	1659	Ewire Duty Cycle	4	4e10			2	00e4cc	rtv	%	0.1	-100		
+0561a	1663	Test Mode	5	4e12	0	8	0	00e4ce	rtv					
+0561c	1186	Number CE Errors	4	4e13			1	00e4cf	rtv		1	0		
+0561e	2398	Differential Fuel Pressure	4	4e14			2	00e4d0	rtv		1	0		
+05620	1697	Idle Up	4	4e16			2	00e4d2	rtv	%	0.1	0		
+05622	1707	ISC CL Trim	4	4e18			2	00e4d4	rtv	%	0.1	-100		
+05624	1699	TP Err Counter	4	4e1a			1	00e4d6	rtv	%	0.5	0		
+05626	1700	TP / Targ Err Counter	4	4e1b			1	00e4d7	rtv	%	0.5	0		
+05628	1701	FP Err Counter	4	4e1c			1	00e4d8	rtv	%	0.5	0		
+0562a	1680	% Cut	4	4e1d			1	00e4d9	rtv	%	1	0		
+0562c	1681	% Cut I	4	4e1e			1	00e4da	rtv	%	1	0		
+0562e	2396	E85 Temperature	4	4e1f			1	00e4db	rtv	C	1	-50		
+05630	2397	E85  % Ethanol	4	4e20			1	00e4dc	rtv	%	1	0		
+05634	2302	PowerOnCounter	4	4e22			2	00e4de	rtv		1	0		
+05636	1077	TPS Raw a/d	4	4e24			2	00e4e0	rtv		0.004887585533	0		
+05638	3405	AC Control Status	5	4e26	0	4	0	00e4e2	rtv					
+0563a	2608	Cruise Status	5	4e26	4	4	0	00e4e2	rtv					
+0563c	2606	Cruise Set Speed	4	4e27			1	00e4e3	rtv		1	0		
+0563e	3717	Cruise Set RPM	4	4e28			2	00e4e4	rtv	RPM	1	0		
+05640	1722	G4S Log Mem Useage	4	4e2a			2	00e4e6	rtv	%	0.01	0		
+05642	1685	TPS Delta - new	4	4e2c			2	00e4e8	rtv	%	0.1	-100		
+05644	1686	MAP Delta -new	4	4e2e			2	00e4ea	rtv	kPa	1	-1000		
+05646	1006	Zn_Fuel Table1	4	4e30			2	00e4ec	rtv		1	0		
+05648	1008	Zn_Ign	4	4e32			2	00e4ee	rtv		1	0		
+0564a	1009	Zn_Fuel Table2 G4	4	4e34			2	00e4f0	rtv		1	0		
+0564c	1010	Zn_Ign Table2 G4	4	4e36			2	00e4f2	rtv		1	0		
+0564e	3031	Eng Temp strig grid posn	4	4e38			1	00e4f4	rtv		1	0		
+05650	3062	Fuel Phase strig grid posn	4	4e39			1	00e4f5	rtv		1	0		
+05652	3105	Accel Table grid position	4	4e3a			1	00e4f6	rtv		1	0		
+05654	3104	Accel Cold grid position	4	4e3b			1	00e4f7	rtv		1	0		
+05656	1813	Cell Track PID Boost	4	4e3c			1	00e4f8	rtv		1	0		
+05658	3116	IAT Table grid position	4	4e3d			1	00e4f9	rtv		1	0		
+0565a	3132	Inj DeadTime cell Track	4	4e3e			1	00e4fa	rtv		1	0		
+0565c	3143	Accel Load Cell track	4	4e3f			1	00e4fb	rtv		1	0		
+0565e	2976	Staging Table Cell Track	4	4e40			1	00e4fc	rtv		1	0		
+05660	2642	Lch Cell Track	4	4e41			1	00e4fd	rtv		1	0		
+05662	1189	Cell track Arming	4	4e42			1	00e4fe	rtv		1	0		
+05664	3875	WU Table cell Track	4	4e43			1	00e4ff	rtv		1	0		
+05666	3876	IAT Fuel cell Track	4	4e44			1	00e500	rtv		1	0		
+05668	3877	Dwell Table cell Track	4	4e45			1	00e501	rtv		1	0		
+0566a	3878	AFR Cell Track	4	4e46			1	00e502	rtv		1	0		
+0566c	2654	StartUploadFlag	4	4e47			1	00e503	rtv		1	0		
+0566e	2655	Upload BaseAddr	4	4e48			2	00e504	rtv		1	0		
+05670	2656	Upload Size	4	4e4a			2	00e506	rtv		1	0		
+05672	1153	RPM Rate	4	4e4c			2	00e508	rtv	RPM/sec	1	-30000		
+05674	1152	AL Cyclic Limit	4	4e4e			2	00e50a	rtv	RPM	1	0		
+05676	1307	Idle Target Error	4	4e50			2	00e50c	rtv	RPM	1	-1000		
+05678	3135	Aux1 PWM Table cell Track	4	4e52			1	00e50e	rtv		1	0		
+0567a	3136	Aux2 PWM Table cell Track	4	4e53			1	00e50f	rtv		1	0		
+0567c	3137	Aux3 PWM Table cell Track	4	4e54			1	00e510	rtv		1	0		
+0567e	3138	Aux4 PWM Table cell Track	4	4e55			1	00e511	rtv		1	0		
+05680	3139	Aux5 PWM Table cell Track	4	4e56			1	00e512	rtv		1	0		
+05682	3140	Aux6 PWM Table cell Track	4	4e57			1	00e513	rtv		1	0		
+05684	3141	Aux7 PWM Table cell Track	4	4e58			1	00e514	rtv		1	0		
+05686	3142	Aux8 PWM Table cell Track	4	4e59			1	00e515	rtv		1	0		
+05688	3165	Aux9 PWM Table cell Track	4	4e5a			1	00e516	rtv		1	0		
+0568a	3166	Aux10 PWM Table cell Track	4	4e5b			1	00e517	rtv		1	0		
+0568c	3184	Aux11 PWM Table cell Track	4	4e5c			1	00e518	rtv	s	1	0		
+0568e	3185	Aux12 PWM Table cell Track	4	4e5d			1	00e519	rtv	s	1	0		
+05690	3086	Aux13 PWM Table cell Track	4	4e5e			1	00e51a	rtv		1	0		
+05692	3087	Aux14 PWM Table cell Track	4	4e5f			1	00e51b	rtv		1	0		
+05694	3088	Aux15 PWM Table cell Track	4	4e60			1	00e51c	rtv		1	0		
+05696	3089	Aux16 PWM Table cell Track	4	4e61			1	00e51d	rtv		1	0		
+05698	3090	Aux17 PWM Table cell Track	4	4e62			1	00e51e	rtv		1	0		
+0569a	3091	Aux18 PWM Table cell Track	4	4e63			1	00e51f	rtv		1	0		
+0569c	3092	Aux19 PWM Table cell Track	4	4e64			1	00e520	rtv		1	0		
+0569e	3093	Aux20 PWM Table cell Track	4	4e65			1	00e521	rtv		1	0		
+056a0	3094	Aux21 PWM Table cell Track	4	4e66			1	00e522	rtv		1	0		
+056a2	3095	Aux22 PWM Table cell Track	4	4e67			1	00e523	rtv		1	0		
+056a4	3096	Aux23 PWM Table cell Track	4	4e68			1	00e524	rtv		1	0		
+056a6	3097	Aux24 PWM Table cell Track	4	4e69			1	00e525	rtv		1	0		
+056a8	3098	Aux25 PWM Table cell Track	4	4e6a			1	00e526	rtv		1	0		
+056aa	3099	Aux26 PWM Table cell Track	4	4e6b			1	00e527	rtv		1	0		
+056ac	3100	Aux27 PWM Table cell Track	4	4e6c			1	00e528	rtv		1	0		
+056ae	3101	Aux28 PWM Table cell Track	4	4e6d			1	00e529	rtv		1	0		
+056b0	3102	Aux29 PWM Table cell Track	4	4e6e			1	00e52a	rtv		1	0		
+056b2	3103	Aux30 PWM Table cell Track	4	4e6f			1	00e52b	rtv		1	0		
+056b4	2884	FTrim Cyl #1 G4	4	4e70			2	00e52c	rtv	%	0.1	-100		
+056b6	2885	FTrim Cyl #2 g4	4	4e72			2	00e52e	rtv	%	0.1	-100		
+056b8	2886	FTrim Cyl #3 G4	4	4e74			2	00e530	rtv	%	0.1	-100		
+056ba	2887	FTrim Cyl #4 G4	4	4e76			2	00e532	rtv	%	0.1	-100		
+056bc	2888	FTrim Cyl #5 G4	4	4e78			2	00e534	rtv	%	0.1	-100		
+056be	2889	FTrim Cyl #6 G4	4	4e7a			2	00e536	rtv	%	0.1	-100		
+056c0	2890	FTrim Cyl #7 G4	4	4e7c			2	00e538	rtv	%	0.1	-100		
+056c2	2891	FTrim Cyl #8 G4	4	4e7e			2	00e53a	rtv	%	0.1	-100		
+056c4	2529	ITrim Cyl #1	4	4e80			1	00e53c	rtv		0.1	-12		
+056c6	2530	ITrim Cyl #2	4	4e81			1	00e53d	rtv		0.1	-12		
+056c8	2531	ITrim Cyl #3	4	4e82			1	00e53e	rtv		0.1	-12		
+056ca	2532	ITrim Cyl #4	4	4e83			1	00e53f	rtv		0.1	-12		
+056cc	2533	ITrim Cyl #5	4	4e84			1	00e540	rtv		0.1	-12		
+056ce	2534	ITrim Cyl #6	4	4e85			1	00e541	rtv		0.1	-12		
+056d0	2535	ITrim Cyl #7	4	4e86			1	00e542	rtv		0.1	-12		
+056d2	2536	ITrim Cyl #8	4	4e87			1	00e543	rtv		0.1	-12		
+056d4	1265	Cam Angle #1	4	4e88			2	00e544	rtv	ATDC	0.1	0		
+056d6	1266	Cam Angle #2	4	4e8a			2	00e546	rtv	ATDC	0.1	0		
+056d8	1267	Cam Angle #3	4	4e8c			2	00e548	rtv	ATDC	0.1	0		
+056da	1268	Cam Angle #4	4	4e8e			2	00e54a	rtv	ATDC	0.1	0		
+056dc	1269	Cam Angle #5	4	4e90			2	00e54c	rtv	ATDC	0.1	0		
+056de	1262	Cam Angle #6	4	4e92			2	00e54e	rtv	ATDC	0.1	0		
+056e0	1263	Cam Angle #7	4	4e94			2	00e550	rtv	ATDC	0.1	0		
+056e2	1264	Cam Angle #8	4	4e96			2	00e552	rtv	ATDC	0.1	0		
+056e4	1421	AN V1	4	4e98			2	00e554	rtv		0.1	-1000		
+056e6	1422	AN V2	4	4e9a			2	00e556	rtv		0.1	-1000		
+056e8	1423	AN V3	4	4e9c			2	00e558	rtv		0.1	-1000		
+056ea	1424	AN V4	4	4e9e			2	00e55a	rtv		0.1	-1000		
+056ec	1425	AN V5	4	4ea0			2	00e55c	rtv		0.1	-1000		
+056ee	1426	AN V6	4	4ea2			2	00e55e	rtv		0.1	-1000		
+056f0	1427	AN V7	4	4ea4			2	00e560	rtv		0.1	-1000		
+056f2	1428	AN V8	4	4ea6			2	00e562	rtv		0.1	-1000		
+056f4	1429	TC Cyl 1	4	4ea8			2	00e564	rtv		1	0		
+056f6	1430	TC Cyl 2	4	4eaa			2	00e566	rtv		1	0		
+056f8	1431	TC Cyl 3	4	4eac			2	00e568	rtv		1	0		
+056fa	1432	TC Cyl 4	4	4eae			2	00e56a	rtv		1	0		
+056fc	1433	TC Cyl 5	4	4eb0			2	00e56c	rtv		1	0		
+056fe	1434	TC Cyl 6	4	4eb2			2	00e56e	rtv		1	0		
+05700	1435	TC Cyl 7	4	4eb4			2	00e570	rtv		1	0		
+05702	1436	TC Cyl 8	4	4eb6			2	00e572	rtv		1	0		
+05704	1437	LF Wheel Speed	4	4eb8			2	00e574	rtv		0.1	0		
+05706	1438	LR Wheel Speed	4	4eba			2	00e576	rtv		0.1	0		
+05708	1439	RF Wheel Speed	4	4ebc			2	00e578	rtv		0.1	0		
+0570a	1440	RR Wheel Speed	4	4ebe			2	00e57a	rtv		0.1	0		
+0570c	1462	Driven Wheel Speed	4	4ec0			2	00e57c	rtv		0.1	0		
+0570e	1463	Non Driven Wheel Speed	4	4ec2			2	00e57e	rtv		0.1	0		
+05710	2400	Lambda Trim 2	4	4ec4			2	00e580	rtv	%	0.1	-100		
+05712	1050	Altitude	4	4ec6			1	00e582	rtv	m	20	-400		
+05714	3114	Lambda Overlay Value	4	4ec7			1	00e583	rtv		0.005	-0.5		
+05716	2004	Timer 1 RTV	4	4ec8			2	00e584	rtv	s	0.001	0		
+05718	2005	Timer 2 RTV	4	4eca			2	00e586	rtv	s	0.001	0		
+0571a	1714	Timer 1 RTV	4	4ecc			2	00e588	rtv	s	0.001	0		
+0571c	1715	Timer 1 RTV	4	4ece			2	00e58a	rtv	s	0.001	0		
+0571e	3770	G4S CAN1 SW Buf OR	5	4ed0	0	1	0	00e58c	rtv					
+05720	3771	G4S CAN1 HW Buf OR	5	4ed0	1	1	0	00e58c	rtv					
+05722	2	EmptyBit	3	4ed0	2	1	0	00e58c	rtv					
+05724	2	EmptyBit	3	4ed0	3	1	0	00e58c	rtv					
+05726	2	EmptyBit	3	4ed0	4	1	0	00e58c	rtv					
+05728	2	EmptyBit	3	4ed0	5	1	0	00e58c	rtv					
+0572a	2	EmptyBit	3	4ed0	6	1	0	00e58c	rtv					
+0572c	3772	G4S CAN1 Stuff	5	4ed0	7	1	0	00e58c	rtv					
+0572e	3773	G4S CAN1 Form	5	4ed1	0	1	0	00e58d	rtv					
+05730	3774	G4S CAN1 Ack	5	4ed1	1	1	0	00e58d	rtv					
+05732	3775	G4S CAN1 Bit Rec	5	4ed1	2	1	0	00e58d	rtv					
+05734	3776	G4S CAN1 Bit Dom	5	4ed1	3	1	0	00e58d	rtv					
+05736	3777	G4S CAN1 CRC	5	4ed1	4	1	0	00e58d	rtv					
+05738	3778	G4S CAN1 Passive	5	4ed1	5	1	0	00e58d	rtv					
+0573a	3779	G4S CAN1 Warn	5	4ed1	6	1	0	00e58d	rtv					
+0573c	3780	G4S CAN1 OFF	5	4ed1	7	1	0	00e58d	rtv					
+0573e	3782	G4S CAN1 TEC	4	4ed2			1	00e58e	rtv		1	0		
+05740	3781	G4S CAN1 REC	4	4ed3			1	00e58f	rtv		1	0		
+05742	3787	G4S CAN2 SW Buf OR	5	4ed4	0	1	0	00e590	rtv					
+05744	3788	G4S CAN2 HW Buf OR	5	4ed4	1	1	0	00e590	rtv					
+05746	2	EmptyBit	3	4ed4	2	1	0	00e590	rtv					
+05748	2	EmptyBit	3	4ed4	3	1	0	00e590	rtv					
+0574a	2	EmptyBit	3	4ed4	4	1	0	00e590	rtv					
+0574c	2	EmptyBit	3	4ed4	5	1	0	00e590	rtv					
+0574e	2	EmptyBit	3	4ed4	6	1	0	00e590	rtv					
+05750	3789	G4S CAN2 Stuff	5	4ed4	7	1	0	00e590	rtv					
+05752	3790	G4S CAN2 Form	5	4ed5	0	1	0	00e591	rtv					
+05754	3791	G4S CAN2 Ack	5	4ed5	1	1	0	00e591	rtv					
+05756	3792	G4S CAN2 Bit Rec	5	4ed5	2	1	0	00e591	rtv					
+05758	3793	G4S CAN2 Bit Dom	5	4ed5	3	1	0	00e591	rtv					
+0575a	3794	G4S CAN2 CRC	5	4ed5	4	1	0	00e591	rtv					
+0575c	3795	G4S CAN2 Passive	5	4ed5	5	1	0	00e591	rtv					
+0575e	3796	G4S CAN2 Warn	5	4ed5	6	1	0	00e591	rtv					
+05760	3797	G4S CAN2 OFF	5	4ed5	7	1	0	00e591	rtv					
+05762	3799	G4S CAN2 TEC	4	4ed6			1	00e592	rtv		1	0		
+05764	3798	G4S CAN2 REC	4	4ed7			1	00e593	rtv		1	0		
+05766	1020	Steering Position	4	4ed8			2	00e594	rtv		0.1	-3000		
+05768	1021	Steering Position ROC	4	4eda			2	00e596	rtv		0.1	-3000		
+0576a	3375	Aux 11 on SPI LS IC	5	4edc	0	2	0	00e598	rtv					
+0576c	3376	Aux 12 on SPI LS IC	5	4edc	2	2	0	00e598	rtv					
+0576e	3377	Aux 13 on SPI LS IC	5	4edc	4	2	0	00e598	rtv					
+05770	3378	Aux 14 on SPI LS IC	5	4edc	6	2	0	00e598	rtv					
+05772	3379	Aux 15 on SPI LS IC	5	4edd	0	2	0	00e599	rtv					
+05774	3380	Aux 16 on SPI LS IC	5	4edd	2	2	0	00e599	rtv					
+05776	3374	Aux 11-16 SPI LS Driver Status	5	4edd	4	4	0	00e599	rtv					
+05778	3410	AC Pressure	4	4ede			1	00e59a	rtv		20	0		
+0577a	3411	AC Evap Temp	4	4edf			1	00e59b	rtv		0.2	-10		
+0577c	1845	Ideal Torque	4	4ee0			2	00e59c	rtv	Nm	1	0		
+0577e	2590	Gear Shifter Position	5	4ee2	0	8	0	00e59e	rtv					
+05780	1853	Min Torque	4	4ee3			1	00e59f	rtv		0.5	0		
+05782	1854	Max Torque	4	4ee4			1	00e5a0	rtv		0.5	0		
+05784	1855	Torque Request	4	4ee5			1	00e5a1	rtv		0.5	0		
+05786	1856	Modified Torque Request	4	4ee6			1	00e5a2	rtv		0.5	0		
+05788	1848	Torque Reduction Request	4	4ee7			1	00e5a3	rtv	%	0.5	0		
+0578a	1849	Torque Reduction Ign Trim	4	4ee8			1	00e5a4	rtv		0.2	-40		
+0578c	3001	Charge Temp Estimate	4	4ee9			1	00e5a5	rtv	C	1	-50		
+0578e	3003	SAE Absolute Load	4	4eea			2	00e5a6	rtv	%	0.01	0		
+05790	3004	Grams of Fuel per Cyl	4	4eec			2	00e5a8	rtv	g	1e-05	0		
+05792	3730	Fuel Blend	4	4eee			1	00e5aa	rtv	%	0.5	0		
+05794	1015	Fuel Temp	4	4eef			1	00e5ab	rtv	C	1	-50		
+05796	3005	Air per Cylinder	4	4ef0			2	00e5ac	rtv	g/cyl	0.0001	0		
+05798	1017	Instantaneous Fuel Consumption	4	4ef2			2	00e5ae	rtv	cc/min	0.1	0		
+0579a	1190	DI 7 Speed	4	4ef4			2	00e5b0	rtv	kph	0.1	0		
+0579c	1191	DI 8 Speed	4	4ef6			2	00e5b2	rtv	kph	0.1	0		
+0579e	1169	DI 6 Frequency	4	4ef8			2	00e5b4	rtv	Hz	0.1	0		
+057a0	1170	DI 6 Frequency	4	4efa			2	00e5b6	rtv	Hz	0.1	0		
+057a2	1887	Gear Lever Force	4	4efc			2	00e5b8	rtv	N	0.1	0		
+057a4	2041	Gear Cut Status	5	4efe	0	5	0	00e5ba	rtv					
+057a6	2	EmptyBit	3	4efe	5	1	0	00e5ba	rtv					
+057a8	2	EmptyBit	3	4efe	6	1	0	00e5ba	rtv					
+057aa	2	EmptyBit	3	4efe	7	1	0	00e5ba	rtv					
+057ac	2048	Gear Cut Counter	4	4eff			1	00e5bb	rtv		1	0		
+057ae	2049	Gear Cut Last Shift Period	4	4f00			2	00e5bc	rtv	ms	1	0		
+057b0	2089	Blip Throttle Target	4	4f02			1	00e5be	rtv		0.2	0		
+057b2	2018	VVT Active Inlet Table	5	4f03	0	2	0	00e5bf	rtv					
+057b4	2595	Anti-Lag Fuel 	5	4f03	2	2	0	00e5bf	rtv					
+057b6	1033	Typhoon dsPIC Status	5	4f03	4	4	0	00e5bf	rtv					
+057b8	1360	AN Volt 12	4	4f04			2	00e5c0	rtv		1	0		
+057ba	1361	AN Volt 13	4	4f06			2	00e5c2	rtv		1	0		
+057bc	1362	AN Volt 14	4	4f08			2	00e5c4	rtv		1	0		
+057be	1363	AN Volt 15	4	4f0a			2	00e5c6	rtv		1	0		
+057c0	1364	AN Volt 16	4	4f0c			2	00e5c8	rtv		1	0		
+057c2	3127	Low Fuel Pressure Target	4	4f0e			2	00e5ca	rtv		1	0		
+057c4	1019	DI Rail Pressure	4	4f10			2	00e5cc	rtv	kPa	1	0		
+057c6	1022	DI Rail Pressure	4	4f12			2	00e5ce	rtv	kPa	1	0		
+057c8	1890	Lambda 1 Temperature	4	4f14			2	00e5d0	rtv		1	0		
+057ca	1892	Lambda 1 Status	5	4f16	0	4	0	00e5d2	rtv					
+057cc	1896	Lambda 2 Status	5	4f16	4	4	0	00e5d2	rtv					
+057ce	1893	Lambda 1 Error	5	4f17	0	8	0	00e5d3	rtv					
+057d0	1895	Lambda 2 Temperature	4	4f18			2	00e5d4	rtv		1	0		
+057d2	2131	Inj 1 and 2 Modes	5	4f1a	0	2	0	00e5d6	rtv					
+057d4	2133	Inj 1 no inductance	5	4f1a	2	1	0	00e5d6	rtv					
+057d6	2134	Inj 2 no inductance	5	4f1a	3	1	0	00e5d6	rtv					
+057d8	2135	Inj 1 timed out	5	4f1a	4	1	0	00e5d6	rtv					
+057da	2136	Inj 2 timed out	5	4f1a	5	1	0	00e5d6	rtv					
+057dc	2137	Inj 1 and 2 High Side short circuit	5	4f1a	6	1	0	00e5d6	rtv					
+057de	2143	Inj 1-2 Wiring Fault	5	4f1a	7	1	0	00e5d6	rtv					
+057e0	2132	Inj 3 and 4 Modes	5	4f1b	0	2	0	00e5d7	rtv					
+057e2	2138	Inj 3 no inductance	5	4f1b	2	1	0	00e5d7	rtv					
+057e4	2139	Inj 4 no inductance	5	4f1b	3	1	0	00e5d7	rtv					
+057e6	2140	Inj 3 timed out	5	4f1b	4	1	0	00e5d7	rtv					
+057e8	2141	Inj 4 timed out	5	4f1b	5	1	0	00e5d7	rtv					
+057ea	2142	Inj 3 and 4 High Side short circuit	5	4f1b	6	1	0	00e5d7	rtv					
+057ec	2146	Inj 3-4 Wiring Fault	5	4f1b	7	1	0	00e5d7	rtv					
+057ee	2124	DI Program Error	5	4f1c	0	1	0	00e5d8	rtv					
+057f0	2125	SPI Error while programming DI	5	4f1c	1	1	0	00e5d8	rtv					
+057f2	2	EmptyBit	3	4f1c	2	1	0	00e5d8	rtv					
+057f4	2	EmptyBit	3	4f1c	3	1	0	00e5d8	rtv					
+057f6	2126	DC-DC Inv Started	5	4f1c	4	1	0	00e5d8	rtv					
+057f8	2127	Inverter reached target voltgae	5	4f1c	5	1	0	00e5d8	rtv					
+057fa	2	EmptyBit	3	4f1c	6	1	0	00e5d8	rtv					
+057fc	2	EmptyBit	3	4f1c	7	1	0	00e5d8	rtv					
+057fe	2128	Fuel Pump solenoid ctrl running	5	4f1d	0	1	0	00e5d9	rtv					
+05800	2129	No inductance on FP solenoid	5	4f1d	1	1	0	00e5d9	rtv					
+05802	2130	Fuel Pump Pulse Too Long	5	4f1d	2	1	0	00e5d9	rtv					
+05804	2148	FP Wiring Fault	5	4f1d	3	1	0	00e5d9	rtv					
+05806	2	EmptyBit	3	4f1d	4	1	0	00e5d9	rtv					
+05808	2	EmptyBit	3	4f1d	5	1	0	00e5d9	rtv					
+0580a	2	EmptyBit	3	4f1d	6	1	0	00e5d9	rtv					
+0580c	2	EmptyBit	3	4f1d	7	1	0	00e5d9	rtv					
+0580e	1016	Input Shaft Speed	4	4f1e			2	00e5da	rtv	RPM	1	0		
+05810	1018	Clutch/TC Slip	4	4f20			2	00e5dc	rtv	%	0.1	0		
+05812	1145	DI 11 Frequency	4	4f22			2	00e5de	rtv	Hz	0.1	0		
+05814	1146	DI 12 Frequency	4	4f24			2	00e5e0	rtv	Hz	0.1	0		
+05816	1147	DI 13 Frequency	4	4f26			2	00e5e2	rtv	Hz	0.1	0		
+05818	1148	DI 14 Frequency	4	4f28			2	00e5e4	rtv	Hz	0.1	0		
+0581a	1149	DI 15 Frequency	4	4f2a			2	00e5e6	rtv	Hz	0.1	0		
+0581c	1150	DI 16 Frequency	4	4f2c			2	00e5e8	rtv	Hz	0.1	0		
+0581e	1024	TC1	4	4f2e			2	00e5ea	rtv		0.1	-1000		
+05820	1025	TC2	4	4f30			2	00e5ec	rtv		0.1	-1000		
+05822	1023	E-Wire 2 Supply 	4	4f32			2	00e5ee	rtv	V	0.01	0		
+05824	1026	Lateral (Y) Acceleration	4	4f34			2	00e5f0	rtv	G	0.001	-30		
+05826	1027	Longitudinal (X) Acceleration	4	4f36			2	00e5f2	rtv	G	0.001	-30		
+05828	1028	Vertical (Z) Acceleration	4	4f38			2	00e5f4	rtv	G	0.001	-30		
+0582a	1072	TP	4	4f3a			2	00e5f6	rtv	%	0.1	0		
+0582c	1073	TP Sub	4	4f3c			2	00e5f8	rtv	%	0.1	0		
+0582e	1066	TP 2 Err Counter	4	4f3e			1	00e5fa	rtv	%	0.5	0		
+05830	1067	TP 2/ Targ Err Counter	4	4f3f			1	00e5fb	rtv	%	0.5	0		
+05832	1068	Target 2 Position	4	4f40			2	00e5fc	rtv	%	0.1	0		
+05834	1069	Ewire 2 Duty Cycle	4	4f42			2	00e5fe	rtv	%	0.1	-100		
+05836	1034	Aux17	5	4f44	0	2	0	00e600	rtv					
+05838	1035	Aux18	5	4f44	2	2	0	00e600	rtv					
+0583a	1036	Aux19	5	4f44	4	2	0	00e600	rtv					
+0583c	1037	Aux20	5	4f44	6	2	0	00e600	rtv					
+0583e	2	EmptyBit	3	4f45	0	1	0	00e601	rtv					
+05840	2	EmptyBit	3	4f45	1	1	0	00e601	rtv					
+05842	2	EmptyBit	3	4f45	2	1	0	00e601	rtv					
+05844	2	EmptyBit	3	4f45	3	1	0	00e601	rtv					
+05846	1041	GDI Pump Control Status	5	4f45	4	4	0	00e601	rtv					
+05848	1464	Acceleration	4	4f46			2	00e602	rtv	km/h/s	1	-30000		
+0584a	1038	Cycle Counter	4	4f48			2	00e604	rtv	Cycles	1	0		
+0584c	1039	Run Time	4	4f4a			2	00e606	rtv	s	1	0		
+0584e	2421	Lambda 2	4	4f4c			2	00e608	rtv		0.001	0		
+05850	2422	Lambda 3	4	4f4e			2	00e60a	rtv		0.001	0		
+05852	2423	Lambda 4	4	4f50			2	00e60c	rtv		0.001	0		
+05854	2424	Lambda 6	4	4f52			2	00e60e	rtv		0.001	0		
+05856	2425	Lambda 7	4	4f54			2	00e610	rtv		0.001	0		
+05858	2426	Lambda 8	4	4f56			2	00e612	rtv		0.001	0		
+0585a	1040	Exhaust Pressure	4	4f58			2	00e614	rtv	kPa	1	0		
+0585c	1387	FP Speed Duty	4	4f5a			2	00e616	rtv	%	0.1	0		
+0585e	1388	GDI Pump Controller Output	4	4f5c			2	00e618	rtv	%	0.01	-10		
+05860	3195	DAC #1	4	4f5e			2	00e61a	rtv	V	0.01	0		
+05862	3196	DAC #2	4	4f60			2	00e61c	rtv	V	0.01	0		
+05864	3197	DAC #3	4	4f62			2	00e61e	rtv	V	0.01	0		
+05866	3198	DAC #4	4	4f64			2	00e620	rtv	V	0.01	0		
+05868	1774	DI 11 Speed	4	4f66			2	00e622	rtv	kph	0.1	0		
+0586a	1775	DI 12 Speed	4	4f68			2	00e624	rtv	kph	0.1	0		
+0586c	1776	DI 13 Speed	4	4f6a			2	00e626	rtv	kph	0.1	0		
+0586e	1777	DI 14 Speed	4	4f6c			2	00e628	rtv	kph	0.1	0		
+05870	1778	DI 15 Speed	4	4f6e			2	00e62a	rtv	kph	0.1	0		
+05872	1779	DI 16 Speed	4	4f70			2	00e62c	rtv	kph	0.1	0		
+05874	1879	Tranmission Torque	4	4f72			2	00e62e	rtv	Nm	1	0		
+05876	1878	Transmission Loss	4	4f74			1	00e630	rtv	Nm	1	0		
+05878	1884	CAN Message Counter	4	4f75			1	00e631	rtv		1	0		
+0587a	1086	Spare 1	4	4f76			2	00e632	rtv		1	0		
+0587c	1087	Spare 2	4	4f78			2	00e634	rtv		1	0		
+0587e	1088	Spare 3	4	4f7a			2	00e636	rtv		1	0		
+05880	1089	Spare 4	4	4f7c			2	00e638	rtv	%	1	0		
+05882	1090	Spare 5	4	4f7e			2	00e63a	rtv	%	1	0		
+05884	1093	Spare6	4	4f80			4		beyond	deg	1	0		
