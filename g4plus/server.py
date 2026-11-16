@@ -10,7 +10,7 @@ be sent; anything else is refused in client.py before it reaches the port. --pha
 (bounded fuel-table writes with the engine running; see tuning.py). Close PCLink first: it holds the port.
 
 Logs are saved as `.live.json` (time_s, canonical channels, meta), which the ECU tuning skill's Link adapter
-(github.com/DjSpacies/ecu-tuning, platforms/link-g4plus/parser/adapter.py) reads, so its analyses run on them.
+(github.com/DjSpacies/ecu-tuning-skill, platforms/link-g4plus/parser/adapter.py) reads, so its analyses run on them.
 """
 import argparse, json, sys, threading, time, uuid
 from pathlib import Path

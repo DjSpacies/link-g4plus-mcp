@@ -4,7 +4,7 @@ An MCP server and Python client for live tuning on **Link G4+** ECUs. It talks t
 serial link, so an AI agent (or any MCP client) can read live data, read tables, and make bounded, journalled,
 RAM-only fuel-table changes. Nothing on the ECU is ever stored permanently by this tool.
 
-It is the live-ECU companion to the [ECU tuning skill](https://github.com/DjSpacies/ecu-tuning): logs recorded here
+It is the live-ECU companion to the [ECU tuning skill](https://github.com/DjSpacies/ecu-tuning-skill): logs recorded here
 load straight into the skill's analyses.
 
 > **Status: experimental.** Developed and tested on one Link G4+ Thunder running firmware 5.6.8.3671. Other G4+
